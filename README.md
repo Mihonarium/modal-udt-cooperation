@@ -45,10 +45,34 @@ cooperative if u ≥ m_me, v ≥ m_opp and one is strictly better; exploitative 
   the games that have one (V3-B), against 38% for greedy modal UDT.
 - Never suckered: no version ever gets below its own maxmin (guaranteed by dropping checks below it).
 
+**Version 4**, V3 plus a probe read off the payoffs (`v4.py`). It is rank 1: it asks how the opponent plays
+against a third agent, which the paper's Thm 4.10 makes necessary for an agent that exploits CooperateBot.
+- For each cooperative outcome o = (a, b) with my payoff u, let a_ex(b) be my best response to b, and Ex_b the
+  constant agent that plays it.
+- Cooperative check: PA proves "if I play a, I get at least u", AND PA+1 proves "the opponent does not play b
+  against Ex_b". The probe is skipped when a is already a best response to b (nothing to exploit).
+- Then exploitative checks, in PA+1: "if I play a, I get at least u". Then neutral checks, in PA.
+- Checks below my maxmin are dropped; the fallback is the maxmin action.
+- In the PD this is exactly PrudentBot's test: cooperate if PA proves my cooperation brings theirs, and PA+1
+  proves they defect against DefectBot.
+
+Results:
+- **PD, all 6 payoff sets, both seats: V4 reproduces PrudentBot's whole row**: C,C with FairBot, PrudentBot,
+  itself, a copy with a different action order, and V3-B; D,D with DefectBot and with greedy modal UDT; and it
+  exploits CooperateBot (D,C), from PA+2 on, as PrudentBot does (`test_v4.py`, `trace_v4.txt`).
+- The variants (probe in PA+2, exploit checks gated on a failed probe, exploit checks last) give the same PD row.
+- Other games: Stag Hunt (S,S) with everyone; Chicken (Sw,Sw) with itself, V3-B and greedy UDT, while it takes
+  advantage of FairBot and PrudentBot; **Battle of the Sexes and coordination games still mis-coordinate** with a
+  copy that orders equally good actions differently (`v4_tables.txt`).
+- 600 random 2x2/3x3 games (`sweep_v4.txt`): never below its own maxmin against any opponent (0 cases; guaranteed
+  by the floor). Two copies miss an outcome that is best for both players in 22 of the 188 games that have one
+  (12%), against 13% for V3-B and 38% for greedy modal UDT.
+
 ## What this does and does not settle
 
 - In the unbounded modal setting, a payoff-reading agent can get FairBot-style cooperation in the PD if exploitative
-  checks are tried last; in the PD it then behaves like FairBot.
+  checks are tried last (V3-B), and PrudentBot's full behaviour if it also probes the opponent against the
+  constant exploiter its payoffs define (V4). In the PD, V4 then behaves like PrudentBot.
 - **Equilibrium selection is unsolved**: in games with several good outcomes, the result depends on how each agent
   orders them. A shared ordering (for example the Nash bargaining solution, with ties broken by something both can
   compute) is the natural next step; it is not tested here.
@@ -60,7 +84,8 @@ Sources on modal UDT write-ups (Fallenstein, Slepnev, orthonormal) were seen onl
 ## Files
 
 - `modal.py`: exact evaluator, FairBot, PrudentBot, constant bots, greedy modal UDT.
-- `v3.py`: Version 3 variants. `run.py`, `run_v3.py`, `sweep*.py`: tournaments; outputs in `*.txt`, `*.json`,
+- `v3.py`: Version 3 variants. `v4.py`: Version 4; `test_v4.py` asserts PrudentBot's PD row; `run_v4.py`:
+  V4 tournament (`v4_tables.txt`, `sweep_v4.txt`, `v4_results.json`); `trace_v4.py` -> `trace_v4.txt`. `run.py`, `run_v3.py`, `sweep*.py`: tournaments; outputs in `*.txt`, `*.json`,
   `tables.md`. `trace*.py`: level-by-level traces. `NOTES.md`: working notes with corrections.
 
-Run: `python3 test_paper.py && python3 run_v3.py` (Python 3, no dependencies).
+Run: `python3 test_paper.py && python3 test_v4.py && python3 run_v4.py` (Python 3, no dependencies).

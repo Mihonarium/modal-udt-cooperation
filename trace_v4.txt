@@ -1,0 +1,15 @@
+V4 PD checks: 0: Box(C->oppC) & Box_1(not opp(Ex=D)=C) -> C ; 1: Box_1(D->oppC) -> D ; 2: Box(D->payoff>=1) -> D ; fallback D
+== V4 (row) vs CB
+ L0: CB v V4=C(fallback)  V4 v CB=C(check0)  CB v V4-Ex1=C(fallback)
+ L1: CB v V4=C(fallback)  V4 v CB=C(check0)  CB v V4-Ex1=C(fallback)
+ L2: CB v V4=C(fallback)  V4 v CB=D(check1)  CB v V4-Ex1=C(fallback)
+ L3: CB v V4=C(fallback)  V4 v CB=D(check1)  CB v V4-Ex1=C(fallback)
+ L4: CB v V4=C(fallback)  V4 v CB=D(check1)  CB v V4-Ex1=C(fallback)
+ L5: CB v V4=C(fallback)  V4 v CB=D(check1)  CB v V4-Ex1=C(fallback)
+== V4 (row) vs PB
+ L0: PB v V4=C(check0)  V4 v Const1=C(check0)  Const1 v V4=D(fallback)  Const1 v V4-Ex1=D(fallback)  V4 v PB=C(check0)  PB v V4-Ex1=C(check0)  V4-Ex1 v Const1=D(fallback)  V4-Ex1 v PB=D(fallback)
+ L1: PB v V4=C(check0)  V4 v Const1=D(check1)  Const1 v V4=D(fallback)  Const1 v V4-Ex1=D(fallback)  V4 v PB=C(check0)  PB v V4-Ex1=D(fallback)  V4-Ex1 v Const1=D(fallback)  V4-Ex1 v PB=D(fallback)
+ L2: PB v V4=C(check0)  V4 v Const1=D(check2)  Const1 v V4=D(fallback)  Const1 v V4-Ex1=D(fallback)  V4 v PB=C(check0)  PB v V4-Ex1=D(fallback)  V4-Ex1 v Const1=D(fallback)  V4-Ex1 v PB=D(fallback)
+ L3: PB v V4=C(check0)  V4 v Const1=D(check2)  Const1 v V4=D(fallback)  Const1 v V4-Ex1=D(fallback)  V4 v PB=C(check0)  PB v V4-Ex1=D(fallback)  V4-Ex1 v Const1=D(fallback)  V4-Ex1 v PB=D(fallback)
+ L4: PB v V4=C(check0)  V4 v Const1=D(check2)  Const1 v V4=D(fallback)  Const1 v V4-Ex1=D(fallback)  V4 v PB=C(check0)  PB v V4-Ex1=D(fallback)  V4-Ex1 v Const1=D(fallback)  V4-Ex1 v PB=D(fallback)
+ L5: PB v V4=C(check0)  V4 v Const1=D(check2)  Const1 v V4=D(fallback)  Const1 v V4-Ex1=D(fallback)  V4 v PB=C(check0)  PB v V4-Ex1=D(fallback)  V4-Ex1 v Const1=D(fallback)  V4-Ex1 v PB=D(fallback)

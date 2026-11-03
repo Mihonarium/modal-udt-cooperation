@@ -1,0 +1,11822 @@
+[
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   3,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-gated",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   3,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-gated",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-probe2",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   3,
+   0
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-probe2",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   3,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   5,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-gated",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   5,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-gated",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   5,
+   0
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   5,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-gated",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-gated",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-probe2",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-probe2",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-exploitlast",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V4-exploitlast",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   10,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-gated",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   10,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-gated",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   10,
+   0
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-probe2",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   10,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   3,
+   -1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-gated",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   3,
+   -1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-gated",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-probe2",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   3,
+   -1
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-probe2",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-exploitlast",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   3,
+   -1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V4-exploitlast",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   101,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-gated",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   101,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-gated",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-probe2",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   101,
+   0
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-probe2",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "Const[C]",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   101,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V4-exploitlast",
+  "opp": "Const[D]",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4",
+  "opp": "Const[S]",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4",
+  "opp": "Const[H]",
+  "seat": 0,
+  "outcome": "H,H",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-gated",
+  "opp": "Const[S]",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-gated",
+  "opp": "Const[H]",
+  "seat": 0,
+  "outcome": "H,H",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-probe2",
+  "opp": "Const[S]",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-probe2",
+  "opp": "Const[H]",
+  "seat": 0,
+  "outcome": "H,H",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-exploitlast",
+  "opp": "Const[S]",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V4-exploitlast",
+  "opp": "Const[H]",
+  "seat": 0,
+  "outcome": "H,H",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4",
+  "opp": "Const[Sw]",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4",
+  "opp": "Const[St]",
+  "seat": 0,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-gated",
+  "opp": "Const[Sw]",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-gated",
+  "opp": "Const[St]",
+  "seat": 0,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-probe2",
+  "opp": "Const[Sw]",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-probe2",
+  "opp": "Const[St]",
+  "seat": 0,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-exploitlast",
+  "opp": "Const[Sw]",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V4-exploitlast",
+  "opp": "Const[St]",
+  "seat": 0,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4",
+  "opp": "Const[A]",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-gated",
+  "opp": "Const[A]",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-gated",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-probe2",
+  "opp": "Const[A]",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-probe2",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-exploitlast",
+  "opp": "Const[A]",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V4-exploitlast",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Coord",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Coord",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4",
+  "opp": "Const[A]",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-gated",
+  "opp": "Const[A]",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-gated",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-probe2",
+  "opp": "Const[A]",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-probe2",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-exploitlast",
+  "opp": "Const[A]",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V4-exploitlast",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4",
+  "opp": "Const[A]",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-gated",
+  "opp": "Const[A]",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-gated",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-probe2",
+  "opp": "Const[A]",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-probe2",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-exploitlast",
+  "opp": "Const[A]",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V4-exploitlast",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-gated",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-gated",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-probe2",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-probe2",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-exploitlast",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V4-exploitlast",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   2,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-gated",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   2,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-gated",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-probe2",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   2,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-probe2",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-exploitlast",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   2,
+   4
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V4-exploitlast",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r0,c1",
+  "payoff": [
+   8,
+   2
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r2,c2",
+  "payoff": [
+   7,
+   8
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-gated",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-gated",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r0,c1",
+  "payoff": [
+   8,
+   2
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-gated",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r2,c2",
+  "payoff": [
+   7,
+   8
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-probe2",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-probe2",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r0,c1",
+  "payoff": [
+   8,
+   2
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-probe2",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r2,c2",
+  "payoff": [
+   7,
+   8
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   9
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-exploitlast",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-exploitlast",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r0,c1",
+  "payoff": [
+   8,
+   2
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V4-exploitlast",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r2,c2",
+  "payoff": [
+   7,
+   8
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c1",
+  "payoff": [
+   1,
+   6
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   4
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r1,c2",
+  "payoff": [
+   8,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-gated",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-gated",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-gated",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-gated",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-gated",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-gated",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c1",
+  "payoff": [
+   1,
+   6
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-gated",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   4
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-gated",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-gated",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r1,c2",
+  "payoff": [
+   8,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-probe2",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-probe2",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-probe2",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-probe2",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-probe2",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-probe2",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c1",
+  "payoff": [
+   1,
+   6
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-probe2",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   4
+  ],
+  "stab": 4,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-probe2",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-probe2",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r1,c2",
+  "payoff": [
+   8,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-exploitlast",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-exploitlast",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r0,c1",
+  "payoff": [
+   1,
+   6
+  ],
+  "stab": 3,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-exploitlast",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-exploitlast",
+  "opp": "V3-B",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-exploitlast",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-exploitlast",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c1",
+  "payoff": [
+   1,
+   6
+  ],
+  "stab": 2,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-exploitlast",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   4
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-exploitlast",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "stab": 0,
+  "below": false,
+  "pareto": true,
+  "miss": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V4-exploitlast",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r0,c2",
+  "payoff": [
+   7,
+   2
+  ],
+  "stab": 1,
+  "below": false,
+  "pareto": false,
+  "miss": true
+ }
+]

@@ -1,0 +1,61 @@
+| game | sub | self | rev-copy | UDT | V3-B | FB | PB | vs each constant bot |
+| PD3/2/1/0 | V4 | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD3/2/1/0 | V4-gated | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD3/2/1/0 | V4-probe2 | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD3/2/1/0 | V4-exploitlast | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD5/3/1/0 | V4 | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD5/3/1/0 | V4-gated | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD5/3/1/0 | V4-probe2 | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD5/3/1/0 | V4-exploitlast | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD4/3/2/1 | V4 | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD4/3/2/1 | V4-gated | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD4/3/2/1 | V4-probe2 | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD4/3/2/1 | V4-exploitlast | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD10/3/1/0 | V4 | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD10/3/1/0 | V4-gated | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD10/3/1/0 | V4-probe2 | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD10/3/1/0 | V4-exploitlast | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD3/2/0/-1 | V4 | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD3/2/0/-1 | V4-gated | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD3/2/0/-1 | V4-probe2 | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD3/2/0/-1 | V4-exploitlast | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD101/100/1/0 | V4 | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD101/100/1/0 | V4-gated | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD101/100/1/0 | V4-probe2 | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| PD101/100/1/0 | V4-exploitlast | C,C | C,C/C,C | D,D/D,D | C,C/C,C | C,C/C,C | C,C/C,C | C:D,C | D:D,D |
+| StagHunt | V4 | S,S | S,S/S,S | S,S/S,S | S,S/S,S | S,S/S,S | S,S/S,S | S:S,S | H:H,H |
+| StagHunt | V4-gated | S,S | S,S/S,S | S,S/S,S | S,S/S,S | S,S/S,S | S,S/S,S | S:S,S | H:H,H |
+| StagHunt | V4-probe2 | S,S | S,S/S,S | S,S/S,S | S,S/S,S | S,S/S,S | S,S/S,S | S:S,S | H:H,H |
+| StagHunt | V4-exploitlast | S,S | S,S/S,S | S,S/S,S | S,S/S,S | S,S/S,S | S,S/S,S | S:S,S | H:H,H |
+| Chicken | V4 | Sw,Sw | Sw,Sw/Sw,Sw | Sw,Sw/Sw,Sw | Sw,Sw/Sw,Sw | St,Sw/Sw,St | St,Sw/Sw,St | Sw:St,Sw | St:Sw,St |
+| Chicken | V4-gated | Sw,Sw | Sw,Sw/Sw,Sw | Sw,Sw/Sw,Sw | Sw,Sw/Sw,Sw | St,Sw/Sw,St | St,Sw/Sw,St | Sw:St,Sw | St:Sw,St |
+| Chicken | V4-probe2 | Sw,Sw | Sw,Sw/Sw,Sw | Sw,Sw/Sw,Sw | Sw,Sw/Sw,Sw | St,Sw/Sw,St | St,Sw/Sw,St | Sw:St,Sw | St:Sw,St |
+| Chicken | V4-exploitlast | Sw,Sw | Sw,Sw/Sw,Sw | Sw,Sw/Sw,Sw | Sw,Sw/Sw,Sw | St,Sw/Sw,St | St,Sw/Sw,St | Sw:St,Sw | St:Sw,St |
+| BoS | V4 | A,A | A,B/B,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A:A,A | B:B,B |
+| BoS | V4-gated | A,A | A,B/B,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A:A,A | B:B,B |
+| BoS | V4-probe2 | A,A | A,B/B,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A:A,A | B:B,B |
+| BoS | V4-exploitlast | A,A | A,B/B,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A:A,A | B:B,B |
+| Coord | V4 | A,A | A,B/B,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A:A,A | B:B,B |
+| Coord | V4-gated | A,A | A,B/B,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A:A,A | B:B,B |
+| Coord | V4-probe2 | A,A | A,B/B,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A:A,A | B:B,B |
+| Coord | V4-exploitlast | A,A | A,B/B,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A:A,A | B:B,B |
+| CoordRanked | V4 | A,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A:A,A | B:B,B |
+| CoordRanked | V4-gated | A,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A:A,A | B:B,B |
+| CoordRanked | V4-probe2 | A,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A:A,A | B:B,B |
+| CoordRanked | V4-exploitlast | A,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A,A/A,A | A:A,A | B:B,B |
+| Rand2x2-s1 | V4 | r0,c0 | r0,c0/r0,c0 | r0,c0/r0,c0 | r0,c0/r1,c0 | r1,c1/r0,c0 | r1,c1/r0,c0 | c0:r0,c0 | c1:r1,c1 |
+| Rand2x2-s1 | V4-gated | r0,c0 | r0,c0/r0,c0 | r0,c0/r0,c0 | r0,c0/r1,c0 | r1,c1/r0,c0 | r1,c1/r0,c0 | c0:r0,c0 | c1:r1,c1 |
+| Rand2x2-s1 | V4-probe2 | r0,c0 | r0,c0/r0,c0 | r0,c0/r0,c0 | r0,c0/r1,c0 | r1,c1/r0,c0 | r1,c1/r0,c0 | c0:r0,c0 | c1:r1,c1 |
+| Rand2x2-s1 | V4-exploitlast | r1,c0 | r1,c0/r1,c0 | r1,c0/r0,c0 | r1,c0/r1,c0 | r1,c1/r0,c0 | r1,c1/r0,c0 | c0:r0,c0 | c1:r1,c1 |
+| Rand2x2-s2 | V4 | r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | c0:r1,c0 | c1:r1,c1 |
+| Rand2x2-s2 | V4-gated | r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | c0:r1,c0 | c1:r1,c1 |
+| Rand2x2-s2 | V4-probe2 | r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | c0:r1,c0 | c1:r1,c1 |
+| Rand2x2-s2 | V4-exploitlast | r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | c0:r1,c0 | c1:r1,c1 |
+| Rand3x3-s3 | V4 | r1,c0 | r2,c0/r2,c0 | r1,c0/r2,c0 | r1,c0/r1,c0 | r1,c0/r1,c0 | r1,c0/r0,c0 | c0:r1,c0 | c1:r0,c1 | c2:r2,c2 |
+| Rand3x3-s3 | V4-gated | r1,c0 | r2,c0/r2,c0 | r1,c0/r2,c0 | r1,c0/r1,c0 | r1,c0/r1,c0 | r1,c0/r0,c0 | c0:r1,c0 | c1:r0,c1 | c2:r2,c2 |
+| Rand3x3-s3 | V4-probe2 | r1,c0 | r2,c0/r2,c0 | r1,c0/r2,c0 | r1,c0/r1,c0 | r1,c0/r1,c0 | r1,c0/r0,c0 | c0:r1,c0 | c1:r0,c1 | c2:r2,c2 |
+| Rand3x3-s3 | V4-exploitlast | r1,c0 | r2,c0/r2,c0 | r1,c0/r2,c0 | r1,c0/r1,c0 | r1,c0/r1,c0 | r1,c0/r0,c0 | c0:r1,c0 | c1:r0,c1 | c2:r2,c2 |
+| Rand3x3-s4 | V4 | r2,c1 | r2,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r0,c1 | c0:r0,c0 | c1:r2,c1 | c2:r1,c2 |
+| Rand3x3-s4 | V4-gated | r2,c1 | r2,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r0,c1 | c0:r0,c0 | c1:r2,c1 | c2:r1,c2 |
+| Rand3x3-s4 | V4-probe2 | r2,c1 | r2,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r0,c1 | c0:r0,c0 | c1:r2,c1 | c2:r1,c2 |
+| Rand3x3-s4 | V4-exploitlast | r2,c1 | r2,c1/r2,c1 | r0,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r0,c1 | c0:r0,c0 | c1:r2,c1 | c2:r0,c2 |
