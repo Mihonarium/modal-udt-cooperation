@@ -88,6 +88,13 @@ Sources on modal UDT write-ups (Fallenstein, Slepnev, orthonormal) were seen onl
 
 ## Bounded agents
 
+> **Correction (2026-11-03): the tournament below breaks the program-equilibrium rules.** In program equilibrium
+> each program receives only the opponent's source and returns an action. Here the bots instead call a primitive
+> `prove(...)` supplied by `bounded.py`: the library builds one BPC system per match (`lang` canonicalises the pair
+> of sources, `SYSTEMS` caches it), and both bots query that same environment-supplied object. That is an oracle
+> outside the rules. The results below are kept, but they only show cooperation among bots that **share one
+> prover supplied by the environment**; they do not show that self-contained programs cooperate.
+
 Question: can FairBot, PrudentBot and V4 be written as real programs that search for proofs up to a budget k,
 as in Critch, "Parametric Bounded Löb's Theorem and Robust Cooperation of Bounded Agents"
 ([arXiv:1602.04184](https://arxiv.org/abs/1602.04184), read directly), and do idealised agents cooperate with them?
@@ -222,7 +229,9 @@ setting was found.
    are unbounded BPC bots, which are computable because the system is finite; they reproduce the exact GL
    outcomes for FB, PB, V4, CB, DB (`test_bounded.py`).
 
-### Tournament (`run_bounded.py`, `bounded_tables.txt`, `bounded_results.json`)
+### Tournament with a shared, environment-supplied prover (`run_bounded.py`, `bounded_tables.txt`, `bounded_results.json`)
+
+These results are under the shared-prover setup described in the correction at the top of this section.
 
 Row bot's action first. Budget = necessitation height in BPC; "inf" = unbounded BPC search (computable here).
 
