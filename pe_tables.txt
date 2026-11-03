@@ -1,0 +1,31 @@
+Program-equilibrium PD tournament: self-contained bots, identical embedded provers (row bot's action first; 420 separate program runs, 936s wall; audit 949s wall).
+Budget = necessitation height in the BPC each bot carries.
+
+          FB0   FB1   FB2   FB3   FB4 FBinf   PB0   PB1   PB2   PB3   PB4 PBinf  V4_0  V4_1  V4_2  V4_3  V4_4V4_inf    CB    DB
+FB0        DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    CC    DD
+FB1        DD    CC    CC    CC    CC    CC    DD    DD    DD    DD    DD    DD    CC    DD    DD    DD    DD    DD    CC    DD
+FB2        DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
+FB3        DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
+FB4        DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
+FBinf      DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
+PB0        DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DC    DD
+PB1        DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DC    DD
+PB2        DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+PB3        DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+PB4        DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+PBinf      DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+V4_0       DD    CC    CC    CC    CC    CC    DD    DD    DD    DD    DD    DD    CC    DD    DD    DD    DD    DD    DC    DD
+V4_1       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+V4_2       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+V4_3       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+V4_4       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+V4_inf     DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+CB         CC    CC    CC    CC    CC    CC    CD    CD    CD    CD    CD    CD    CD    CD    CD    CD    CD    CD    CC    CD
+DB         DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DC    DD
+
+soundness audit: 0 false axioms among 1013618 axioms of 210 match systems
+row bot (other than CB) cooperates while the opponent defects: never
+runs without a valid action (timeout, memory, crash): none
+self-play: the two separate runs disagree for: no bot
+longest single run (wall) 54.5s (limits: 3600s CPU, 5 GiB address space per run)
+differences from the shared-prover table (bounded_tables.txt), (row, col, old, new): [('V4_0', 'V4_0', 'DD', 'CC'), ('V4_1', 'V4_1', 'DD', 'CC')]

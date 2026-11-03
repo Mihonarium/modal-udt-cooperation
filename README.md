@@ -94,6 +94,7 @@ Sources on modal UDT write-ups (Fallenstein, Slepnev, orthonormal) were seen onl
 > of sources, `SYSTEMS` caches it), and both bots query that same environment-supplied object. That is an oracle
 > outside the rules. The results below are kept, but they only show cooperation among bots that **share one
 > prover supplied by the environment**; they do not show that self-contained programs cooperate.
+> The rebuilt version that follows the rules is in "Self-contained bots" below.
 
 Question: can FairBot, PrudentBot and V4 be written as real programs that search for proofs up to a budget k,
 as in Critch, "Parametric Bounded Löb's Theorem and Robust Cooperation of Bounded Agents"
@@ -286,6 +287,90 @@ What the table shows (all computed; thresholds are in BPC's height measure, not 
 Run: `python3 test_bounded.py && python3 run_bounded.py 10 && python3 trace_bounded.py` (Python 3, no
 dependencies; the tournament takes about 2.7 CPU-hours (41 min wall with 4 workers) of CPU, run at low priority).
 
+## Self-contained bots (program-equilibrium rules)
+
+Rules (Kelvin, 2026-11-03): each bot receives only the opponent's source code; a bot may carry its own prover in
+its own source, "but then that is all". The environment gives each program the other's source string and reads
+back an action.
+
+**What was built** (`pe_bot.py`, `pe_env.py`, `pe_run.py`, `pe_test.py`):
+- **One source string per bot.** `pe_env.make_bot(spec)` produces `CODE = '<text>'` / `exec(CODE)`, where the text
+  is a `SPEC = ...` line (the decision list, as before: FairBot, PrudentBot or `V4 budget=k probe=1`) followed by
+  the whole of `pe_bot.py`: its own copy of BPC, the SAT solver, the height-layered search, the PD payoffs and the
+  source analysis. Only the Python standard library is imported. A bot gets its own source by quining
+  (`SELF = "CODE = %r\nexec(CODE)\n" % CODE`); nothing tells it its own source.
+- **The environment** (`pe_env.run`) starts a fresh `python3 -I -B -c <source>` per program run, writes the
+  opponent's source to stdin and reads one line (C or D) from stdout; empty environment, working directory `/`,
+  limits 3600 s CPU and 5 GiB address space. A match is two such runs; self-play is two separate runs of the same
+  source. No cache, file or object is shared between runs; each run builds its own match system from scratch.
+- **Facts about the opponent come from reading its source.** The bot recognises exactly two forms:
+  `print("C")` / `print("D")` (a constant program), and the form `CODE = '<SPEC line + text>'` / `exec(CODE)`
+  whose text after the SPEC line is character-for-character its own prover. For the second form it writes the
+  Unf axiom itself: the opponent's action is what the opponent's decision list returns, with each `prove(t, n, F)`
+  read as derivability at height n in the same calculus (true because the code is identical and deterministic and
+  builds the same match system; ARGUED, and checked by the audit below). Any other source is unknown: no Unf axiom,
+  so nothing about its action is provable and the proof-based bots defect against it (`pe_test.py` checks this
+  for FairBot_2 against FairBot_2's source with an extra trailing newline).
+- **Atoms have no roles.** The old library tagged each atom with a seat (row/column). A program here receives only
+  the opponent's source, so "X's action against Y" is one computation and one atom. In self-play "my action" and
+  "the opponent's action" are therefore the same atom.
+- **Audit (experimenter side, not seen by bots).** `pe_run.py` rebuilds every match system from the prover text
+  and checks each axiom against the actual outputs of the separate runs and the actual derivability relation.
+
+**Tournament** (`pe_tables.txt`, `pe_results.json`; COMPUTED). Identical embedded provers, same population and
+budgets as before. Row bot's action first.
+
+```
+          FB0   FB1   FB2   FB3   FB4 FBinf   PB0   PB1   PB2   PB3   PB4 PBinf  V4_0  V4_1  V4_2  V4_3  V4_4V4_inf    CB    DB
+FB0        DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    CC    DD
+FB1        DD    CC    CC    CC    CC    CC    DD    DD    DD    DD    DD    DD    CC    DD    DD    DD    DD    DD    CC    DD
+FB2        DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
+FB3        DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
+FB4        DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
+FBinf      DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
+PB0        DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DC    DD
+PB1        DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DC    DD
+PB2        DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+PB3        DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+PB4        DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+PBinf      DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+V4_0       DD    CC    CC    CC    CC    CC    DD    DD    DD    DD    DD    DD    CC    DD    DD    DD    DD    DD    DC    DD
+V4_1       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+V4_2       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+V4_3       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+V4_4       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+V4_inf     DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+CB         CC    CC    CC    CC    CC    CC    CD    CD    CD    CD    CD    CD    CD    CD    CD    CD    CD    CD    CC    CD
+DB         DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DC    DD
+```
+
+What it shows:
+- COMPUTED: 398 of 400 cells are identical to the shared-prover table. The two differences are V4_0 and V4_1 in
+  self-play, DD before and CC now. Reason: without roles, V4's cooperative check "if I play C the opponent plays C"
+  is, against an exact copy of itself, the tautology [X|X=C] → [X|X=C], provable at height 0; with the old
+  seat-tagged atoms it was a statement about two different atoms and needed the Löb argument. V4's probe (a copy of
+  V4 would not cooperate with DefectBot) is already provable at budget 0 (as in V4_0 vs FB_1), so V4_0 and V4_1
+  cooperate with themselves. This is a change of language (seat-free atoms, which the rules call for), not an effect
+  of separating the provers. FairBot and PrudentBot self-play are unchanged.
+- COMPUTED: soundness audit, 0 false axioms among 1,013,618 axioms of the 210 match systems; no proof-based bot
+  played C against D; every one of the 420 runs produced a valid action within the limits (longest 55 s, peak
+  memory under 55 MB); the two separate self-play runs agree for every bot.
+- PROVEN (by construction): no prover object, cache or file is shared between the two players; the only thing
+  that passes between them is the opponent's source string.
+- So with identical embedded provers, the cooperation results of the shared-prover version survive the move to the
+  program-equilibrium rules: the shared oracle was not doing the work, the shared prover CODE is.
+- Cost: 420 runs in 936 s wall and the audit in 949 s wall, 4 worker processes, run at low priority.
+
+**Not done yet (future work).** Bots whose provers differ: (a) the same logic with a trivially different but
+equivalent implementation (renamed variables, reordered code), and (b) a genuinely different sound prover (other
+axioms or another budget measure). The current bots recognise only their own prover text exactly, so in case (a)
+they would treat the opponent as unknown and defect (the trailing-newline test above is one instance); cooperation
+there needs a bot that proves the other prover equivalent to its own, or reasons about it by other means. Not
+tested yet.
+
+Run: `python3 -B pe_test.py && python3 -B pe_run.py 4` (Python 3, no dependencies; tests about 14 min, tournament
+plus audit about 31 min wall with 4 workers).
+
 ## Files
 
 - `modal.py`: exact evaluator, FairBot, PrudentBot, constant bots, greedy modal UDT.
@@ -297,5 +382,8 @@ dependencies; the tournament takes about 2.7 CPU-hours (41 min wall with 4 worke
   derivability with a DPLL solver, soundness audit). `test_bounded.py`: unbounded bots vs the GL evaluator, audits,
   budget-0 and unexploitability checks. `run_bounded.py` -> `bounded_tables.txt`, `bounded_results.json`.
   `trace_bounded.py` -> `trace_bounded.txt` (height at which each fact becomes derivable).
+- `pe_bot.py`: the body of a self-contained bot (prover, source analysis, decision); embedded in every bot source,
+  never imported. `pe_env.py`: bot sources and the environment (one fresh interpreter per run). `pe_run.py` ->
+  `pe_tables.txt`, `pe_results.json` (tournament and audit). `pe_test.py`: tests for the self-contained bots.
 
 Run: `python3 test_paper.py && python3 test_v4.py && python3 run_v4.py` (Python 3, no dependencies).
