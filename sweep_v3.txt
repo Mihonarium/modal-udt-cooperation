@@ -1,0 +1,22 @@
+games with a both-best outcome: 188 (of 600)
+sub    opp          n  Pareto  V3 below maxmin  miss both-best
+V3-A   self       600     468                0              20
+V3-A   revcopy   1200     944                0              43
+V3-A   UDT       1200     820                0             123
+V3-A   FB        1200    1021                0              26
+V3-A   PB        1200     915                0              92
+V3-B   self       600     496                0              24
+V3-B   revcopy   1200     989                0              50
+V3-B   UDT       1200     831                0             126
+V3-B   FB        1200    1050                0              26
+V3-B   PB        1200     934                0              87
+V3-C   self       600     451                0              21
+V3-C   revcopy   1200     908                0              47
+V3-C   UDT       1200     791                0             127
+V3-C   FB        1200    1009                0              26
+V3-C   PB        1200     915                0              87
+V3-D   self       600     459                0              20
+V3-D   revcopy   1200     926                0              43
+V3-D   UDT       1200     803                0             123
+V3-D   FB        1200    1012                0              26
+V3-D   PB        1200     912                0              92

@@ -1,0 +1,131 @@
+{
+ "UDT vs UDT": {
+  "n": 600,
+  "Pareto": 378,
+  "Nash": 322,
+  "max-sum": 265,
+  "row-exploited": 0,
+  "col-exploited": 0,
+  "best_for_both_missed": 71
+ },
+ "UDT-exact vs UDT-exact": {
+  "n": 600,
+  "Pareto": 306,
+  "Nash": 256,
+  "max-sum": 211,
+  "row-exploited": 59,
+  "col-exploited": 55,
+  "best_for_both_missed": 84
+ },
+ "UDT-exact-def0 vs UDT-exact-def0": {
+  "n": 600,
+  "Pareto": 285,
+  "Nash": 197,
+  "max-sum": 199,
+  "row-exploited": 119,
+  "col-exploited": 123,
+  "best_for_both_missed": 94
+ },
+ "UDT-exact-deflast vs UDT-exact-deflast": {
+  "n": 600,
+  "Pareto": 255,
+  "Nash": 183,
+  "max-sum": 170,
+  "row-exploited": 138,
+  "col-exploited": 137,
+  "best_for_both_missed": 92
+ },
+ "UDT-strat vs UDT-strat": {
+  "n": 600,
+  "Pareto": 447,
+  "Nash": 387,
+  "max-sum": 327,
+  "row-exploited": 0,
+  "col-exploited": 0,
+  "best_for_both_missed": 48
+ },
+ "UDT-chicken vs UDT-chicken": {
+  "n": 600,
+  "Pareto": 404,
+  "Nash": 337,
+  "max-sum": 286,
+  "row-exploited": 0,
+  "col-exploited": 0,
+  "best_for_both_missed": 76
+ },
+ "UDT vs UDT-revorder": {
+  "n": 600,
+  "Pareto": 376,
+  "Nash": 331,
+  "max-sum": 257,
+  "row-exploited": 0,
+  "col-exploited": 0,
+  "best_for_both_missed": 77
+ },
+ "UDT vs UDT-exact": {
+  "n": 600,
+  "Pareto": 284,
+  "Nash": 202,
+  "max-sum": 185,
+  "row-exploited": 0,
+  "col-exploited": 121,
+  "best_for_both_missed": 91
+ },
+ "UDT vs UDT-strat": {
+  "n": 600,
+  "Pareto": 452,
+  "Nash": 399,
+  "max-sum": 323,
+  "row-exploited": 0,
+  "col-exploited": 0,
+  "best_for_both_missed": 50
+ },
+ "UDT vs FB": {
+  "n": 600,
+  "Pareto": 432,
+  "Nash": 399,
+  "max-sum": 335,
+  "row-exploited": 0,
+  "col-exploited": 7,
+  "best_for_both_missed": 60
+ },
+ "FB vs UDT": {
+  "n": 600,
+  "Pareto": 457,
+  "Nash": 414,
+  "max-sum": 348,
+  "row-exploited": 12,
+  "col-exploited": 0,
+  "best_for_both_missed": 45
+ },
+ "UDT vs PB": {
+  "n": 600,
+  "Pareto": 396,
+  "Nash": 376,
+  "max-sum": 293,
+  "row-exploited": 0,
+  "col-exploited": 1,
+  "best_for_both_missed": 81
+ },
+ "FB vs FB": {
+  "n": 600,
+  "Pareto": 600,
+  "Nash": 408,
+  "max-sum": 600,
+  "row-exploited": 19,
+  "col-exploited": 21,
+  "best_for_both_missed": 0
+ },
+ "PB vs PB": {
+  "n": 600,
+  "Pareto": 393,
+  "Nash": 286,
+  "max-sum": 309,
+  "row-exploited": 7,
+  "col-exploited": 7,
+  "best_for_both_missed": 86
+ },
+ "_games_with_top": {
+  "n": 188
+ }
+}

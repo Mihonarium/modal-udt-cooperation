@@ -1,0 +1,78 @@
+
+## V3-A
+| game | UDT | FB | PB | self | rev-copy | vs DB | vs CB |
+|---|---|---|---|---|---|---|---|
+| PD3/2/1/0 | D,D/D,D | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD5/3/1/0 | D,D/D,D | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD4/3/2/1 | D,D/D,D | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD10/3/1/0 | D,D/D,D | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD3/2/0/-1 | D,D/D,D | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD101/100/1/0 | D,D/D,D | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| StagHunt | S,S/S,S | S,S/S,S | S,S/S,S | S,S | S,S/S,S | H,H | S,S |
+| Chicken | Sw,Sw/Sw,Sw | St,Sw/Sw,St | St,Sw/Sw,St | Sw,Sw | Sw,Sw/Sw,Sw | St,Sw | St,Sw |
+| BoS | A,A/A,A | A,A/A,A | A,A/A,A | A,A | A,B/B,A | A,A | A,A |
+| Coord | A,A/A,A | A,A/A,A | A,A/A,A | A,A | A,B/B,A | A,A | A,A |
+| CoordRanked | A,A/A,A | A,A/A,A | A,A/A,A | A,A | A,A/A,A | A,A | A,A |
+| Rand2x2-s1 | r1,c0/r0,c0 | r1,c1/r0,c0 | r1,c1/r0,c0 | r1,c0 | r1,c0/r1,c0 | r0,c0 | r1,c1 |
+| Rand2x2-s2 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1 | r1,c1/r1,c1 | r1,c1 | r1,c1 |
+| Rand3x3-s3 | r1,c0/r0,c0 | r1,c0/r1,c0 | r1,c0/r0,c0 | r1,c0 | r2,c0/r0,c0 | r1,c0 | r1,c0 |
+| Rand3x3-s4 | r2,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r0,c1 | r2,c1 | r2,c1/r2,c1 | r2,c1 | r2,c1 |
+
+## V3-B
+| game | UDT | FB | PB | self | rev-copy | vs DB | vs CB |
+|---|---|---|---|---|---|---|---|
+| PD3/2/1/0 | D,D/D,D | C,C/C,C | C,C/C,C | C,C | C,C/C,C | D,D | C,C |
+| PD5/3/1/0 | D,D/D,D | C,C/C,C | C,C/C,C | C,C | C,C/C,C | D,D | C,C |
+| PD4/3/2/1 | D,D/D,D | C,C/C,C | C,C/C,C | C,C | C,C/C,C | D,D | C,C |
+| PD10/3/1/0 | D,D/D,D | C,C/C,C | C,C/C,C | C,C | C,C/C,C | D,D | C,C |
+| PD3/2/0/-1 | D,D/D,D | C,C/C,C | C,C/C,C | C,C | C,C/C,C | D,D | C,C |
+| PD101/100/1/0 | D,D/D,D | C,C/C,C | C,C/C,C | C,C | C,C/C,C | D,D | C,C |
+| StagHunt | S,S/S,S | S,S/S,S | S,S/S,S | S,S | S,S/S,S | H,H | S,S |
+| Chicken | Sw,Sw/Sw,Sw | St,Sw/Sw,St | St,Sw/Sw,St | Sw,Sw | Sw,Sw/Sw,Sw | St,Sw | St,Sw |
+| BoS | A,A/A,A | A,A/A,A | A,A/A,A | A,A | A,B/B,A | A,A | A,A |
+| Coord | A,A/A,A | A,A/A,A | A,A/A,A | A,A | A,B/B,A | A,A | A,A |
+| CoordRanked | A,A/A,A | A,A/A,A | A,A/A,A | A,A | A,A/A,A | A,A | A,A |
+| Rand2x2-s1 | r1,c0/r0,c0 | r1,c1/r0,c0 | r1,c1/r0,c0 | r1,c0 | r1,c0/r1,c0 | r0,c0 | r1,c1 |
+| Rand2x2-s2 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1 | r1,c1/r1,c1 | r1,c1 | r1,c1 |
+| Rand3x3-s3 | r1,c0/r2,c0 | r1,c0/r1,c0 | r1,c0/r0,c0 | r1,c0 | r2,c0/r2,c0 | r1,c0 | r1,c0 |
+| Rand3x3-s4 | r0,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r0,c1 | r2,c1 | r2,c1/r2,c1 | r2,c1 | r2,c1 |
+
+## V3-C
+| game | UDT | FB | PB | self | rev-copy | vs DB | vs CB |
+|---|---|---|---|---|---|---|---|
+| PD3/2/1/0 | C,C/C,C | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD5/3/1/0 | C,C/C,C | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD4/3/2/1 | C,C/C,C | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD10/3/1/0 | C,C/C,C | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD3/2/0/-1 | C,C/C,C | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD101/100/1/0 | C,C/C,C | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| StagHunt | S,S/S,S | S,S/S,S | S,S/S,S | S,S | S,S/S,S | H,H | S,S |
+| Chicken | Sw,Sw/Sw,Sw | St,Sw/Sw,St | St,Sw/Sw,St | Sw,Sw | Sw,Sw/Sw,Sw | St,Sw | St,Sw |
+| BoS | A,A/A,A | A,A/A,A | A,A/A,A | A,A | A,B/B,A | A,A | A,A |
+| Coord | A,A/A,A | A,A/A,A | A,A/A,A | A,A | A,B/B,A | A,A | A,A |
+| CoordRanked | A,A/A,A | A,A/A,A | A,A/A,A | A,A | A,A/A,A | A,A | A,A |
+| Rand2x2-s1 | r1,c0/r0,c0 | r1,c1/r0,c0 | r1,c1/r0,c0 | r1,c0 | r1,c0/r1,c0 | r0,c0 | r1,c1 |
+| Rand2x2-s2 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1 | r1,c1/r1,c1 | r1,c1 | r1,c1 |
+| Rand3x3-s3 | r1,c0/r0,c0 | r1,c0/r1,c0 | r1,c0/r0,c0 | r1,c0 | r0,c0/r2,c0 | r1,c0 | r1,c0 |
+| Rand3x3-s4 | r0,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r0,c1 | r2,c1 | r2,c1/r2,c1 | r2,c1 | r2,c1 |
+
+## V3-D
+| game | UDT | FB | PB | self | rev-copy | vs DB | vs CB |
+|---|---|---|---|---|---|---|---|
+| PD3/2/1/0 | C,C/C,C | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD5/3/1/0 | C,C/C,C | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD4/3/2/1 | C,C/C,C | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD10/3/1/0 | C,C/C,C | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD3/2/0/-1 | C,C/C,C | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| PD101/100/1/0 | C,C/C,C | D,D/D,D | D,D/D,D | C,C | C,C/C,C | D,D | D,C |
+| StagHunt | S,S/S,S | S,S/S,S | S,S/S,S | S,S | S,S/S,S | H,H | S,S |
+| Chicken | Sw,Sw/Sw,Sw | St,Sw/Sw,St | St,Sw/Sw,St | Sw,Sw | Sw,Sw/Sw,Sw | St,Sw | St,Sw |
+| BoS | A,A/A,A | A,A/A,A | A,A/A,A | A,A | A,B/B,A | A,A | A,A |
+| Coord | A,A/A,A | A,A/A,A | A,A/A,A | A,A | A,B/B,A | A,A | A,A |
+| CoordRanked | A,A/A,A | A,A/A,A | A,A/A,A | A,A | A,A/A,A | A,A | A,A |
+| Rand2x2-s1 | r1,c0/r0,c0 | r1,c1/r0,c0 | r1,c1/r0,c0 | r1,c0 | r1,c0/r1,c0 | r0,c0 | r1,c1 |
+| Rand2x2-s2 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1/r1,c1 | r1,c1 | r1,c1/r1,c1 | r1,c1 | r1,c1 |
+| Rand3x3-s3 | r1,c0/r0,c0 | r1,c0/r1,c0 | r1,c0/r0,c0 | r1,c0 | r0,c0/r2,c0 | r1,c0 | r1,c0 |
+| Rand3x3-s4 | r2,c1/r2,c1 | r2,c1/r2,c1 | r2,c1/r0,c1 | r2,c1 | r2,c1/r2,c1 | r2,c1 | r2,c1 |
+
+max stab 6 ; any V3 below own maxmin: 0

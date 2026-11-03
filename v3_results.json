@@ -1,0 +1,12226 @@
+[
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-A",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   3,
+   0
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-A",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-B",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-B",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-C",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   3,
+   0
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-C",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-D",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   3,
+   0
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/1/0",
+  "sub": "V3-D",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-A",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   5,
+   0
+  ],
+  "mine": 5,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-A",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-B",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-B",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-C",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   5,
+   0
+  ],
+  "mine": 5,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-C",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-D",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   5,
+   0
+  ],
+  "mine": 5,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD5/3/1/0",
+  "sub": "V3-D",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-A",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-A",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-B",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-B",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-C",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-C",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-D",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD4/3/2/1",
+  "sub": "V3-D",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-A",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   10,
+   0
+  ],
+  "mine": 10,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-A",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-B",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-B",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-C",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   10,
+   0
+  ],
+  "mine": 10,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-C",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-D",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   10,
+   0
+  ],
+  "mine": 10,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD10/3/1/0",
+  "sub": "V3-D",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-A",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   3,
+   -1
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-A",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-B",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-B",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-C",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   3,
+   -1
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-C",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-D",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   3,
+   -1
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD3/2/0/-1",
+  "sub": "V3-D",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-A",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   101,
+   0
+  ],
+  "mine": 101,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-A",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-B",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-B",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-C",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   101,
+   0
+  ],
+  "mine": 101,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-C",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "C,C",
+  "payoff": [
+   100,
+   100
+  ],
+  "mine": 100,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-D",
+  "opp": "Const[C]=CB",
+  "seat": 0,
+  "outcome": "D,C",
+  "payoff": [
+   101,
+   0
+  ],
+  "mine": 101,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "PD101/100/1/0",
+  "sub": "V3-D",
+  "opp": "Const[D]=DB",
+  "seat": 0,
+  "outcome": "D,D",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-A",
+  "opp": "Const[S]=CB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-A",
+  "opp": "Const[H]=DB",
+  "seat": 0,
+  "outcome": "H,H",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-B",
+  "opp": "Const[S]=CB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-B",
+  "opp": "Const[H]=DB",
+  "seat": 0,
+  "outcome": "H,H",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-C",
+  "opp": "Const[S]=CB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-C",
+  "opp": "Const[H]=DB",
+  "seat": 0,
+  "outcome": "H,H",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-D",
+  "opp": "Const[S]=CB",
+  "seat": 0,
+  "outcome": "S,S",
+  "payoff": [
+   4,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "StagHunt",
+  "sub": "V3-D",
+  "opp": "Const[H]=DB",
+  "seat": 0,
+  "outcome": "H,H",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-A",
+  "opp": "Const[Sw]=CB=DB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-A",
+  "opp": "Const[St]",
+  "seat": 0,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-B",
+  "opp": "Const[Sw]=CB=DB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-B",
+  "opp": "Const[St]",
+  "seat": 0,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-C",
+  "opp": "Const[Sw]=CB=DB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-C",
+  "opp": "Const[St]",
+  "seat": 0,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "Sw,Sw",
+  "payoff": [
+   3,
+   3
+  ],
+  "mine": 3,
+  "tags": [
+   "Pareto",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-D",
+  "opp": "Const[Sw]=CB=DB",
+  "seat": 0,
+  "outcome": "St,Sw",
+  "payoff": [
+   4,
+   1
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Chicken",
+  "sub": "V3-D",
+  "opp": "Const[St]",
+  "seat": 0,
+  "outcome": "Sw,St",
+  "payoff": [
+   1,
+   4
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-A",
+  "opp": "Const[A]=CB=DB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-A",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   2
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-B",
+  "opp": "Const[A]=CB=DB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-B",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   2
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-C",
+  "opp": "Const[A]=CB=DB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-C",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   2
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-D",
+  "opp": "Const[A]=CB=DB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   1
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "BoS",
+  "sub": "V3-D",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   2
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-A",
+  "opp": "Const[A]=CB=DB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-A",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-B",
+  "opp": "Const[A]=CB=DB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-B",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-C",
+  "opp": "Const[A]=CB=DB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-C",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,B",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "B,A",
+  "payoff": [
+   0,
+   0
+  ],
+  "mine": 0,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-D",
+  "opp": "Const[A]=CB=DB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Coord",
+  "sub": "V3-D",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-A",
+  "opp": "Const[A]=CB=DB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-A",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-B",
+  "opp": "Const[A]=CB=DB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-B",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-C",
+  "opp": "Const[A]=CB=DB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-C",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-D",
+  "opp": "Const[A]=CB=DB",
+  "seat": 0,
+  "outcome": "A,A",
+  "payoff": [
+   2,
+   2
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "CoordRanked",
+  "sub": "V3-D",
+  "opp": "Const[B]",
+  "seat": 0,
+  "outcome": "B,B",
+  "payoff": [
+   1,
+   1
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-A",
+  "opp": "Const[c0]=DB",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-A",
+  "opp": "Const[c1]=CB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-B",
+  "opp": "Const[c0]=DB",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-B",
+  "opp": "Const[c1]=CB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-C",
+  "opp": "Const[c0]=DB",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-C",
+  "opp": "Const[c1]=CB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   1,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-D",
+  "opp": "Const[c0]=DB",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   2,
+   9
+  ],
+  "mine": 2,
+  "tags": [
+   "Pareto",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s1",
+  "sub": "V3-D",
+  "opp": "Const[c1]=CB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   7,
+   7
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-A",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   2,
+   4
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "col-exploited"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-A",
+  "opp": "Const[c1]=CB=DB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-B",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   2,
+   4
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "col-exploited"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-B",
+  "opp": "Const[c1]=CB=DB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-C",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   2,
+   4
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "col-exploited"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-C",
+  "opp": "Const[c1]=CB=DB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-D",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   2,
+   4
+  ],
+  "mine": 2,
+  "tags": [
+   "dominated",
+   "col-exploited"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand2x2-s2",
+  "sub": "V3-D",
+  "opp": "Const[c1]=CB=DB",
+  "seat": 0,
+  "outcome": "r1,c1",
+  "payoff": [
+   4,
+   9
+  ],
+  "mine": 4,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 5,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "mine": 4,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 6,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 5,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-A",
+  "opp": "Const[c0]=CB=DB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-A",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r0,c1",
+  "payoff": [
+   8,
+   2
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-A",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r2,c2",
+  "payoff": [
+   7,
+   8
+  ],
+  "mine": 7,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "mine": 4,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-B",
+  "opp": "Const[c0]=CB=DB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-B",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r0,c1",
+  "payoff": [
+   8,
+   2
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-B",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r2,c2",
+  "payoff": [
+   7,
+   8
+  ],
+  "mine": 7,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 5,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   9
+  ],
+  "mine": 3,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 5,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-C",
+  "opp": "Const[c0]=CB=DB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-C",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r0,c1",
+  "payoff": [
+   8,
+   2
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-C",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r2,c2",
+  "payoff": [
+   7,
+   8
+  ],
+  "mine": 7,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 5,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   9
+  ],
+  "mine": 9,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   9
+  ],
+  "mine": 3,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c0",
+  "payoff": [
+   4,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 5,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-D",
+  "opp": "Const[c0]=CB=DB",
+  "seat": 0,
+  "outcome": "r1,c0",
+  "payoff": [
+   7,
+   9
+  ],
+  "mine": 7,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-D",
+  "opp": "Const[c1]",
+  "seat": 0,
+  "outcome": "r0,c1",
+  "payoff": [
+   8,
+   2
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s3",
+  "sub": "V3-D",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r2,c2",
+  "payoff": [
+   7,
+   8
+  ],
+  "mine": 7,
+  "tags": [
+   "dominated",
+   "Nash"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-A",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-A",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-A",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c1",
+  "payoff": [
+   1,
+   6
+  ],
+  "mine": 6,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-A",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-A",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-A",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   4
+  ],
+  "mine": 3,
+  "tags": [
+   "dominated",
+   "col-exploited"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-A",
+  "opp": "Const[c1]=CB=DB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-A",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r1,c2",
+  "payoff": [
+   8,
+   4
+  ],
+  "mine": 8,
+  "tags": [
+   "dominated",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r0,c1",
+  "payoff": [
+   1,
+   6
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-B",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-B",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-B",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c1",
+  "payoff": [
+   1,
+   6
+  ],
+  "mine": 6,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-B",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-B",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-B",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   4
+  ],
+  "mine": 3,
+  "tags": [
+   "dominated",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-B",
+  "opp": "Const[c1]=CB=DB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-B",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r0,c2",
+  "payoff": [
+   7,
+   2
+  ],
+  "mine": 7,
+  "tags": [
+   "dominated",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r0,c1",
+  "payoff": [
+   1,
+   6
+  ],
+  "mine": 1,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 3,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-C",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-C",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-C",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c1",
+  "payoff": [
+   1,
+   6
+  ],
+  "mine": 6,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-C",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-C",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-C",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   4
+  ],
+  "mine": 3,
+  "tags": [
+   "dominated",
+   "col-exploited"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-C",
+  "opp": "Const[c1]=CB=DB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-C",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r1,c2",
+  "payoff": [
+   8,
+   4
+  ],
+  "mine": 8,
+  "tags": [
+   "dominated",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-D",
+  "opp": "UDT",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-D",
+  "opp": "FB",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-D",
+  "opp": "PB",
+  "seat": 1,
+  "outcome": "r0,c1",
+  "payoff": [
+   1,
+   6
+  ],
+  "mine": 6,
+  "tags": [
+   "dominated"
+  ],
+  "stab": 2,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-D",
+  "opp": "self",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-D",
+  "opp": "rev-copy",
+  "seat": 1,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-D",
+  "opp": "Const[c0]",
+  "seat": 0,
+  "outcome": "r0,c0",
+  "payoff": [
+   3,
+   4
+  ],
+  "mine": 3,
+  "tags": [
+   "dominated",
+   "col-exploited"
+  ],
+  "stab": 4,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-D",
+  "opp": "Const[c1]=CB=DB",
+  "seat": 0,
+  "outcome": "r2,c1",
+  "payoff": [
+   8,
+   8
+  ],
+  "mine": 8,
+  "tags": [
+   "Pareto",
+   "Nash",
+   "max-sum"
+  ],
+  "stab": 0,
+  "below_maxmin": false
+ },
+ {
+  "game": "Rand3x3-s4",
+  "sub": "V3-D",
+  "opp": "Const[c2]",
+  "seat": 0,
+  "outcome": "r1,c2",
+  "payoff": [
+   8,
+   4
+  ],
+  "mine": 8,
+  "tags": [
+   "dominated",
+   "col-exploited"
+  ],
+  "stab": 1,
+  "below_maxmin": false
+ }
+]

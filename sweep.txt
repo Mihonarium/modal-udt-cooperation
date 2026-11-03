@@ -1,0 +1,17 @@
+max stabilisation level: 20
+pair                            n  Pareto   Nash  maxsum  rowExpl  colExpl  missTop
+UDT vs UDT                    600     378    322     265        0        0       71
+UDT-exact vs UDT-exact        600     306    256     211       59       55       84
+UDT-exact-def0 vs UDT-exact-def0  600     285    197     199      119      123       94
+UDT-exact-deflast vs UDT-exact-deflast  600     255    183     170      138      137       92
+UDT-strat vs UDT-strat        600     447    387     327        0        0       48
+UDT-chicken vs UDT-chicken    600     404    337     286        0        0       76
+UDT vs UDT-revorder           600     376    331     257        0        0       77
+UDT vs UDT-exact              600     284    202     185        0      121       91
+UDT vs UDT-strat              600     452    399     323        0        0       50
+UDT vs FB                     600     432    399     335        0        7       60
+FB vs UDT                     600     457    414     348       12        0       45
+UDT vs PB                     600     396    376     293        0        1       81
+FB vs FB                      600     600    408     600       19       21        0
+PB vs PB                      600     393    286     309        7        7       86
+games with an outcome best for both players: 188
