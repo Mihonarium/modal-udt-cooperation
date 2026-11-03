@@ -1,0 +1,2002 @@
+{
+ "FB0 vs FB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 10.7
+ },
+ "FB0 vs FB3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 10.7
+ },
+ "FB0 vs FB2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 10.9
+ },
+ "FB0 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 11.6
+ },
+ "FB0 vs FBinf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 8.9
+ },
+ "FB0 vs FB4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 9.8
+ },
+ "FB0 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 18.1
+ },
+ "FB0 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 18.1
+ },
+ "FB0 vs PB2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 16.5
+ },
+ "FB0 vs PB3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.7
+ },
+ "FB0 vs PB4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.4
+ },
+ "FB0 vs PBinf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.2
+ },
+ "FB0 vs V4_1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.8
+ },
+ "FB0 vs V4_0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 20.1
+ },
+ "FB0 vs V4_2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.2
+ },
+ "FB0 vs V4_3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 16.9
+ },
+ "FB0 vs CB": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 4.9
+ },
+ "FB0 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 6.5
+ },
+ "FB0 vs V4_4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.4
+ },
+ "FB0 vs V4_inf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 18.9
+ },
+ "FB1 vs FB1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.9
+ },
+ "FB1 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 10.7
+ },
+ "FB1 vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.8
+ },
+ "FB1 vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.8
+ },
+ "FB1 vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.5
+ },
+ "FB1 vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.6
+ },
+ "FB1 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 16.7
+ },
+ "FB1 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 18.3
+ },
+ "FB1 vs PB2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 16.8
+ },
+ "FB1 vs PB3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.8
+ },
+ "FB1 vs V4_0": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.0
+ },
+ "FB1 vs PB4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 16.7
+ },
+ "FB1 vs PBinf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.1
+ },
+ "FB1 vs V4_1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 18.9
+ },
+ "FB1 vs V4_2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 18.8
+ },
+ "FB1 vs V4_3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.7
+ },
+ "FB1 vs V4_4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.5
+ },
+ "FB1 vs CB": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 4.2
+ },
+ "FB1 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 6.2
+ },
+ "FB1 vs V4_inf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.3
+ },
+ "FB2 vs FB1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.0
+ },
+ "FB2 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 9.9
+ },
+ "FB2 vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 4.8
+ },
+ "FB2 vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 4.9
+ },
+ "FB2 vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.2
+ },
+ "FB2 vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 4.6
+ },
+ "FB2 vs PB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.3
+ },
+ "FB2 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 16.8
+ },
+ "FB2 vs PB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.0
+ },
+ "FB2 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 16.2
+ },
+ "FB2 vs V4_0": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.1
+ },
+ "FB2 vs PB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.0
+ },
+ "FB2 vs PBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.7
+ },
+ "FB2 vs V4_1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.0
+ },
+ "FB2 vs V4_4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.6
+ },
+ "FB2 vs V4_2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 15.7
+ },
+ "FB2 vs V4_inf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 15.0
+ },
+ "FB2 vs V4_3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 16.3
+ },
+ "FB2 vs CB": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.1
+ },
+ "FB3 vs FB1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.5
+ },
+ "FB2 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 7.1
+ },
+ "FB3 vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.6
+ },
+ "FB3 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 10.0
+ },
+ "FB3 vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.3
+ },
+ "FB3 vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 6.5
+ },
+ "FB3 vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 4.9
+ },
+ "FB3 vs PB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.0
+ },
+ "FB3 vs PB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 12.5
+ },
+ "FB3 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 18.7
+ },
+ "FB3 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.8
+ },
+ "FB3 vs PB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.4
+ },
+ "FB3 vs PBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.4
+ },
+ "FB3 vs V4_0": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.8
+ },
+ "FB3 vs V4_1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.7
+ },
+ "FB3 vs V4_2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.3
+ },
+ "FB3 vs V4_3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.1
+ },
+ "FB3 vs V4_4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.0
+ },
+ "FB3 vs CB": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 4.6
+ },
+ "FB3 vs V4_inf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.3
+ },
+ "FB3 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 6.7
+ },
+ "FB4 vs FB1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.6
+ },
+ "FB4 vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.5
+ },
+ "FB4 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 10.0
+ },
+ "FB4 vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.3
+ },
+ "FB4 vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 4.8
+ },
+ "FB4 vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.2
+ },
+ "FB4 vs PB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 12.4
+ },
+ "FB4 vs PB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.9
+ },
+ "FB4 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.7
+ },
+ "FB4 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.1
+ },
+ "FB4 vs PB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.1
+ },
+ "FB4 vs PBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 12.9
+ },
+ "FB4 vs V4_0": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.4
+ },
+ "FB4 vs V4_1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.2
+ },
+ "FB4 vs V4_2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.2
+ },
+ "FB4 vs V4_3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.5
+ },
+ "FB4 vs V4_4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.9
+ },
+ "FB4 vs V4_inf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.9
+ },
+ "FB4 vs CB": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 4.1
+ },
+ "FB4 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 6.3
+ },
+ "FBinf vs FB1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.0
+ },
+ "FBinf vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.3
+ },
+ "FBinf vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 8.9
+ },
+ "FBinf vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.3
+ },
+ "FBinf vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.1
+ },
+ "FBinf vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 4.8
+ },
+ "FBinf vs PB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.4
+ },
+ "FBinf vs PB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 15.3
+ },
+ "FBinf vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 19.1
+ },
+ "FBinf vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 19.4
+ },
+ "FBinf vs PB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.9
+ },
+ "FBinf vs PBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.2
+ },
+ "FBinf vs V4_0": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.3
+ },
+ "FBinf vs V4_1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.3
+ },
+ "FBinf vs V4_2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.4
+ },
+ "FBinf vs V4_3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.2
+ },
+ "FBinf vs V4_4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 12.5
+ },
+ "FBinf vs V4_inf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.6
+ },
+ "FBinf vs CB": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 4.4
+ },
+ "FBinf vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 7.4
+ },
+ "PB0 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 18.5
+ },
+ "PB0 vs FB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 19.4
+ },
+ "PB0 vs FB2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 18.6
+ },
+ "PB0 vs FB3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 18.7
+ },
+ "PB0 vs FB4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.8
+ },
+ "PB0 vs FBinf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.9
+ },
+ "PB0 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 33.4
+ },
+ "PB0 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 32.2
+ },
+ "PB0 vs PB2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 30.4
+ },
+ "PB0 vs PB3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 32.3
+ },
+ "PB0 vs PB4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 31.2
+ },
+ "PB0 vs PBinf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 30.1
+ },
+ "PB0 vs V4_0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 33.9
+ },
+ "PB0 vs V4_1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 33.5
+ },
+ "PB0 vs V4_3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 30.2
+ },
+ "PB0 vs V4_2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 32.1
+ },
+ "PB0 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 10.4
+ },
+ "PB0 vs CB": {
+  "outcome": "DC",
+  "audit_failures": [],
+  "seconds": 11.8
+ },
+ "PB0 vs V4_4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 30.1
+ },
+ "PB0 vs V4_inf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 31.1
+ },
+ "PB1 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 18.5
+ },
+ "PB1 vs FB2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.4
+ },
+ "PB1 vs FB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 19.2
+ },
+ "PB1 vs FB3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.9
+ },
+ "PB1 vs FBinf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.4
+ },
+ "PB1 vs FB4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.5
+ },
+ "PB1 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 32.0
+ },
+ "PB1 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 30.7
+ },
+ "PB1 vs PB3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 28.3
+ },
+ "PB1 vs PB2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 31.1
+ },
+ "PB1 vs PB4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 30.6
+ },
+ "PB1 vs PBinf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 31.4
+ },
+ "PB1 vs V4_0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 32.5
+ },
+ "PB1 vs V4_1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 33.5
+ },
+ "PB1 vs V4_2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 34.8
+ },
+ "PB1 vs V4_3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 32.5
+ },
+ "PB1 vs V4_4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 30.9
+ },
+ "PB1 vs CB": {
+  "outcome": "DC",
+  "audit_failures": [],
+  "seconds": 11.8
+ },
+ "PB1 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 10.2
+ },
+ "PB1 vs V4_inf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 32.2
+ },
+ "PB2 vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 15.5
+ },
+ "PB2 vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 15.0
+ },
+ "PB2 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 20.1
+ },
+ "PB2 vs FB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 19.1
+ },
+ "PB2 vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.7
+ },
+ "PB2 vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.1
+ },
+ "PB2 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 29.2
+ },
+ "PB2 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 33.1
+ },
+ "PB2 vs PB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 27.8
+ },
+ "PB2 vs PB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 27.4
+ },
+ "PB2 vs PB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 29.2
+ },
+ "PB2 vs PBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 27.6
+ },
+ "PB2 vs V4_0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 33.2
+ },
+ "PB2 vs V4_1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 32.1
+ },
+ "PB2 vs V4_2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 27.5
+ },
+ "PB2 vs V4_3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 29.0
+ },
+ "PB2 vs CB": {
+  "outcome": "DC",
+  "audit_failures": [],
+  "seconds": 12.0
+ },
+ "PB2 vs V4_inf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 27.9
+ },
+ "PB2 vs V4_4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 29.7
+ },
+ "PB2 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 11.6
+ },
+ "PB3 vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.9
+ },
+ "PB3 vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.3
+ },
+ "PB3 vs FB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 17.9
+ },
+ "PB3 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 20.6
+ },
+ "PB3 vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 15.0
+ },
+ "PB3 vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.6
+ },
+ "PB3 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 37.1
+ },
+ "PB3 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 36.8
+ },
+ "PB3 vs PB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 31.9
+ },
+ "PB3 vs PB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 32.6
+ },
+ "PB3 vs PB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 30.9
+ },
+ "PB3 vs PBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 31.4
+ },
+ "PB3 vs V4_1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 33.4
+ },
+ "PB3 vs V4_0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 39.6
+ },
+ "PB3 vs V4_3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 31.2
+ },
+ "PB3 vs V4_2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 32.7
+ },
+ "PB3 vs V4_4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 30.8
+ },
+ "PB3 vs CB": {
+  "outcome": "DC",
+  "audit_failures": [],
+  "seconds": 12.9
+ },
+ "PB3 vs V4_inf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 30.5
+ },
+ "PB3 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 13.6
+ },
+ "PB4 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 20.7
+ },
+ "PB4 vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 15.2
+ },
+ "PB4 vs FB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 18.0
+ },
+ "PB4 vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 16.9
+ },
+ "PB4 vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.4
+ },
+ "PB4 vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 18.3
+ },
+ "PB4 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 36.0
+ },
+ "PB4 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 36.4
+ },
+ "PB4 vs PB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 33.3
+ },
+ "PB4 vs PB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 32.1
+ },
+ "PB4 vs PB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 31.8
+ },
+ "PB4 vs PBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 31.7
+ },
+ "PB4 vs V4_1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 29.9
+ },
+ "PB4 vs V4_0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 38.5
+ },
+ "PB4 vs V4_2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 30.3
+ },
+ "PB4 vs V4_3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 31.4
+ },
+ "PB4 vs V4_4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 32.8
+ },
+ "PB4 vs CB": {
+  "outcome": "DC",
+  "audit_failures": [],
+  "seconds": 14.6
+ },
+ "PB4 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 14.4
+ },
+ "PB4 vs V4_inf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 36.1
+ },
+ "PBinf vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 20.0
+ },
+ "PBinf vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 23.7
+ },
+ "PBinf vs FB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 23.6
+ },
+ "PBinf vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 18.1
+ },
+ "PBinf vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 15.7
+ },
+ "PBinf vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 15.5
+ },
+ "PBinf vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 36.1
+ },
+ "PBinf vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 35.7
+ },
+ "PBinf vs PB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 31.7
+ },
+ "PBinf vs PB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 32.5
+ },
+ "PBinf vs PB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 39.0
+ },
+ "PBinf vs PBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 40.2
+ },
+ "PBinf vs V4_1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 41.7
+ },
+ "PBinf vs V4_0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 45.8
+ },
+ "PBinf vs V4_2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 43.5
+ },
+ "PBinf vs V4_3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 42.1
+ },
+ "PBinf vs V4_4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 42.7
+ },
+ "PBinf vs V4_inf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 40.8
+ },
+ "PBinf vs CB": {
+  "outcome": "DC",
+  "audit_failures": [],
+  "seconds": 15.6
+ },
+ "PBinf vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 16.0
+ },
+ "V4_0 vs FB1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 21.2
+ },
+ "V4_0 vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 20.4
+ },
+ "V4_0 vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 21.0
+ },
+ "V4_0 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 31.2
+ },
+ "V4_0 vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 19.9
+ },
+ "V4_0 vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 18.8
+ },
+ "V4_0 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 130.8
+ },
+ "V4_0 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 126.4
+ },
+ "V4_0 vs PB2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 123.6
+ },
+ "V4_0 vs PB3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 129.3
+ },
+ "V4_0 vs PB4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 42.2
+ },
+ "V4_0 vs PBinf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 43.6
+ },
+ "V4_0 vs V4_3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 56.7
+ },
+ "V4_0 vs V4_2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 91.7
+ },
+ "V4_0 vs V4_4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 41.7
+ },
+ "V4_0 vs CB": {
+  "outcome": "DC",
+  "audit_failures": [],
+  "seconds": 15.0
+ },
+ "V4_0 vs V4_1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 153.2
+ },
+ "V4_0 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 12.5
+ },
+ "V4_0 vs V4_inf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 37.4
+ },
+ "V4_1 vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 15.2
+ },
+ "V4_1 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 22.4
+ },
+ "V4_1 vs FB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 23.4
+ },
+ "V4_1 vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 18.5
+ },
+ "V4_1 vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 18.5
+ },
+ "V4_1 vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 17.2
+ },
+ "V4_1 vs PB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 37.7
+ },
+ "V4_1 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 44.7
+ },
+ "V4_1 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 44.4
+ },
+ "V4_1 vs PB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 33.5
+ },
+ "V4_1 vs PB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 36.1
+ },
+ "V4_1 vs PBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 33.9
+ },
+ "V4_1 vs V4_2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 46.4
+ },
+ "V4_1 vs V4_3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 39.2
+ },
+ "V4_1 vs V4_1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 92.9
+ },
+ "V4_0 vs V4_0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 393.9
+ },
+ "V4_1 vs V4_4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 32.6
+ },
+ "V4_1 vs V4_0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 124.0
+ },
+ "V4_1 vs V4_inf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 30.5
+ },
+ "V4_1 vs CB": {
+  "outcome": "DC",
+  "audit_failures": [],
+  "seconds": 13.7
+ },
+ "V4_1 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 14.8
+ },
+ "V4_2 vs FB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 21.1
+ },
+ "V4_2 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 23.4
+ },
+ "V4_2 vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 15.9
+ },
+ "V4_2 vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 13.3
+ },
+ "V4_2 vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.7
+ },
+ "V4_2 vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 14.6
+ },
+ "V4_2 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 31.8
+ },
+ "V4_2 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 33.8
+ },
+ "V4_2 vs PB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 29.2
+ },
+ "V4_2 vs PB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 29.8
+ },
+ "V4_2 vs PB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 25.7
+ },
+ "V4_2 vs PBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 27.4
+ },
+ "V4_2 vs V4_1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 56.6
+ },
+ "V4_2 vs V4_3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 45.2
+ },
+ "V4_2 vs V4_2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 51.2
+ },
+ "V4_2 vs V4_0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 75.7
+ },
+ "V4_2 vs CB": {
+  "outcome": "DC",
+  "audit_failures": [],
+  "seconds": 13.4
+ },
+ "V4_2 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 12.7
+ },
+ "V4_2 vs V4_4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 35.6
+ },
+ "V4_2 vs V4_inf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 35.0
+ },
+ "V4_3 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 27.2
+ },
+ "V4_3 vs FB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 24.1
+ },
+ "V4_3 vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 19.5
+ },
+ "V4_3 vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 18.8
+ },
+ "V4_3 vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 18.3
+ },
+ "V4_3 vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 19.3
+ },
+ "V4_3 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 39.1
+ },
+ "V4_3 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 38.7
+ },
+ "V4_3 vs PB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 30.7
+ },
+ "V4_3 vs PB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 33.8
+ },
+ "V4_3 vs PB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 113.6
+ },
+ "V4_3 vs PBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 112.8
+ },
+ "V4_3 vs V4_1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 117.9
+ },
+ "V4_3 vs V4_0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 126.0
+ },
+ "V4_3 vs V4_2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 36.0
+ },
+ "V4_3 vs V4_3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 34.9
+ },
+ "V4_3 vs CB": {
+  "outcome": "DC",
+  "audit_failures": [],
+  "seconds": 15.3
+ },
+ "V4_3 vs V4_4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 35.9
+ },
+ "V4_3 vs V4_inf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 36.0
+ },
+ "V4_3 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 16.0
+ },
+ "V4_4 vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 16.5
+ },
+ "V4_4 vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 15.8
+ },
+ "V4_4 vs FB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 19.6
+ },
+ "V4_4 vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 22.5
+ },
+ "V4_4 vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 16.9
+ },
+ "V4_4 vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 16.9
+ },
+ "V4_4 vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 34.3
+ },
+ "V4_4 vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 35.1
+ },
+ "V4_4 vs PB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 29.3
+ },
+ "V4_4 vs PB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 30.9
+ },
+ "V4_4 vs PBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 28.6
+ },
+ "V4_4 vs PB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 30.8
+ },
+ "V4_4 vs V4_1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 32.9
+ },
+ "V4_4 vs V4_0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 37.5
+ },
+ "V4_4 vs V4_2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 30.6
+ },
+ "V4_4 vs V4_3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 33.0
+ },
+ "V4_4 vs CB": {
+  "outcome": "DC",
+  "audit_failures": [],
+  "seconds": 13.1
+ },
+ "V4_4 vs V4_4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 32.5
+ },
+ "V4_4 vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 13.1
+ },
+ "V4_4 vs V4_inf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 30.3
+ },
+ "V4_inf vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 16.2
+ },
+ "V4_inf vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 17.6
+ },
+ "V4_inf vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 22.2
+ },
+ "V4_inf vs FB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 19.9
+ },
+ "V4_inf vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 12.4
+ },
+ "V4_inf vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 15.0
+ },
+ "V4_inf vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 33.0
+ },
+ "V4_inf vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 33.9
+ },
+ "V4_inf vs PB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 29.7
+ },
+ "V4_inf vs PB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 31.9
+ },
+ "V4_inf vs PB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 31.7
+ },
+ "V4_inf vs PBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 31.8
+ },
+ "V4_inf vs V4_1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 33.7
+ },
+ "V4_inf vs V4_0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 36.2
+ },
+ "V4_inf vs V4_2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 31.2
+ },
+ "V4_inf vs V4_3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 33.9
+ },
+ "V4_inf vs V4_inf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 30.8
+ },
+ "V4_inf vs V4_4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 32.6
+ },
+ "V4_inf vs CB": {
+  "outcome": "DC",
+  "audit_failures": [],
+  "seconds": 12.9
+ },
+ "V4_inf vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 12.1
+ },
+ "CB vs FB1": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.0
+ },
+ "CB vs FB0": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.4
+ },
+ "CB vs FB2": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.4
+ },
+ "CB vs FB3": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 4.9
+ },
+ "CB vs FB4": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.4
+ },
+ "CB vs FBinf": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 5.7
+ },
+ "CB vs PB0": {
+  "outcome": "CD",
+  "audit_failures": [],
+  "seconds": 14.3
+ },
+ "CB vs PB1": {
+  "outcome": "CD",
+  "audit_failures": [],
+  "seconds": 14.2
+ },
+ "CB vs PB2": {
+  "outcome": "CD",
+  "audit_failures": [],
+  "seconds": 13.3
+ },
+ "CB vs PB3": {
+  "outcome": "CD",
+  "audit_failures": [],
+  "seconds": 13.1
+ },
+ "CB vs PB4": {
+  "outcome": "CD",
+  "audit_failures": [],
+  "seconds": 12.3
+ },
+ "CB vs PBinf": {
+  "outcome": "CD",
+  "audit_failures": [],
+  "seconds": 13.5
+ },
+ "CB vs V4_1": {
+  "outcome": "CD",
+  "audit_failures": [],
+  "seconds": 11.6
+ },
+ "CB vs V4_0": {
+  "outcome": "CD",
+  "audit_failures": [],
+  "seconds": 12.2
+ },
+ "CB vs V4_2": {
+  "outcome": "CD",
+  "audit_failures": [],
+  "seconds": 12.8
+ },
+ "CB vs V4_3": {
+  "outcome": "CD",
+  "audit_failures": [],
+  "seconds": 11.9
+ },
+ "CB vs V4_inf": {
+  "outcome": "CD",
+  "audit_failures": [],
+  "seconds": 12.3
+ },
+ "CB vs V4_4": {
+  "outcome": "CD",
+  "audit_failures": [],
+  "seconds": 12.9
+ },
+ "CB vs CB": {
+  "outcome": "CC",
+  "audit_failures": [],
+  "seconds": 4.8
+ },
+ "CB vs DB": {
+  "outcome": "CD",
+  "audit_failures": [],
+  "seconds": 4.9
+ },
+ "DB vs FB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 8.5
+ },
+ "DB vs FB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 8.4
+ },
+ "DB vs FB2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 9.0
+ },
+ "DB vs FB3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 8.6
+ },
+ "DB vs FB4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 7.7
+ },
+ "DB vs FBinf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 9.5
+ },
+ "DB vs PB0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 14.4
+ },
+ "DB vs PB1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 13.8
+ },
+ "DB vs PB2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 12.1
+ },
+ "DB vs PB3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 13.4
+ },
+ "DB vs PB4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 13.1
+ },
+ "DB vs PBinf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 12.4
+ },
+ "DB vs V4_0": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 13.3
+ },
+ "DB vs V4_1": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 13.7
+ },
+ "DB vs V4_3": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 12.8
+ },
+ "DB vs V4_2": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 14.0
+ },
+ "DB vs V4_4": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 13.3
+ },
+ "DB vs CB": {
+  "outcome": "DC",
+  "audit_failures": [],
+  "seconds": 4.2
+ },
+ "DB vs DB": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 3.9
+ },
+ "DB vs V4_inf": {
+  "outcome": "DD",
+  "audit_failures": [],
+  "seconds": 12.9
+ }
+}

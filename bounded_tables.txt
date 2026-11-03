@@ -1,0 +1,26 @@
+Bounded PD tournament (row player's action first; 400 runs, 2464s wall). Budget = necessitation height in BPC.
+
+          FB0   FB1   FB2   FB3   FB4 FBinf   PB0   PB1   PB2   PB3   PB4 PBinf  V4_0  V4_1  V4_2  V4_3  V4_4V4_inf    CB    DB
+FB0        DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    CC    DD
+FB1        DD    CC    CC    CC    CC    CC    DD    DD    DD    DD    DD    DD    CC    DD    DD    DD    DD    DD    CC    DD
+FB2        DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
+FB3        DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
+FB4        DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
+FBinf      DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
+PB0        DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DC    DD
+PB1        DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DC    DD
+PB2        DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+PB3        DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+PB4        DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+PBinf      DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+V4_0       DD    CC    CC    CC    CC    CC    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DC    DD
+V4_1       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DC    DD
+V4_2       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+V4_3       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+V4_4       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+V4_inf     DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
+CB         CC    CC    CC    CC    CC    CC    CD    CD    CD    CD    CD    CD    CD    CD    CD    CD    CD    CD    CC    CD
+DB         DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DC    DD
+
+soundness audit: 0 false axioms over all 400 match systems
+row bot (other than CB) cooperates while the opponent defects: never

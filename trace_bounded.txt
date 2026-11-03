@@ -1,0 +1,71 @@
+== FB1 vs FB1: CC
+  height 0 theory T0: psi[([FB1|FB1=C] & [FB1|FB1=C]),g=0]
+  height 0 theory T1 (T0+Con): psi[([FB1|FB1=C] & [FB1|FB1=D]),g=0]
+  height 0 theory T1 (T0+Con): psi[([FB1|FB1=D] & [FB1|FB1=C]),g=0]
+  height 0 theory T1 (T0+Con): psi[([FB1|FB1=D] & [FB1|FB1=D]),g=0]
+  height 0 theory T1 (T0+Con): psi[([FB1|FB1=D] & [FB1|FB1=D]),g=1]
+  height 1 theory T0: ([FB1|FB1=C] & [FB1|FB1=C])
+  height 1 theory T0: [FB1|FB1=C]
+  height 1 theory T0: [FB1|FB1=C]
+  height 1 theory T0: psi[([FB1|FB1=C] & [FB1|FB1=C]),g=1]
+  height 1 theory T1 (T0+Con): psi[([FB1|FB1=C] & [FB1|FB1=D]),g=1]
+  height 1 theory T1 (T0+Con): psi[([FB1|FB1=D] & [FB1|FB1=C]),g=1]
+== FB0 vs FB0: DD
+  height 0 theory T1 (T0+Con): psi[([FB0|FB0=D] & [FB0|FB0=D]),g=0]
+  height 0 theory T1 (T0+Con): psi[([FB0|FB0=D] & [FB0|FB0=D]),g=1]
+== PB2 vs PB2: CC
+  height 0 theory T1 (T0+Con): psi[([PB2|PB2=D] & [PB2|PB2=D]),g=0]
+  height 0 theory T1 (T0+Con): psi[([PB2|PB2=D] & [PB2|PB2=D]),g=1]
+  height 0 theory T1 (T0+Con): ~[PB2|DB=C]
+  height 0 theory T1 (T0+Con): ~[PB2|DB=C]
+  height 1 theory T0: psi[([PB2|PB2=C] & [PB2|PB2=C]),g=0]
+  height 1 theory T0: psi[([PB2|PB2=C] & [PB2|PB2=C]),g=1]
+  height 1 theory T1 (T0+Con): psi[([PB2|PB2=C] & [PB2|PB2=D]),g=0]
+  height 1 theory T1 (T0+Con): psi[([PB2|PB2=C] & [PB2|PB2=D]),g=1]
+  height 1 theory T1 (T0+Con): psi[([PB2|PB2=D] & [PB2|PB2=C]),g=0]
+  height 1 theory T1 (T0+Con): psi[([PB2|PB2=D] & [PB2|PB2=C]),g=1]
+  height 2 theory T0: ([PB2|PB2=C] & [PB2|PB2=C])
+  height 2 theory T0: [PB2|PB2=C]
+  height 2 theory T0: [PB2|PB2=C]
+== V4_2 vs V4_2: CC
+  height 0 theory T0: (~[V4_2|V4_2=D] | [V4_2|V4_2=C] | [V4_2|V4_2=D])
+  height 0 theory T0: (~[V4_2|V4_2=D] | [V4_2|V4_2=C] | [V4_2|V4_2=D])
+  height 0 theory T1 (T0+Con): psi[([V4_2|V4_2=D] & [V4_2|V4_2=D]),g=0]
+  height 0 theory T1 (T0+Con): psi[([V4_2|V4_2=D] & [V4_2|V4_2=D]),g=1]
+  height 0 theory T1 (T0+Con): ~[V4_2|DB=C]
+  height 0 theory T1 (T0+Con): ~[V4_2|DB=C]
+  height 1 theory T0: psi[([V4_2|V4_2=C] & [V4_2|V4_2=C]),g=0]
+  height 1 theory T0: psi[([V4_2|V4_2=C] & [V4_2|V4_2=C]),g=1]
+  height 1 theory T1 (T0+Con): psi[([V4_2|V4_2=C] & [V4_2|V4_2=D]),g=0]
+  height 1 theory T1 (T0+Con): psi[([V4_2|V4_2=C] & [V4_2|V4_2=D]),g=1]
+  height 1 theory T1 (T0+Con): psi[([V4_2|V4_2=D] & [V4_2|V4_2=C]),g=0]
+  height 1 theory T1 (T0+Con): psi[([V4_2|V4_2=D] & [V4_2|V4_2=C]),g=1]
+  height 2 theory T0: ([V4_2|V4_2=C] & [V4_2|V4_2=C])
+  height 2 theory T0: (~[V4_2|V4_2=C] | [V4_2|V4_2=C])
+  height 2 theory T0: (~[V4_2|V4_2=C] | [V4_2|V4_2=C])
+  height 2 theory T0: (~[V4_2|V4_2=D] | [V4_2|V4_2=C])
+  height 2 theory T0: (~[V4_2|V4_2=D] | [V4_2|V4_2=C])
+  height 2 theory T0: [V4_2|V4_2=C]
+  height 2 theory T0: [V4_2|V4_2=C]
+== V4_1 vs V4_1: DD
+  height 0 theory T0: (~[V4_1|V4_1=D] | [V4_1|V4_1=C] | [V4_1|V4_1=D])
+  height 0 theory T0: (~[V4_1|V4_1=D] | [V4_1|V4_1=C] | [V4_1|V4_1=D])
+  height 0 theory T1 (T0+Con): psi[([V4_1|V4_1=D] & [V4_1|V4_1=D]),g=0]
+  height 0 theory T1 (T0+Con): psi[([V4_1|V4_1=D] & [V4_1|V4_1=D]),g=1]
+  height 0 theory T1 (T0+Con): ~[V4_1|DB=C]
+  height 0 theory T1 (T0+Con): ~[V4_1|DB=C]
+  height 1 theory T0: psi[([V4_1|V4_1=C] & [V4_1|V4_1=C]),g=0]
+  height 1 theory T1 (T0+Con): psi[([V4_1|V4_1=C] & [V4_1|V4_1=D]),g=0]
+  height 1 theory T1 (T0+Con): psi[([V4_1|V4_1=D] & [V4_1|V4_1=C]),g=0]
+== FB1 vs FBinf: CC
+  height 0 theory T0: psi[([FB1|FBinf=C] & [FBinf|FB1=C]),g=0]
+  height 0 theory T1 (T0+Con): psi[([FB1|FBinf=C] & [FBinf|FB1=D]),g=0]
+  height 0 theory T1 (T0+Con): psi[([FB1|FBinf=C] & [FBinf|FB1=D]),g=1]
+  height 0 theory T1 (T0+Con): psi[([FB1|FBinf=D] & [FBinf|FB1=C]),g=0]
+  height 0 theory T1 (T0+Con): psi[([FB1|FBinf=D] & [FBinf|FB1=D]),g=0]
+  height 0 theory T1 (T0+Con): psi[([FB1|FBinf=D] & [FBinf|FB1=D]),g=1]
+  height 1 theory T0: ([FB1|FBinf=C] & [FBinf|FB1=C])
+  height 1 theory T0: [FB1|FBinf=C]
+  height 1 theory T0: [FBinf|FB1=C]
+  height 1 theory T0: psi[([FB1|FBinf=C] & [FBinf|FB1=C]),g=1]
+  height 1 theory T1 (T0+Con): psi[([FB1|FBinf=D] & [FBinf|FB1=C]),g=1]
