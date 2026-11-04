@@ -150,3 +150,28 @@ class V5(RAgent):
         if "C" in self.tiers:
             dl += [(cond, a_star if f < pm else a_ref) for _, cond, a_star, a_ref, pm in s["C"][p]]
         return dl, s["maxmin"]
+
+def fair_shapley(g, npub, disagreement=None):
+    """Equal split of the surplus over the maxmin values, realised as a mix of pure outcomes by the public draw
+    (what the two-player Shapley value with v({i}) = maxmin_i gives when the split can be carried out by
+    coordinating on who does what at random).  Exact equal gains on the sum-maximising face are reachable only
+    when that face is a segment, so the target is the hull point maximising min(gain_1, gain_2) (the egalitarian
+    solution), ties to the larger sum; it is always reachable by mixing.  Same interface as fair_point."""
+    outs = list(g.U)
+    d = disagreement or (maxmin_val(g, 0), maxmin_val(g, 1))
+    best = None
+    for o1 in outs:
+        for o2 in outs:
+            for w in range(npub + 1):
+                if o1 == o2 and w != npub: continue
+                lam = w / npub
+                u = lam * g.U[o1][0] + (1 - lam) * g.U[o2][0]
+                v = lam * g.U[o1][1] + (1 - lam) * g.U[o2][1]
+                if u < d[0] or v < d[1]: continue
+                score = (min(u - d[0], v - d[1]), u + v, -abs(2 * w - npub), -outs.index(o1), -outs.index(o2))
+                if best is None or score > best[0]: best = (score, o1, o2, w, (u, v))
+    _, o1, o2, w, uv = best
+    pr = lambda p: o1[0] if p < w else o2[0]
+    pc = lambda p: o1[1] if p < w else o2[1]
+    desc = f"{o1}" if w == npub else (f"{o2}" if w == 0 else f"{w}/{npub} {o1} + {npub-w}/{npub} {o2}")
+    return pr, pc, uv, desc
