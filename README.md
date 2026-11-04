@@ -504,3 +504,32 @@ How it is bounded, and what it is not:
   mean running it against me, which runs me against it, and so on), so two V5B bots with different fair
   points end at their maxmin actions: the idealised V5 reaches a settlement there through stratified PA+k
   checks, which have no bounded counterpart in this construction.  OPEN.
+
+## Side payments (`sidepay.py`)
+
+`with_transfers(g, T)` turns every action into (action, transfer 0..T paid to the other player).  With transfers the
+Pareto frontier contains the segment u + v = max joint payoff, and the Nash bargaining solution over such a set is the
+equal split of the surplus over the disagreement point, i.e. the two-player Shapley value: COMPUTED on 30 random 2x2
+games the two fair points agree in 24/30 without transfers and 30/30 with transfers up to 5, and V5 copies reach the
+fair point with transfers in 30/30 (payment included).  Example: in the game [[(10,0),(1,1)],[(1,1),(1,1)]] the fair
+point without transfers is (1,1) (nothing else is above the maxmin values for both); with transfers up to 5 it is
+(5,5): row plays A and pays 5, column plays A.  Without side payments the agent takes the best reachable point and
+leaves the rest on the table, which is accepted.
+
+## Policy search over a prior (`udt_pop.py`) — a contrast, not the agent
+
+A UDT-style agent that keeps V5's probes (what it can prove about the opponent) but chooses the action in every case
+by maximising its expected payoff over a prior population of opponent programs (stones, predictor-threateners that
+commit iff committing provably pays against the agent's own response to a stone, private mixers, FairBot/PrudentBot
+aimed at F, a copy of itself), with every match evaluated exactly as a fixed point and the copy running the same
+candidate.  COMPUTED on Chicken (paper's matrix, M = 20): with only stones and FairBots in the prior it gives in fully;
+with any appreciable weight on predictors or copies it recovers V5's rule exactly (swerve with p = 0.95 against a
+committed non-swerver, the largest grid value that keeps committing unprofitable; against an unreadable opponent the
+same 0.95/0.05 mix once unreadable predictors are in the prior); on the PD it recovers PrudentBot.  This is kept as a
+contrast only: Mikhail's position (2026-11-04) is that the response to a commitment must not depend on the committer's
+internals or on how many stones the prior has, because the number of stones is itself a function of how stones are
+treated; an agent that optimises against a fixed prior gives in to stones once they are common enough, which is the
+incentive to be avoided.  V5 therefore keeps the threat-resistant response for every committer.  Caveats of the
+search: coordinate ascent from three starting tables (the maxmin start is a local trap in Chicken), the exploit probe
+can be fooled by a predictor that gives in against a constant but commits against the agent, and the Ultimatum run was
+not finished at the time of writing (`udt_pop_ult4.log`).
