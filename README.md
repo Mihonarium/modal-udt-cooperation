@@ -480,3 +480,27 @@ for tier A) are what made the named games work; they are not derived.  Bounded (
 not built.
 
 Run: `python3 test_v5.py` (about 30 s) and `python3 run_v5.py 100` (about 2.5 min); Python 3, no dependencies.
+
+## Bounded V5 (`bounded_v5.py`, `test_bounded_v5.py`)
+
+A runnable version of V5: a program given as a source line (`V5B fair=nbs budget=k npub=... m=...`) that
+receives the opponent's source text and halts.  COMPUTED results match the idealised ones on the cases tried:
+PD row (C,C with a copy of budget >= 1, D,C against CooperateBot, D,D against DefectBot and against a budget-0
+copy), Chicken (copies at the coin, 0.95 swerving against the never-swerve stone which then gets -0.25, 5
+against the always-swerve stone, -0.15 for a private 50/50 mixer), Ultimatum (copies 5/5; a stone offering 4
+accepted with 19/24 and getting 4.75), copies at the fair point in 30/30 random 2x2 games.  About 25 s.
+
+How it is bounded, and what it is not:
+- Recognised opponents are STONEs (a policy table over the draws, i.e. a commitment, pure or mixed) and
+  V5B spec lines.  Any other source is unknown and gets the maxmin action.
+- Facts about a stone are read off its table; the opponent's play against a stone is obtained by running it
+  against that stone (halts: a stone runs nothing).  So tiers A and C are execution, not proof search.
+- The Löbian step (tier B between two V5B bots) is the exact bounded search of `bounded.py`: after checking
+  by execution that neither side exploits the other and that both aim at the same fair point, the question
+  "do we both play F" is FairBot_k vs FairBot_m in BPC with the bots' budgets; cooperation needs both >= 1.
+  The reduction of the opponent's decision list to its FairBot branch is established by execution and by
+  comparing specs, where the fully-formal bots above establish it through Unf axioms.
+- Tier C is applied to stones only.  Against another V5B it is skipped (reading its policy against me would
+  mean running it against me, which runs me against it, and so on), so two V5B bots with different fair
+  points end at their maxmin actions: the idealised V5 reaches a settlement there through stratified PA+k
+  checks, which have no bounded counterpart in this construction.  OPEN.

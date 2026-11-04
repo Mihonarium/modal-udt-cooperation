@@ -1,0 +1,29 @@
+PD (5/3/1/0), npub=1, m=4
+    row {'C': 1.0}  col {'C': 1.0}  EV=(3.00,3.00)
+  [OK] V5B_1 vs copy: CC expected CC
+    row {'D': 1.0}  col {'C': 1.0}  EV=(5.00,0.00)
+  [OK] V5B_1 vs STONE [["C", "C", "C: DC expected DC
+    row {'D': 1.0}  col {'D': 1.0}  EV=(1.00,1.00)
+  [OK] V5B_1 vs STONE [["D", "D", "D: DD expected DD
+    row {'D': 1.0}  col {'D': 1.0}  EV=(1.00,1.00)
+  [OK] V5B_1 vs V5B_0: DD expected DD
+Chicken (paper's matrix), npub=2, m=20
+    row {'Sw': 0.5, 'DS': 0.5}  col {'Sw': 0.5, 'DS': 0.5}  EV=(2.00,2.00)
+  [OK] copies (budgets 1, 2): coin, EV (2,2) 
+    row {'Sw': 0.95, 'DS': 0.05}  col {'DS': 1.0}  EV=(-5.95,-0.25)
+  [OK] vs never-swerve stone: swerve 0.95, stone < 2 stone EV -0.25
+    row {'DS': 1.0}  col {'Sw': 1.0}  EV=(5.00,-1.00)
+  [OK] vs always-swerve stone: exploit, 5 
+    row {'Sw': 0.95, 'DS': 0.05}  col {'Sw': 0.5, 'DS': 0.5}  EV=(-2.85,-0.15)
+  [OK] vs private 50/50 mix: read exactly, mix gets <= 2 mix EV -0.15
+Ultimatum 0..10, npub=1, m=24
+    row {'o5': 1.0}  col {'t5': 1.0}  EV=(5.00,5.00)
+  [OK] copies: 5/5 
+    row {'o4': 1.0}  col {'t0': 0.792, 't5': 0.208}  EV=(4.75,3.17)
+  [OK] stone offering 4: accepted 19/24, offerer < 5 p=0.792 offerer EV 4.75
+    row {'o4': 1.0}  col {'t5': 1.0}  EV=(0.00,0.00)
+  [OK] V5B(fair=4) vs V5B(fair=5): no Löb, no reading -> maxmin (documented limit) EV (0.0, 0.0)
+Random games, copies, npub=4, m=4
+  [OK] copies at the fair point: 30/30 
+done in 25s
+ALL OK
