@@ -387,3 +387,96 @@ plus audit about 31 min wall with 4 workers).
   `pe_tables.txt`, `pe_results.json` (tournament and audit). `pe_test.py`: tests for the self-contained bots.
 
 Run: `python3 test_paper.py && python3 test_v4.py && python3 run_v4.py` (Python 3, no dependencies).
+
+## Version 5: outside randomness, a fair point read off the payoffs, and threats (`rmodal.py`, `v5.py`)
+
+Added 2026-11-04 at Mikhail's request: can the agent take an outside source of randomness, read the
+payoff matrix, exploit the opponent when it can, otherwise settle for a fair outcome, and otherwise give
+in to threats without incentivising them ([Samin, "An approach to giving in to threats without
+incentivizing them"](https://mishasamin-me.pages.dev/How_To_Give_In_To_Threats.pdf))?  Idealised agents
+only (exact GL evaluation, as in the first part of this README); nothing bounded.
+
+**Randomness** (`rmodal.py`).  Random inputs are free atoms, discretised: a public draw `r_pub`
+(NPUB values, seen by both players; realises correlated outcomes such as "a coin decides who swerves"),
+and per player a coarse private draw `r_c` (K values) and a fine private draw `r_f` (M values, the dial
+for giving in with a probability).  An agent's action is a function of its own draws and r_pub; a key is
+(agent, opponent, role, r_pub, r_c, r_f).  Conditions may talk about the opponent's keys at any draw
+("PA proves the opponent plays b at every value of its private draw" is a statement about its policy,
+which its source reveals), never condition an action on the opponent's realised private draw, and the
+whole system of keys has one fixed point on the chain, evaluated exactly as before.  Expected payoffs
+average the eventual actions over all draws.
+
+**V5** (`v5.py`), for my key (r_pub, r_c, r_f):
+- Fair point F = discretised Nash bargaining solution over the convex hull of the pure outcomes, with
+  the pure maxmin values as the disagreement point: a mix of at most two pure outcomes, weight a
+  multiple of 1/NPUB, realised by r_pub.  Both players compute the same F from the same matrix (this is
+  the shared ordering the equilibrium-selection note above asked for).  Ties among payoff-equal outcomes
+  go to the actions that leave the other player the least to gain by deviating.
+- A (exploit): for each opponent action b whose best response a gives me more than my fair payoff,
+  `Con_{k+4} and Box_k(the opponent plays b at every key against Const_a)` -> play a.  This is
+  PrudentBot's probe turned around; the implication form "I play a -> they play b" is not used because
+  it passes vacuously whenever I don't play a (the level-1 artefact of greedy modal UDT above).
+- B (fair): `Box_0(I play F at all my keys -> the opponent plays F at all its keys)` -> play F(r_pub).
+  FairBot's test aimed at F; Löb gives mutual F between copies, and with FairBot/PrudentBot aimed at F.
+- C (threats): for each policy sigma the opponent could have at this r_pub (with K = 1: "x when
+  r_f < j else y", which is what a stone, a FairBot or a V5 in tier C plays; with K > 1 a pure action
+  per coarse draw), `Con_{k+3} and Box_k(opponent plays sigma)` -> respond to its distribution q:
+  a* = my best response to q, v_give = the opponent's payoff under a*, a_r = the action minimising its
+  payoff, v_ref its payoff then; if v_give <= v_F play a*; else give in (a*) when r_f < p*M and refuse
+  (a_r) otherwise, p the largest multiple of 1/M strictly below (v_F - v_ref)/(v_give - v_ref), so the
+  committed opponent gets strictly less than its fair payoff in expectation.  This is the paper's rule;
+  with the paper's Chicken matrix it gives swerving with p just under 102/105.
+- D: maxmin action.
+- `Con_j = not Box_j(bottom)` is false at levels <= j of the chain, so a PA+k check can only fire after
+  the box has been read over several levels ("patience"); without it a one-level transient in the
+  opponent's play (its own fallback while it waits to read a constant bot) is mistaken for its policy, and
+  copies in Battle of the Sexes exploited each other instead of meeting at F.  Tier A waits one level
+  longer than tier C for the same reason.  Checks are stratified over k = 1..6 so that an opponent whose
+  play settles only after a few levels (another V5 reading me) is still read.
+- Tier C can take the agent below its own maxmin (it accepts a small probability of the refused
+  outcome, as the paper intends); A, B and D cannot.
+
+**Results** (COMPUTED; `test_v5.py`, `run_v5.py` -> `v5_tables.txt`, `sweep_v5.txt`, `v5_results.json`):
+- PD (4 payoff sets): V5 reproduces PrudentBot's row: F = (C,C); C,C with a copy, FairBot and
+  PrudentBot (both seats); D,C against CooperateBot; D,D against DefectBot.  With T + S > 2R (the
+  10/3/1/0 set) the fair point is the 50/50 correlated alternation of (C,D)/(D,C), worth (5,5) > (3,3);
+  copies play it, and defect against a FairBot that insists on (C,C).
+- Chicken (paper's matrix): F = coin over (Sw,DS)/(DS,Sw), worth (2,2); copies get exactly that and
+  never crash.  Against a stone that never swerves, V5 swerves with p = 0.95 (M = 20; the threshold
+  is 0.971) and the stone gets -0.25 < 2 in expectation (5 if V5 always gave in).  Against a stone that
+  always swerves, V5 never swerves (5).  Against a stone mixing 50/50 with its private draw at K = 4,
+  V5 reads the mix and the stone gets -0.15 <= 2 (always swerving would give it 2.5).
+- Ultimatum in normal form (offerer picks the offer, responder picks a threshold; a mix over thresholds
+  is any monotone acceptance rule): F = 5/5, which copies play.  A stone offering 4 is accepted with
+  p = 19/24 (threshold 5/6) and gets 4.75 < 5; a stone offering 1 with p = 13/24 (threshold 5/9) and gets
+  4.88; an offer of 7 is accepted always.  A V5 that thinks 50/50 is fair accepts a committed offer of 49
+  of 100 with p = 0.98 (the paper's number) and the offerer gets 49.98.  A V5 offerer that thinks 4 of 10
+  is fair, against a V5 responder that thinks 5: they settle at 5/5 (the offerer reads the responder's
+  probabilistic policy and its best response to it is 5).
+- Named games: Stag Hunt (S,S); Battle of the Sexes, Coord and CoordRanked: copies meet at F (the coin
+  in BoS and Coord); Matching Pennies: copies get (0,0).  V5 exploits FairBot-F and PrudentBot-F in
+  both Chickens, through their fallback: a FairBot whose fallback is to swerve swerves against a stone
+  that doesn't, and tier A reads that (same as V3-B/V4 above).
+- 200 random 2x2/3x3 games: copies reach exactly the fair point in 200/200 (never below their maxmin),
+  and miss an outcome best for both players in 0 of the 66 games that have one (V4: 12%, greedy modal
+  UDT: 38%).  With FairBot-F: at F in 327/400 seats, V5 above F in the other 73 (FairBot's fallback was
+  exploitable).  With PrudentBot-F: at F in 219/400, V5 above F in 85, V5 below F in 96: PrudentBot's
+  probe treats V5's answer to a constant bot (which can be V5's F action, when that is its best response
+  or its giving-in mix) as cooperating with a stone, and punishes it.
+- Threatener sweep: every pure commitment of the opponent in both seats of every game (1048 commitments,
+  67 of them threats, i.e. the committer would get more than its fair payoff if V5 gave in): the
+  committer's expected payoff is <= its fair payoff in 1048/1048 (67/67 threats).  A commitment that is a
+  function of the public draw is handled per r_pub by the same checks, so pure commitments cover public
+  mixes; private mixes are read only at the coarse resolution K.  V5 ends below its own maxmin in 45 of
+  the 67 threat cases (the price of giving in) and in none of the others.
+
+**Not settled / caveats.**  The decision to give in is the paper's; whether "committer's expected payoff
+<= fair" is the right unexploitability notion when the committer is itself a reader (two V5s with
+different fair points) is only tested in one Ultimatum case.  Reading an opponent's policy costs
+`#actions^2 * M` boxes per public draw (`read="pure"` reads only pure commitments); private mixes
+finer than K are not read and fall to the maxmin floor, which a privately mixing threatener can use.
+Zero-sum games get a pure maxmin fallback, not the mixed one.  The patience constants (3 for tier C, 4
+for tier A) are what made the named games work; they are not derived.  Bounded (BPC) versions are
+not built.
+
+Run: `python3 test_v5.py` (about 30 s) and `python3 run_v5.py 100` (about 2.5 min); Python 3, no dependencies.
