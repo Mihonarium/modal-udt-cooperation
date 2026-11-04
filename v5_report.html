@@ -1,0 +1,222 @@
+<title>Modal UDT V5 Report</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column (~72ch) with wide tables allowed to overflow in their own scrollers; data in mono, prose in sans, section titles in a serif. */
+:root{
+  --bg:#f3f4f2; --paper:#ffffff; --fg:#17201f; --muted:#5b6663; --line:#d6dbd8;
+  --accent:#8a2d3b; --v5:#15665a; --v5-soft:#d9ece6; --warn:#a1620f; --warn-soft:#f5e7cf; --bad:#a3302c; --bad-soft:#f3dcda; --good-soft:#dcebe4;
+  --display:"Newsreader",Georgia,serif; --body:"Public Sans",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161a19;--paper:#1f2524;--fg:#e8ebe9;--muted:#9aa5a1;--line:#343c3a;--accent:#d9808d;--v5:#5fc3b0;--v5-soft:#1d3a34;--warn:#e0a24a;--warn-soft:#3b2e18;--bad:#e07a74;--bad-soft:#3d2321;--good-soft:#1f3a2f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#161a19;--paper:#1f2524;--fg:#e8ebe9;--muted:#9aa5a1;--line:#343c3a;--accent:#d9808d;--v5:#5fc3b0;--v5-soft:#1d3a34;--warn:#e0a24a;--warn-soft:#3b2e18;--bad:#e07a74;--bad-soft:#3d2321;--good-soft:#1f3a2f;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+main{max-width:76ch;margin:0 auto;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:2.3rem}h2{font-size:1.55rem}h3{font-size:1.15rem}
+p{margin:0}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+header{display:flex;flex-direction:column;gap:12px;border-bottom:1px solid var(--line);padding-bottom:24px}
+header .lede{font-size:1.1rem;max-width:62ch}
+section{display:flex;flex-direction:column;gap:14px}
+a{color:var(--accent)}
+code,.m{font-family:var(--mono);font-size:.86em}
+.tiers{display:grid;grid-template-columns:auto 1fr;gap:0 14px;border:1px solid var(--line);background:var(--paper)}
+.tiers>div{padding:12px 14px;border-top:1px solid var(--line)}
+.tiers>div:nth-child(-n+2){border-top:0}
+.tiers .k{font-family:var(--display);font-size:1.5rem;color:var(--accent);line-height:1}
+.tiers .k small{display:block;font-family:var(--mono);font-size:.7rem;color:var(--muted);letter-spacing:.06em;margin-top:4px}
+.tiers .t{display:flex;flex-direction:column;gap:6px;min-width:0}
+.tiers code{display:block;white-space:pre-wrap;background:var(--bg);padding:6px 8px;border-left:3px solid var(--accent)}
+.note{color:var(--muted);font-size:.9rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.card{border:1px solid var(--line);background:var(--paper);padding:12px 14px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.card .n{font-family:var(--mono);font-size:1.5rem;font-variant-numeric:tabular-nums;color:var(--v5)}
+.card .l{font-size:.82rem;color:var(--muted)}
+.scroll{overflow-x:auto;border:1px solid var(--line);background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:.86rem}
+th,td{padding:7px 10px;text-align:left;vertical-align:top;border-top:1px solid var(--line);white-space:nowrap}
+thead th{border-top:0;font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500;background:var(--paper);position:sticky;top:0}
+td.m,th.m{font-family:var(--mono);font-variant-numeric:tabular-nums}
+td.v5{background:var(--v5-soft)}
+.pill{display:inline-block;font-family:var(--mono);font-size:.72rem;padding:1px 6px;border-radius:3px;background:var(--bg);border:1px solid var(--line)}
+.pill.fair{background:var(--good-soft);border-color:transparent}.pill.above{background:var(--v5-soft);border-color:transparent;color:var(--v5)}.pill.below{background:var(--bad-soft);border-color:transparent;color:var(--bad)}.pill.exp{background:var(--warn-soft);border-color:transparent;color:var(--warn)}
+.ctrl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.9rem}
+select{font:inherit;padding:4px 8px;background:var(--paper);color:var(--fg);border:1px solid var(--line)}
+select:focus,button:focus{outline:2px solid var(--accent);outline-offset:2px}
+.matrix{display:grid;grid-template-columns:auto auto auto;gap:0;font-family:var(--mono);font-size:.82rem;width:max-content}
+.matrix div{padding:4px 10px;border:1px solid var(--line);min-width:3.5em;text-align:center}
+.matrix .h{color:var(--muted);border:0}
+.bars{display:flex;flex-direction:column;gap:8px}
+.bar{display:grid;grid-template-columns:5.5em 1fr 4.5em;gap:10px;align-items:center;font-size:.88rem}
+.bar .tr{height:16px;background:var(--bg);border:1px solid var(--line);position:relative;min-width:0}
+.bar .fl{position:absolute;inset:0 auto 0 0;background:var(--accent)}
+.bar.v5 .fl{background:var(--v5)}.bar .m{text-align:right}
+.chick{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:560px){.chick{grid-template-columns:1fr}.bar{grid-template-columns:4.5em 1fr 4em}}
+.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:.82rem;color:var(--muted)}
+ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+.tag{font-family:var(--mono);font-size:.72rem;color:var(--muted)}
+</style>
+<main>
+<header>
+  <div class="eyebrow">krandder/modal-udt-cooperation · V5 · exact GL evaluation · 2026-11-04</div>
+  <h1>A payoff-reading modal agent that exploits, settles for fair, or gives in without rewarding the threat</h1>
+  <p class="lede">V5 reads the payoff matrix and an outside random draw, and tries four things in order: exploit the opponent if provable, meet it at the Nash bargaining point, else read its commitment and give in with a probability that leaves the committer strictly below its fair payoff, else play maxmin. Against every pure commitment in 1,048 tests the committer never gets more than fair; copies reach the fair point in 200 of 200 random games; in the PD it reproduces PrudentBot exactly.</p>
+</header>
+
+<section>
+  <h2>What was added to the repo</h2>
+  <p>The original study evaluates <em>idealised</em> modal agents: formulas of provability logic ("play a if PA proves φ"), run exactly along the Kripke chain of GL, where level n sees every level below it and a boxed formula is true at level n iff it held at every lower level from its theory's index on. V4 was the best agent before: it reads payoffs, orders outcomes into cooperative / neutral / exploitative tiers, and probes the opponent against a constant exploiter, which reproduces PrudentBot in the PD. It is deterministic, picks outcomes by its own action ordering (so copies mis-coordinate in Battle of the Sexes), and has no concept of a threat.</p>
+  <p>Two files are new. <code>rmodal.py</code> extends the evaluator with randomness: a public draw <span class="m">r_pub</span> both players see, and per player a coarse private draw <span class="m">r_c</span> and a fine private draw <span class="m">r_f</span>. A key is now (agent, opponent, role, r_pub, r_c, r_f), the agent's program at a key may depend only on its own draws, and conditions can quantify over the opponent's keys ("PA proves the opponent plays b at every value of its private draw" is a statement about its policy, which its source reveals). The whole system still has one fixed point on the chain. <code>v5.py</code> is the agent.</p>
+</section>
+
+<section>
+  <h2>How V5 decides</h2>
+  <p>For the key (r_pub, r_c, r_f), with <span class="m">u_F, v_F</span> my and the opponent's payoffs at the fair point F, checks run in this order and the first that fires decides the action.</p>
+  <div class="tiers">
+    <div class="k">F<small>fair point</small></div>
+    <div class="t"><p>Discretised Nash bargaining solution: maximise <span class="m">(u − maxmin_me)(v − maxmin_opp)</span> over the convex hull of pure outcomes, as a mix of at most two outcomes with weight a multiple of 1/NPUB, realised by r_pub. Both players compute the same F from the same matrix, which is the shared ordering the original README asked for. Ties among payoff-equal outcomes go to the actions that leave the other player least to gain by deviating.</p></div>
+    <div class="k">A<small>exploit</small></div>
+    <div class="t"><p>For each opponent action b whose best response a pays me more than u_F, best first:</p><code>Con_{k+4} ∧ Box_k( opponent plays b at every key against Const_a )   →  play a</code><p class="note">PrudentBot's probe turned around. The implication "I play a → they play b" is not used: it passes vacuously whenever I don't play a, which is the level-1 artefact that made greedy modal UDT defect against FairBot.</p></div>
+    <div class="k">B<small>fair</small></div>
+    <div class="t"><code>Box_0( I play F at all my keys → the opponent plays F at all its keys )   →  play F(r_pub)</code><p class="note">FairBot's test aimed at F. Löb's theorem gives mutual F between copies, and with a FairBot or PrudentBot aimed at F.</p></div>
+    <div class="k">C<small>threat</small></div>
+    <div class="t"><p>For each policy σ the opponent could have at this r_pub (with K = 1: "x when r_f &lt; j else y", which is what a stone, a FairBot or a V5 in tier C plays):</p><code>Con_{k+3} ∧ Box_k( opponent plays σ at every (r_pub, r_c, r_f) )
+  → q = σ's action distribution;  a* = best response to q;  v_give = opp payoff under a*
+    a_r = action minimising opp payoff against q;  v_ref = opp payoff then
+    if v_give ≤ v_F: play a*
+    else: p = largest multiple of 1/M below (v_F − v_ref)/(v_give − v_ref)
+          play a* when r_f &lt; p·M, a_r otherwise</code><p class="note">The rule from the threats paper: give in most of the time, but leave the committer strictly below its fair payoff in expectation, so committing was a mistake. This is the one tier that can take V5 below its own maxmin.</p></div>
+    <div class="k">D<small>floor</small></div>
+    <div class="t"><p>Maxmin action, ties to my F action.</p></div>
+  </div>
+  <p><span class="m">Con_j = ¬Box_j(⊥)</span> is false at levels ≤ j of the chain, so a check can only fire after its box has been read over several levels. Without this "patience", a copy's one-level fallback while it waits to read a constant bot was read as its policy, and copies in Battle of the Sexes exploited each other instead of meeting at F; tier A waits one level longer than tier C for the same reason. Checks are stratified over k = 1..6 so an opponent whose play settles only after a few levels (another V5 reading me) is still read.</p>
+</section>
+
+<section>
+  <h2>Worked example: Chicken, the paper's matrix</h2>
+  <div class="chick">
+    <div>
+      <div class="matrix">
+        <div class="h"></div><div class="h">Sw</div><div class="h">DS</div>
+        <div class="h">Sw</div><div>0, 0</div><div>−1, 5</div>
+        <div class="h">DS</div><div>5, −1</div><div>−100, −100</div>
+      </div>
+      <p class="note" style="margin-top:8px">Maxmin values (−1, −1). F = coin over (Sw,DS) and (DS,Sw), worth (2, 2).</p>
+    </div>
+    <ul>
+      <li><strong>Copies</strong>: tier B, both flip the public coin, expected (2, 2), never crash.</li>
+      <li><strong>Stone that never swerves</strong>: tier C reads it. Giving in (Sw) pays it 5, refusing (DS) pays it −100, so the threshold is 102/105 = 0.971; with M = 20, V5 swerves with p = 0.95. The stone's expectation is −0.25, below its fair 2 (it would get 5 if V5 always gave in). V5 expects −5.95, below its maxmin of −1: the price of giving in rather than crashing every time.</li>
+      <li><strong>Stone that always swerves</strong>: tier A, V5 never swerves and takes 5.</li>
+      <li><strong>Stone mixing 50/50 with its private draw</strong> (K = 4): tier C reads the mix; the stone expects −0.15. Always swerving would have handed it 2.5, above fair.</li>
+      <li><strong>FairBot or PrudentBot aimed at F</strong>: V5 takes 5. Their fallback is to swerve, so against the constant non-swerver they swerve, and tier A reads that. V3-B and V4 exploit them the same way.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Ultimatum, in normal form</h2>
+  <p>Offerer picks an offer o ∈ 0..10 to the responder; responder picks a threshold t and accepts iff o ≥ t. A mix over thresholds is any monotone acceptance rule, so the responder's probabilistic giving-in is representable. F = 5/5, and the tie-break picks "accept iff ≥ 5" over "accept everything" (same payoff at F, far less for the offerer to gain by deviating).</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Offerer</th><th>Responder (V5, fair = 5)</th><th class="m">accept p</th><th class="m">threshold</th><th class="m">offerer EV</th><th class="m">responder EV</th></tr></thead>
+    <tbody>
+      <tr><td>V5 copy</td><td>offers 5, accepts</td><td class="m">1</td><td class="m">—</td><td class="m">5.00</td><td class="m">5.00</td></tr>
+      <tr><td>stone, offers 4</td><td>t0 79%, t5 21%</td><td class="m">19/24 = 0.79</td><td class="m">5/6 = 0.83</td><td class="m">4.75 <span class="pill fair">&lt; 5</span></td><td class="m">3.17</td></tr>
+      <tr><td>stone, offers 1</td><td>t0 54%, t5 46%</td><td class="m">13/24 = 0.54</td><td class="m">5/9 = 0.56</td><td class="m">4.88 <span class="pill fair">&lt; 5</span></td><td class="m">0.54</td></tr>
+      <tr><td>stone, offers 7</td><td>accepts</td><td class="m">1</td><td class="m">—</td><td class="m">3.00</td><td class="m">7.00</td></tr>
+      <tr><td>stone, offers 49 of 100</td><td>V5 with fair = 50/50</td><td class="m">0.98</td><td class="m">50/51 = 0.980</td><td class="m">49.98 <span class="pill fair">&lt; 50</span></td><td class="m">48.02</td></tr>
+      <tr><td>V5 that thinks 4 is fair</td><td>V5 that thinks 5 is fair</td><td class="m">1</td><td class="m">—</td><td class="m">5.00</td><td class="m">5.00</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">The 49-of-100 row is the paper's "98% cooperation" number. In the last row the offerer reads the responder's probabilistic policy and finds that offering 5 is its best response to it (5 beats 0.98 × 6), so two V5s with different notions of fairness settle at the responder's 5/5 with no rejections at all.</p>
+</section>
+
+<section>
+  <h2>Named games, all agents</h2>
+  <p>Row player's play, then column player's. The older agents run in the deterministic evaluator with FairBot/PrudentBot aimed at the max-sum outcome; V5 runs in the randomised evaluator with FairBot-F/PrudentBot-F aimed at the Nash bargaining point. Mixed plays show action frequencies.</p>
+  <div class="ctrl"><label for="opp">Opponent</label><select id="opp"></select><span class="legend"><span class="pill fair">at F</span> both at the fair point <span class="pill above">above</span> V5 above F <span class="pill below">below</span> V5 below F <span class="pill exp">expl.</span> V5 exploits a constant bot</span></div>
+  <div class="scroll"><table id="cmp"><thead><tr><th>Game</th><th>Fair point</th><th>UDT</th><th>V3-B</th><th>V4</th><th>FB</th><th>PB</th><th>V5</th></tr></thead><tbody></tbody></table></div>
+  <p class="note">UDT = greedy modal UDT (checks "if I play a, I get ≥ u" best-first, PA). PD10/3/1/0 has T + S &gt; 2R, so its Nash bargaining point is the coin over (C,D)/(D,C), worth (5, 5) rather than (3, 3); V5 copies play it and defect against a FairBot that insists on (C,C). Matching Pennies is zero-sum: V5 gets (0, 0) in self-play but has only a pure maxmin fallback.</p>
+</section>
+
+<section>
+  <h2>Random 2×2 and 3×3 games</h2>
+  <div class="cards">
+    <div class="card"><span class="n">200/200</span><span class="l">copies reach exactly the fair point</span></div>
+    <div class="card"><span class="n">0/66</span><span class="l">copies miss an outcome best for both players (games that have one)</span></div>
+    <div class="card"><span class="n">327/400</span><span class="l">at F with FairBot-F; above F in the other 73</span></div>
+    <div class="card"><span class="n">219/400</span><span class="l">at F with PrudentBot-F; above in 85, below in 96</span></div>
+  </div>
+  <h3>Copies missing an outcome that is best for both players</h3>
+  <div class="bars">
+    <div class="bar"><span>UDT</span><div class="tr"><div class="fl" style="width:38%"></div></div><span class="m">38%</span></div>
+    <div class="bar"><span>V3-B</span><div class="tr"><div class="fl" style="width:13%"></div></div><span class="m">13%</span></div>
+    <div class="bar"><span>V4</span><div class="tr"><div class="fl" style="width:12%"></div></div><span class="m">12%</span></div>
+    <div class="bar v5"><span>V5</span><div class="tr"><div class="fl" style="width:0%"></div></div><span class="m">0%</span></div>
+  </div>
+  <p class="note">UDT/V3-B/V4: 600 games, 188 with such an outcome (original sweeps). V5: 200 games, 66 with one. The older agents fail because copies order equally good outcomes by action index; V5's shared F removes the ambiguity. The 96 PrudentBot-F cases where V5 ends below F are PrudentBot's probe: it asks whether V5 plays its F action against a constant bot, which V5 does whenever that is its best response or part of its giving-in mix, and reads it as cooperating with a stone.</p>
+</section>
+
+<section>
+  <h2>Threatener sweep</h2>
+  <p>In every game (named and random), in both seats, the opponent commits to each pure action. A commitment is a <em>threat</em> when the committer would get more than its fair payoff if V5 simply gave in. A commitment that depends on the public draw is handled per r_pub by the same checks, so pure commitments cover public mixes.</p>
+  <div class="cards">
+    <div class="card"><span class="n">1048/1048</span><span class="l">committer's expected payoff ≤ its fair payoff</span></div>
+    <div class="card"><span class="n">67/67</span><span class="l">of which threats, all held below fair</span></div>
+    <div class="card"><span class="n">45/67</span><span class="l">threats where V5 ends below its own maxmin</span></div>
+    <div class="card"><span class="n">0</span><span class="l">non-threats where V5 ends below its maxmin</span></div>
+  </div>
+  <div class="scroll"><table>
+    <thead><tr><th>Game</th><th>Commits to</th><th class="m">if V5 gave in</th><th class="m">fair</th><th class="m">committer gets</th><th class="m">V5 gets</th><th class="m">V5 maxmin</th></tr></thead>
+    <tbody>
+      <tr><td>Chicken</td><td>DS</td><td class="m">5</td><td class="m">2</td><td class="m">−5.50</td><td class="m">−10.90</td><td class="m">−1</td></tr>
+      <tr><td>Chicken-mild</td><td>St</td><td class="m">4</td><td class="m">3</td><td class="m">2.80</td><td class="m">0.70</td><td class="m">1</td></tr>
+      <tr><td>BoS</td><td>B (row V5)</td><td class="m">2</td><td class="m">1.5</td><td class="m">1.40</td><td class="m">0.70</td><td class="m">0</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Sweep run at M = 10, so the Chicken give-in probability here is 0.90 (0.95 at M = 20 in the tests). The 61 other threats are in random games.</p>
+</section>
+
+<section>
+  <h2>What this does not settle</h2>
+  <ul>
+    <li>The unexploitability notion ("committer's expectation ≤ its fair payoff") is the paper's; whether it is the right one when the committer is itself a reader is tested in one Ultimatum case only.</li>
+    <li>Reading an opponent's policy costs #actions² × M boxes per public draw. Private mixes finer than the coarse resolution K are not read and fall to the maxmin floor, which a finely mixing threatener can use (always-swerve hands a 50/50 Chicken mixer 2.5).</li>
+    <li>The patience constants (3 for tier C, 4 for tier A) are what made the named games work; they are tuned, not derived. Tier C's reading dynamics between two readers converged in every case tried, with no proof that they must.</li>
+    <li>Zero-sum games get a pure maxmin fallback, not the mixed one.</li>
+    <li>Idealised agents only. Nothing here is bounded; the repo's BPC bots are untouched.</li>
+  </ul>
+  <p class="note">Files: <code>rmodal.py</code>, <code>v5.py</code>, <code>test_v5.py</code> (~30 s), <code>run_v5.py</code> (~2.5 min), <code>compare.py</code>; outputs <code>v5_tables.txt</code>, <code>sweep_v5.txt</code>, <code>v5_results.json</code>, <code>compare.json</code>. README section "Version 5".</p>
+</section>
+</main>
+<script>
+const DATA = {"PD5/3/1/0":{"fair":"(C,C)","fp":[3.0,3.0],"mm":[1,1],"acts":[["C","D"],["C","D"]],"rows":{"UDT":{"copy":["C,C",[3,3]],"FB":["D,D",[1,1]],"PB":["D,D",[1,1]],"Const C":["D,C",[5,0]],"Const D":["D,D",[1,1]]},"V3-B":{"copy":["C,C",[3,3]],"FB":["C,C",[3,3]],"PB":["C,C",[3,3]],"Const C":["C,C",[3,3]],"Const D":["D,D",[1,1]]},"V4":{"copy":["C,C",[3,3]],"FB":["C,C",[3,3]],"PB":["C,C",[3,3]],"Const C":["D,C",[5,0]],"Const D":["D,D",[1,1]]},"FB":{"copy":["C,C",[3,3]],"FB":["C,C",[3,3]],"PB":["C,C",[3,3]],"Const C":["C,C",[3,3]],"Const D":["D,D",[1,1]]},"PB":{"copy":["C,C",[3,3]],"FB":["C,C",[3,3]],"PB":["C,C",[3,3]],"Const C":["D,C",[5,0]],"Const D":["D,D",[1,1]]},"V5":{"copy":["[C:1.00],[C:1.00]",[3.0,3.0]],"FB":["[C:1.00],[C:1.00]",[3.0,3.0]],"PB":["[C:1.00],[C:1.00]",[3.0,3.0]],"Const C":["[D:1.00],[C:1.00]",[5.0,0.0]],"Const D":["[D:1.00],[D:1.00]",[1.0,1.0]]}}},"PD3/2/1/0":{"fair":"(C,C)","fp":[2.0,2.0],"mm":[1,1],"acts":[["C","D"],["C","D"]],"rows":{"UDT":{"copy":["C,C",[2,2]],"FB":["D,D",[1,1]],"PB":["D,D",[1,1]],"Const C":["D,C",[3,0]],"Const D":["D,D",[1,1]]},"V3-B":{"copy":["C,C",[2,2]],"FB":["C,C",[2,2]],"PB":["C,C",[2,2]],"Const C":["C,C",[2,2]],"Const D":["D,D",[1,1]]},"V4":{"copy":["C,C",[2,2]],"FB":["C,C",[2,2]],"PB":["C,C",[2,2]],"Const C":["D,C",[3,0]],"Const D":["D,D",[1,1]]},"FB":{"copy":["C,C",[2,2]],"FB":["C,C",[2,2]],"PB":["C,C",[2,2]],"Const C":["C,C",[2,2]],"Const D":["D,D",[1,1]]},"PB":{"copy":["C,C",[2,2]],"FB":["C,C",[2,2]],"PB":["C,C",[2,2]],"Const C":["D,C",[3,0]],"Const D":["D,D",[1,1]]},"V5":{"copy":["[C:1.00],[C:1.00]",[2.0,2.0]],"FB":["[C:1.00],[C:1.00]",[2.0,2.0]],"PB":["[C:1.00],[C:1.00]",[2.0,2.0]],"Const C":["[D:1.00],[C:1.00]",[3.0,0.0]],"Const D":["[D:1.00],[D:1.00]",[1.0,1.0]]}}},"PD4/3/2/1":{"fair":"(C,C)","fp":[3.0,3.0],"mm":[2,2],"acts":[["C","D"],["C","D"]],"rows":{"UDT":{"copy":["C,C",[3,3]],"FB":["D,D",[2,2]],"PB":["D,D",[2,2]],"Const C":["D,C",[4,1]],"Const D":["D,D",[2,2]]},"V3-B":{"copy":["C,C",[3,3]],"FB":["C,C",[3,3]],"PB":["C,C",[3,3]],"Const C":["C,C",[3,3]],"Const D":["D,D",[2,2]]},"V4":{"copy":["C,C",[3,3]],"FB":["C,C",[3,3]],"PB":["C,C",[3,3]],"Const C":["D,C",[4,1]],"Const D":["D,D",[2,2]]},"FB":{"copy":["C,C",[3,3]],"FB":["C,C",[3,3]],"PB":["C,C",[3,3]],"Const C":["C,C",[3,3]],"Const D":["D,D",[2,2]]},"PB":{"copy":["C,C",[3,3]],"FB":["C,C",[3,3]],"PB":["C,C",[3,3]],"Const C":["D,C",[4,1]],"Const D":["D,D",[2,2]]},"V5":{"copy":["[C:1.00],[C:1.00]",[3.0,3.0]],"FB":["[C:1.00],[C:1.00]",[3.0,3.0]],"PB":["[C:1.00],[C:1.00]",[3.0,3.0]],"Const C":["[D:1.00],[C:1.00]",[4.0,1.0]],"Const D":["[D:1.00],[D:1.00]",[2.0,2.0]]}}},"PD3/2/0/-1":{"fair":"(C,C)","fp":[2.0,2.0],"mm":[0,0],"acts":[["C","D"],["C","D"]],"rows":{"UDT":{"copy":["C,C",[2,2]],"FB":["D,D",[0,0]],"PB":["D,D",[0,0]],"Const C":["D,C",[3,-1]],"Const D":["D,D",[0,0]]},"V3-B":{"copy":["C,C",[2,2]],"FB":["C,C",[2,2]],"PB":["C,C",[2,2]],"Const C":["C,C",[2,2]],"Const D":["D,D",[0,0]]},"V4":{"copy":["C,C",[2,2]],"FB":["C,C",[2,2]],"PB":["C,C",[2,2]],"Const C":["D,C",[3,-1]],"Const D":["D,D",[0,0]]},"FB":{"copy":["C,C",[2,2]],"FB":["C,C",[2,2]],"PB":["C,C",[2,2]],"Const C":["C,C",[2,2]],"Const D":["D,D",[0,0]]},"PB":{"copy":["C,C",[2,2]],"FB":["C,C",[2,2]],"PB":["C,C",[2,2]],"Const C":["D,C",[3,-1]],"Const D":["D,D",[0,0]]},"V5":{"copy":["[C:1.00],[C:1.00]",[2.0,2.0]],"FB":["[C:1.00],[C:1.00]",[2.0,2.0]],"PB":["[C:1.00],[C:1.00]",[2.0,2.0]],"Const C":["[D:1.00],[C:1.00]",[3.0,-1.0]],"Const D":["[D:1.00],[D:1.00]",[0.0,0.0]]}}},"PD10/3/1/0":{"fair":"2/4 \u00d7 (C,D) + 2/4 \u00d7 (D,C)","fp":[5.0,5.0],"mm":[1,1],"acts":[["C","D"],["C","D"]],"rows":{"UDT":{"copy":["C,C",[3,3]],"FB":["D,D",[1,1]],"PB":["D,D",[1,1]],"Const C":["D,C",[10,0]],"Const D":["D,D",[1,1]]},"V3-B":{"copy":["C,C",[3,3]],"FB":["C,C",[3,3]],"PB":["C,C",[3,3]],"Const C":["C,C",[3,3]],"Const D":["D,D",[1,1]]},"V4":{"copy":["C,C",[3,3]],"FB":["C,C",[3,3]],"PB":["C,C",[3,3]],"Const C":["D,C",[10,0]],"Const D":["D,D",[1,1]]},"FB":{"copy":["C,C",[3,3]],"FB":["C,C",[3,3]],"PB":["C,C",[3,3]],"Const C":["C,C",[3,3]],"Const D":["D,D",[1,1]]},"PB":{"copy":["C,C",[3,3]],"FB":["C,C",[3,3]],"PB":["C,C",[3,3]],"Const C":["D,C",[10,0]],"Const D":["D,D",[1,1]]},"V5":{"copy":["[C:0.50 D:0.50],[C:0.50 D:0.50]",[5.0,5.0]],"FB":["[C:0.50 D:0.50],[C:0.50 D:0.50]",[5.0,5.0]],"PB":["[C:0.50 D:0.50],[C:0.50 D:0.50]",[5.0,5.0]],"Const C":["[D:1.00],[C:1.00]",[10.0,0.0]],"Const D":["[D:1.00],[D:1.00]",[1.0,1.0]]}}},"StagHunt":{"fair":"(S,S)","fp":[4.0,4.0],"mm":[3,3],"acts":[["S","H"],["S","H"]],"rows":{"UDT":{"copy":["S,S",[4,4]],"FB":["S,S",[4,4]],"PB":["S,S",[4,4]],"Const S":["S,S",[4,4]],"Const H":["H,H",[3,3]]},"V3-B":{"copy":["S,S",[4,4]],"FB":["S,S",[4,4]],"PB":["S,S",[4,4]],"Const S":["S,S",[4,4]],"Const H":["H,H",[3,3]]},"V4":{"copy":["S,S",[4,4]],"FB":["S,S",[4,4]],"PB":["S,S",[4,4]],"Const S":["S,S",[4,4]],"Const H":["H,H",[3,3]]},"FB":{"copy":["S,S",[4,4]],"FB":["S,S",[4,4]],"PB":["S,S",[4,4]],"Const S":["S,S",[4,4]],"Const H":["H,H",[3,3]]},"PB":{"copy":["S,S",[4,4]],"FB":["S,S",[4,4]],"PB":["S,S",[4,4]],"Const S":["H,S",[3,0]],"Const H":["H,H",[3,3]]},"V5":{"copy":["[S:1.00],[S:1.00]",[4.0,4.0]],"FB":["[S:1.00],[S:1.00]",[4.0,4.0]],"PB":["[S:1.00],[S:1.00]",[4.0,4.0]],"Const S":["[S:1.00],[S:1.00]",[4.0,4.0]],"Const H":["[H:1.00],[H:1.00]",[3.0,3.0]]}}},"Chicken":{"fair":"2/4 \u00d7 (Sw,DS) + 2/4 \u00d7 (DS,Sw)","fp":[2.0,2.0],"mm":[-1,-1],"acts":[["Sw","DS"],["Sw","DS"]],"rows":{"UDT":{"copy":["Sw,Sw",[0,0]],"FB":["Sw,Sw",[0,0]],"PB":["Sw,Sw",[0,0]],"Const Sw":["DS,Sw",[5,-1]],"Const DS":["Sw,DS",[-1,5]]},"V3-B":{"copy":["Sw,Sw",[0,0]],"FB":["Sw,Sw",[0,0]],"PB":["Sw,Sw",[0,0]],"Const Sw":["DS,Sw",[5,-1]],"Const DS":["Sw,DS",[-1,5]]},"V4":{"copy":["Sw,Sw",[0,0]],"FB":["Sw,Sw",[0,0]],"PB":["Sw,Sw",[0,0]],"Const Sw":["DS,Sw",[5,-1]],"Const DS":["Sw,DS",[-1,5]]},"FB":{"copy":["Sw,DS",[-1,5]],"FB":["Sw,DS",[-1,5]],"PB":["Sw,Sw",[0,0]],"Const Sw":["Sw,Sw",[0,0]],"Const DS":["Sw,DS",[-1,5]]},"PB":{"copy":["Sw,Sw",[0,0]],"FB":["Sw,DS",[-1,5]],"PB":["Sw,Sw",[0,0]],"Const Sw":["Sw,Sw",[0,0]],"Const DS":["Sw,DS",[-1,5]]},"V5":{"copy":["[Sw:0.50 DS:0.50],[Sw:0.50 DS:0.50]",[2.0,2.0]],"FB":["[DS:1.00],[Sw:1.00]",[5.0,-1.0]],"PB":["[DS:1.00],[Sw:1.00]",[5.0,-1.0]],"Const Sw":["[DS:1.00],[Sw:1.00]",[5.0,-1.0]],"Const DS":["[Sw:0.90 DS:0.10],[DS:1.00]",[-10.9,-5.5]]}}},"Chicken-mild":{"fair":"(Sw,Sw)","fp":[3.0,3.0],"mm":[1,1],"acts":[["Sw","St"],["Sw","St"]],"rows":{"UDT":{"copy":["Sw,Sw",[3,3]],"FB":["St,Sw",[4,1]],"PB":["St,Sw",[4,1]],"Const Sw":["St,Sw",[4,1]],"Const St":["Sw,St",[1,4]]},"V3-B":{"copy":["Sw,Sw",[3,3]],"FB":["St,Sw",[4,1]],"PB":["St,Sw",[4,1]],"Const Sw":["St,Sw",[4,1]],"Const St":["Sw,St",[1,4]]},"V4":{"copy":["Sw,Sw",[3,3]],"FB":["St,Sw",[4,1]],"PB":["St,Sw",[4,1]],"Const Sw":["St,Sw",[4,1]],"Const St":["Sw,St",[1,4]]},"FB":{"copy":["Sw,Sw",[3,3]],"FB":["Sw,Sw",[3,3]],"PB":["Sw,Sw",[3,3]],"Const Sw":["Sw,Sw",[3,3]],"Const St":["Sw,St",[1,4]]},"PB":{"copy":["Sw,Sw",[3,3]],"FB":["Sw,Sw",[3,3]],"PB":["Sw,Sw",[3,3]],"Const Sw":["Sw,Sw",[3,3]],"Const St":["Sw,St",[1,4]]},"V5":{"copy":["[Sw:1.00],[Sw:1.00]",[3.0,3.0]],"FB":["[St:1.00],[Sw:1.00]",[4.0,1.0]],"PB":["[St:1.00],[Sw:1.00]",[4.0,1.0]],"Const Sw":["[St:1.00],[Sw:1.00]",[4.0,1.0]],"Const St":["[Sw:0.70 St:0.30],[St:1.00]",[0.7,2.8]]}}},"BoS":{"fair":"2/4 \u00d7 (A,A) + 2/4 \u00d7 (B,B)","fp":[1.5,1.5],"mm":[0,0],"acts":[["A","B"],["A","B"]],"rows":{"UDT":{"copy":["A,A",[2,1]],"FB":["A,A",[2,1]],"PB":["A,A",[2,1]],"Const A":["A,A",[2,1]],"Const B":["B,B",[1,2]]},"V3-B":{"copy":["A,A",[2,1]],"FB":["A,A",[2,1]],"PB":["A,A",[2,1]],"Const A":["A,A",[2,1]],"Const B":["B,B",[1,2]]},"V4":{"copy":["A,A",[2,1]],"FB":["A,A",[2,1]],"PB":["A,A",[2,1]],"Const A":["A,A",[2,1]],"Const B":["B,B",[1,2]]},"FB":{"copy":["A,A",[2,1]],"FB":["A,A",[2,1]],"PB":["A,A",[2,1]],"Const A":["A,A",[2,1]],"Const B":["A,B",[0,0]]},"PB":{"copy":["A,A",[2,1]],"FB":["A,A",[2,1]],"PB":["A,A",[2,1]],"Const A":["A,A",[2,1]],"Const B":["A,B",[0,0]]},"V5":{"copy":["[A:0.50 B:0.50],[A:0.50 B:0.50]",[1.5,1.5]],"FB":["[A:1.00],[A:1.00]",[2.0,1.0]],"PB":["[A:1.00],[A:1.00]",[2.0,1.0]],"Const A":["[A:1.00],[A:1.00]",[2.0,1.0]],"Const B":["[A:0.30 B:0.70],[B:1.00]",[0.7,1.4]]}}},"Coord":{"fair":"2/4 \u00d7 (A,A) + 2/4 \u00d7 (B,B)","fp":[1.0,1.0],"mm":[0,0],"acts":[["A","B"],["A","B"]],"rows":{"UDT":{"copy":["A,A",[1,1]],"FB":["A,A",[1,1]],"PB":["A,A",[1,1]],"Const A":["A,A",[1,1]],"Const B":["B,B",[1,1]]},"V3-B":{"copy":["A,A",[1,1]],"FB":["A,A",[1,1]],"PB":["A,A",[1,1]],"Const A":["A,A",[1,1]],"Const B":["B,B",[1,1]]},"V4":{"copy":["A,A",[1,1]],"FB":["A,A",[1,1]],"PB":["A,A",[1,1]],"Const A":["A,A",[1,1]],"Const B":["B,B",[1,1]]},"FB":{"copy":["A,A",[1,1]],"FB":["A,A",[1,1]],"PB":["A,A",[1,1]],"Const A":["A,A",[1,1]],"Const B":["A,B",[0,0]]},"PB":{"copy":["A,A",[1,1]],"FB":["A,A",[1,1]],"PB":["A,A",[1,1]],"Const A":["A,A",[1,1]],"Const B":["A,B",[0,0]]},"V5":{"copy":["[A:0.50 B:0.50],[A:0.50 B:0.50]",[1.0,1.0]],"FB":["[A:0.50 B:0.50],[A:0.50 B:0.50]",[1.0,1.0]],"PB":["[A:0.50 B:0.50],[A:0.50 B:0.50]",[1.0,1.0]],"Const A":["[A:1.00],[A:1.00]",[1.0,1.0]],"Const B":["[B:1.00],[B:1.00]",[1.0,1.0]]}}},"CoordRanked":{"fair":"(A,A)","fp":[2.0,2.0],"mm":[0,0],"acts":[["A","B"],["A","B"]],"rows":{"UDT":{"copy":["A,A",[2,2]],"FB":["A,A",[2,2]],"PB":["A,A",[2,2]],"Const A":["A,A",[2,2]],"Const B":["B,B",[1,1]]},"V3-B":{"copy":["A,A",[2,2]],"FB":["A,A",[2,2]],"PB":["A,A",[2,2]],"Const A":["A,A",[2,2]],"Const B":["B,B",[1,1]]},"V4":{"copy":["A,A",[2,2]],"FB":["A,A",[2,2]],"PB":["A,A",[2,2]],"Const A":["A,A",[2,2]],"Const B":["B,B",[1,1]]},"FB":{"copy":["A,A",[2,2]],"FB":["A,A",[2,2]],"PB":["A,A",[2,2]],"Const A":["A,A",[2,2]],"Const B":["A,B",[0,0]]},"PB":{"copy":["A,A",[2,2]],"FB":["A,A",[2,2]],"PB":["A,A",[2,2]],"Const A":["A,A",[2,2]],"Const B":["A,B",[0,0]]},"V5":{"copy":["[A:1.00],[A:1.00]",[2.0,2.0]],"FB":["[A:1.00],[A:1.00]",[2.0,2.0]],"PB":["[A:1.00],[A:1.00]",[2.0,2.0]],"Const A":["[A:1.00],[A:1.00]",[2.0,2.0]],"Const B":["[B:1.00],[B:1.00]",[1.0,1.0]]}}},"MatchingPennies":{"fair":"2/4 \u00d7 (H,H) + 2/4 \u00d7 (H,T)","fp":[0.0,0.0],"mm":[-1,-1],"acts":[["H","T"],["H","T"]],"rows":{"UDT":{"copy":["H,H",[1,-1]],"FB":["H,H",[1,-1]],"PB":["H,H",[1,-1]],"Const H":["H,H",[1,-1]],"Const T":["T,T",[1,-1]]},"V3-B":{"copy":["H,H",[1,-1]],"FB":["H,H",[1,-1]],"PB":["H,H",[1,-1]],"Const H":["H,H",[1,-1]],"Const T":["T,T",[1,-1]]},"V4":{"copy":["H,H",[1,-1]],"FB":["H,H",[1,-1]],"PB":["H,H",[1,-1]],"Const H":["H,H",[1,-1]],"Const T":["T,T",[1,-1]]},"FB":{"copy":["H,H",[1,-1]],"FB":["H,H",[1,-1]],"PB":["H,H",[1,-1]],"Const H":["H,H",[1,-1]],"Const T":["H,T",[-1,1]]},"PB":{"copy":["H,H",[1,-1]],"FB":["H,H",[1,-1]],"PB":["H,H",[1,-1]],"Const H":["H,H",[1,-1]],"Const T":["H,T",[-1,1]]},"V5":{"copy":["[H:1.00],[H:0.50 T:0.50]",[0.0,0.0]],"FB":["[H:1.00],[H:0.50 T:0.50]",[0.0,0.0]],"PB":["[H:1.00],[H:1.00]",[1.0,-1.0]],"Const H":["[H:1.00],[H:1.00]",[1.0,-1.0]],"Const T":["[T:1.00],[T:1.00]",[1.0,-1.0]]}}}};
+const agents = ["UDT","V3-B","V4","FB","PB","V5"];
+const sel = document.getElementById("opp"), tb = document.querySelector("#cmp tbody");
+const opts = ["copy","FB","PB"];
+const consts = new Set(); for (const g of Object.values(DATA)) for (const o of Object.keys(g.rows.V5)) if (o.startsWith("Const")) consts.add(o);
+const allOpts = opts.concat([...consts].sort());
+for (const o of allOpts){ const e=document.createElement("option"); e.value=o; e.textContent = o==="copy"?"a copy of itself":o==="FB"?"FairBot":o==="PB"?"PrudentBot":"constant bot: "+o.slice(6); sel.appendChild(e); }
+function tag(g, o, cell){
+  const fp=g.fp, ev=cell[1], eps=1e-9;
+  if (o.startsWith("Const")){ return ev[0]>fp[0]+eps ? '<span class="pill exp">expl.</span>' : (ev[0]<fp[0]-eps?'<span class="pill below">below</span>':''); }
+  if (Math.abs(ev[0]-fp[0])<eps && Math.abs(ev[1]-fp[1])<eps) return '<span class="pill fair">at F</span>';
+  return ev[0]>fp[0]+eps ? '<span class="pill above">above</span>' : '<span class="pill below">below</span>';
+}
+function render(){
+  const o=sel.value; tb.innerHTML="";
+  for (const [name,g] of Object.entries(DATA)){
+    const tr=document.createElement("tr");
+    let h=`<td>${name}</td><td class="m">${g.fair} <span class="tag">(${g.fp[0]}, ${g.fp[1]})</span></td>`;
+    for (const a of agents){
+      const c=g.rows[a][o];
+      if(!c){h+='<td class="m">—</td>';continue;}
+      const ev=c[1].map(x=>Number.isInteger(x)?x:x.toFixed(2));
+      h+=`<td class="m${a==="V5"?" v5":""}">${c[0]}<br><span class="tag">(${ev[0]}, ${ev[1]})</span> ${a==="V5"?tag(g,o,c):""}</td>`;
+    }
+    tr.innerHTML=h; tb.appendChild(tr);
+  }
+}
+sel.addEventListener("change",render); render();
+</script>
