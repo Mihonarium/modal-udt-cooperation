@@ -533,3 +533,28 @@ incentive to be avoided.  V5 therefore keeps the threat-resistant response for e
 search: coordinate ascent from three starting tables (the maxmin start is a local trap in Chicken), the exploit probe
 can be fooled by a predictor that gives in against a constant but commits against the agent, and the Ultimatum run was
 not finished at the time of writing (`udt_pop_ult4.log`).
+
+## Grounded bounded V5: arbitrary opponent programs (`grounded_v5.py`, `test_grounded_v5.py`)
+
+The exact bounded V5 above gives the maxmin action to any program it cannot parse.  This third implementation
+handles ARBITRARY halting programs by running them, with the regress of mutual simulation ended as in Oesterheld,
+"Robust program equilibrium" (2019): with probability eps per decision the bot acts without simulating (it plays its
+part of F), so nested simulation ends with probability 1 and costs a geometric series in 1 - eps.  Bots are Python
+source text `act(me, opp, r_pub, rng, game)`; a bot may `run` another source; runs burn fuel and the top-level run has
+a wall-clock limit, so a program that loops or crashes is the only thing that still gets maxmin.  Commitment tables
+are read exactly as before; probes against constant agents (which do not recurse) are sampled 60 times at every public
+draw; the one recursive step is a single sample of the opponent against me; the give-in probability is set against
+the committer's expectation over ALL public draws (a program committed to one action collects the coin's fair outcome
+at the draws where that action is its part of F, so the probability elsewhere must be lower: 0.90 in Chicken rather
+than 0.95).  COMPUTED (Monte Carlo over random tapes, eps = 0.05, 580 s):
+- PD: copies C,C (3, 3); D against CooperateBot and DefectBot; C,C with an eps-grounded FairBot written in different
+  code; against a program that never halts, or crashes, D except for the eps grounding.
+- Chicken: copies play the coin with about 1% crashes from independent sample chains disagreeing, expected (0.95,
+  1.01) against the ideal (2, 2); the committed non-swerver gets 1.06 < 2 and is swerved against 96% of the time; the
+  always-swerver is taken for 5; a private 50/50 mixer (a table) gets -0.83.
+- Ultimatum: copies 5/5; a stone offering 4 is accepted ~0.8 of the time and gets 4.89 < 5; an offerer that thinks 4
+  is fair against a responder that thinks 5 settles at (3.39, 3.01), where the idealised pair reach (5, 5) and the
+  exact bounded pair (0, 0).
+- Random 2x2 games: copies within 0.5 of the fair point in 12/12.
+Costs: sampling noise (the 1% crash rate; nothing like it in the exact versions), and time (seconds per decision in
+the Ultimatum).  Not done: a proof-based treatment of foreign provers; the grounded bot trusts execution instead.
