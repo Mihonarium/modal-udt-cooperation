@@ -736,3 +736,124 @@ action can serve only one of them; Mikhail chose the rock.  The rock is a conven
 copy gets (-0.4, -0.1) in Chicken.  Full sweep unchanged: `test_v5.py` ALL OK; copies at F 200/200, miss a both-best
 outcome 0/66, FairBot-F at F 340/400 and above F elsewhere, commitments 1048/1048 (threats 67/67), unreadable mixers
 2094/2096.
+
+## Round-robin tournament and selection dynamics (2026-11-07/08; `tournament.py`, `evolve.py`)
+
+Mikhail: a competition between all kinds of agents, and then selection — more copies next round for whoever wins
+more — to see where a population ends up depending on where it starts.
+
+`tournament.py`: 14 agents, every pair in both seats including self-play, 72 games (the 12 named games, 40 random
+2x2, 20 random 3x3), in `rmodal` with R(npub=2, k=1, m=10).  Scores are the payoff normalised to the matrix's range
+for the seat, (u - min U)/(max U - min U), averaged over opponents and seats, then over games (Chicken's -100 would
+otherwise swamp everything).  The field: V6 (default, level-0 rock in gated games), V6-norock, V5R, V5; FairBot-F
+and PrudentBot-F aimed at the fair point (fallback maxmin); StubbornFB (fair iff provably fair, else its threat
+action); Punisher ("be provably a rock or I commit": best-responds iff PA proves the opponent plays its threat
+action, else plays its own, Chicken's SIC(PA, Straight) in any game); BestResponder (V6's reader with reciprocation
+removed: best-responds to provable commitments, never gives in, maxmin otherwise); GreedyUDT (the repo's original
+greedy modal UDT, "play a if PA proves that a gets me at least u", u descending); FairStone (plays its part of the
+fair point unconditionally); ThreatStone; MaxminStone; Mixer (threat action w.p. 0.9 by a private draw, unreadable
+at k = 1).  Output `tournament.txt`, `tournament.json`; 250 s.  (Figures below are from the final run, after the
+two changes described next; the changes moved 7 % of the cells and no ranking.)
+
+COMPUTED, leaderboard (score; named / random): V6 0.798 (0.708 / 0.816), V6-norock 0.797 (0.701 / 0.816), V5R 0.793,
+V5 0.792, BestResponder 0.760, FairBot 0.758, GreedyUDT 0.756, StubbornFB 0.755, PrudentBot 0.749, Punisher 0.733,
+ThreatStone 0.732, FairStone 0.716, Mixer 0.715, MaxminStone 0.668.  V6 is first or within 0.01 of first in every
+named game (Matching Pennies: 0.775 vs V5's 0.784, because V5's deterministic default happened to beat the other
+agents' identical tie-break; V6's 50/50 cannot, and should not).  The gap between our four variants (0.007) is smaller than the gap
+to the next tier (0.03); the rock is a wash overall (0.798 vs 0.797).  In the PD every V6/V5 variant and PrudentBot
+score 0.463 (C with every reciprocator, D against everything else, 5 against FairStone), FairBot and StubbornFB
+0.434 (the same but cooperating with FairStone), GreedyUDT 0.291 (defects against every reciprocator, as the repo's
+README says; mutual cooperation only with its copy).
+
+Where V6 loses points, from the head-to-head tables (`tournament.txt`): Chicken against the stubborn reciprocator
+(-10.9: the rock cost) and against the 9/10 mixer (-10.3: the price of holding it below fair); mild Chicken against
+V6-norock (2.52 each, fair is 3) and against V5R (3.30 / 2.40): two rocks of different shape, or a rock and a
+non-rock, cycle through transients and freeze off the fair point.  Every one of these is a convention cost: the
+rock, or its exact formula, has to be shared.
+
+**The Stag Hunt finding and the new default.**  The first run showed V6 getting 0 in the Stag Hunt against
+BestResponder (V5: 3).  V6's default then answered "the opponent's most profitable commitment b*" with C's rule; in
+the Stag Hunt b* is Stag and giving in to Stag is harmless, so the default was Stag — against an opponent whose
+default is Hare and which reads commitments the same way: each reads the other's level-1 transient, they swap,
+the strata burn out and the chain freezes at (Stag, Hare).  The fix is the "mix-proof default" that was on the open
+list, generalised: D' is now a distribution d over my actions (on the private-draw grid) such that every opponent
+action b gets at most its fair payoff against d — strictly less for a threat, where feasible — and among those the
+one that lexicographically maximises (my guaranteed payoff over b; my payoff if the opponent plays its fair action;
+my average payoff over b; the opponent's total payoff over b, lower first; the weight on my fair action).  Nothing
+is assumed about an opponent we cannot read, and no behaviour we cannot read pays more than being fair.  Exact by
+enumeration of the grid for small games, hill-climbing from a few starts for the 11-offer Ultimatum, the b* rule for
+games too large for pure Python (the 101-offer Ultimatum).  COMPUTED defaults: PD D; Stag Hunt Hare; Chicken
+Swerve 0.9 / Straight 0.1 (unchanged); mild Chicken Swerve 0.7; BoS my favourite 0.4 (0.3 at the other coin value);
+Matching Pennies 50/50 (was pure H); Ultimatum responder: accept offer o with the largest grid probability keeping
+the offerer strictly below 5 (0 → 0, 1 → 13/24, 2 → 14/24, 3 → 17/24, 4 → 19/24, 5+ → 1), offerer: offer 5 (was:
+offer 10 w.p. 11/24, else 0 — a default that netted 0 against a fair responder; it never showed because the Ultimatum
+tests use readable stones and copies).  Why not pure lexicographic maxmin: with a responder who rejects everything
+the guaranteed payoff is 0 for every default, and the next criterion would optimise against the next-greediest
+responder — offer 9 half the time.  "Guarantee first, then assume fairness" offers 5.  After the change: Stag Hunt
+V6 vs BestResponder (3, 3), Stag Hunt column 0.911 → 0.964 (tied first); `test_v5.py` ALL OK (23 s); the full
+`run_v5.py` sweep unchanged except that PrudentBot-F now meets V6 at the fair point in 274 of 400 seats (225
+before: at level 1 against a constant the old default more often coincided with the pushover action that
+PrudentBot's PA+1 probe looks for).
+
+**The two mixers above fair, and the disagreement point.**  The sweep's two exceptions (unreadable mixers that
+end above their fair payoff, 2 of 2,096 since V5) turned out not to be defaults at all.  Both are readable
+threshold mixes answered by C's rule, in random games r2-1027 and r2-1033, and in both the mixer's payoff cannot be
+held below "fair" by anything: in r2-1027 the row player's pure maxmin is 0, so the Nash bargaining solution with
+pure-maxmin disagreement gives it a fair payoff of 0.5 — but by mixing 1/8–7/8 it guarantees itself 0.875.  A fair
+payoff below a player's security level is not fair, and no response can enforce it; C's rule, finding even its
+punishment leaves the mixer at 0.7 > 0.5, punished anyway and paid 6.9 of V6's own payoff (1.2 instead of 8.1) to
+shave 0.2 off the mixer.  Fix in `v5.py`: the disagreement point of `fair_point` (and `fair_shapley`) is now the
+mixed-strategy maxmin (`maxmin_mixed`, exact by vertex enumeration in rationals for games up to 5x5, the pure value
+above that, where the Ultimatum's two coincide), falling back to the pure values only if no two-outcome mix on the
+public grid gives both players at least their security level (never happened in 200 random games).  Ties in the
+Nash product now prefer a pure outcome over a mix (the previous tie-break did the opposite, against its own
+comment).  Named games unchanged (in BoS the disagreement point moves from (0, 0) to (2/3, 2/3) and the coin stays
+the solution; in Matching Pennies from (-1, -1) to (0, 0), likewise); 24 of 200 random games get a different fair
+point.  Consequences: v_ref(q) ≤ the committer's security level ≤ v_F for every commitment q, so C's rule can
+always hold a committer at or below fair and strictly below it unless the commitment is the committer's own maxmin
+strategy and fair gives it exactly that; and the constrained default is always feasible (its non-strict version is
+the minimax theorem).  COMPUTED after the change: `test_v5.py`, `test_bounded_v5.py`, `test_grounded_v5.py` ALL OK;
+`run_v5.py` sweep: copies at F 200/200, Pareto 200/200, miss a both-best outcome 0/66, FairBot-F at F 342/400,
+PrudentBot-F 278/400, commitments 1048/1048 (threats 68/68; V6 below its own maxmin in 42 of the 68, the price of
+giving in), unreadable mixers 2096/2096 — the first time every mixer ends at or below fair.
+
+`evolve.py`: selection on the round-robin payoff matrix A[i][j] (i's normalised payoff against j, mean of both
+seats, over a chosen set of games).  (1) Replicator dynamics x_i' = x_i f_i / mean f, fitness = normalised payoff
+(a Chicken crash is fitness 0), from the uniform start and from 400 Dirichlet(0.5) random starts, endpoints reported
+as the set of types above 1%.  (2) Wright–Fisher, N = 200 copies, mutation 0.5%, 20,000 generations: the literal
+"more copies next round", with drift.  (3) Invasion: for each monomorphic population, which mutants strictly invade
+(A[j][i] > A[i][i]), which are neutral, and whether the resident is an ESS.  Output `evolve.txt`, `evolve.json`.
+
+COMPUTED, all 72 games: from the uniform start V6 takes 95% (V6-norock 4%, V5 1% as neutral-ish remnants).  From
+400 random starts the endpoint is always some subset of our four variants — every stone, the punisher, the
+best-responder, the plain reciprocators and the original greedy UDT die out from every start — but which subset
+depends on the start: {V6} 46%, {V5, V6-norock} 19%, {V5, V6, V6-norock} 14.5%, {V5, V5R, V6, V6-norock} 5%, {V6-norock}
+4%, the rest mixtures of these.  Mean final share V6 0.58, V6-norock 0.32, V5 0.10.  Wright–Fisher long-run
+composition V6 0.42, V6-norock 0.28, V5 0.15, V5R 0.11.  Invasion: V6 is the only ESS (no strict invader, no neutral
+mutant); V6-norock has V5 as a neutral mutant; V5R is invaded by V6, V6-norock and V5; V5 by V6; FairBot by all four
+and PrudentBot; PrudentBot by all four and StubbornFB; every stone, the punisher and the best-responder by almost
+everything.  The rock is a convention in the evolutionary sense too: V6 and V6-norock each do better against their
+own kind (0.814 vs 0.812 across all games; 0.971 vs 0.949–0.952 in Chicken; 0.75 vs 0.63 in mild Chicken), so the
+two-type dynamics are bistable with the tipping point at a 50.5% share (53.4% in Chicken alone): whichever
+convention is more common wins, and a 10% seed of V6 in an otherwise uniform population already carries it to
+fixation while a 5% seed leaves V6-norock and V5 in charge.
+
+Per game.  PD: all seven reciprocators (the four variants, FairBot, PrudentBot, StubbornFB) are mutually neutral at
+(C, C); the endpoint is a cloud of them in proportions set by the start, GreedyUDT survives only as a trace, every
+stone dies.  Chicken: FairStone is neutral to V6 (it meets us at the coin, and exploiting it draw by draw — Straight
+when it swerves, Swerve when it goes Straight — would also average 2), so it drifts: 40% of random starts end
+{FairStone, V6}; StubbornFB survives alongside V6-norock and V5 in another 20%; from a 10% V6 seed the endpoint is V6
+0.68 / FairStone 0.32.  Mild Chicken: StubbornFB beats the rock (2.8 vs 0.7 for V6, below fair for both) and ties
+with the non-rock variants, so from a 20% V6 seed it ends with 62% of the population; from the uniform start
+V6-norock 0.43, V5 0.28, StubbornFB 0.28.  Stag Hunt: twelve of the fourteen types reach (Stag, Stag) with each other
+and are all neutral; only BestResponder and MaxminStone lose.  Random games: the four variants tie exactly (0.8284)
+and persist together.
+
+Further improvements this exposes, not built: (i) the rock convention — its benefit (Punisher: 5 instead of -10.9)
+and its cost (StubbornFB: -10.9 instead of 2) are mirror images and no agent can tell the two opponents apart at
+level 0; a population has to pick one, and the tournament says the choice does not matter on average; (ii) a rock
+retreat that is tolerant of the opponent's level-0 play (reciprocate in PA+1 in gated games) does not help, because
+the non-rock opponent's PA-level reciprocation is already poisoned by our level-0 Straight; (iii) FairStone's
+neutral drift in Chicken is harmless (it is exploited in every game with a pushover action) and structural;
+(iv) different notions of fairness still cycle; (v) private mixes finer than k are still unread; (vi) a bounded V6
+(theory 2 in the bounded calculus) is still not built.

@@ -41,13 +41,50 @@ from rmodal import *
 KMAX = 6
 
 def maxmin_val(g, role):
+    """Pure-strategy maxmin."""
     return max(min(g.u(role, a, b) for b in range(g.n(1 - role))) for a in range(g.n(role)))
+
+def maxmin_mixed(g, role, cap=5):
+    """Mixed-strategy maxmin (the security level): max over mixes x of min over b of sum_a x_a U(a, b).  Exact, by
+    enumerating the vertices of the LP: a support S of my actions and an equalised set T of opponent actions with
+    |S| = |T|, solved in rationals; pure actions are the |S| = 1 case.  Falls back to the pure maxmin above the cap
+    (the Ultimatum, where the two coincide anyway).  A player can guarantee this by private mixing, so the fair
+    point's disagreement payoff must be at least this: a 'fair' payoff below it is not fair and cannot be enforced."""
+    from fractions import Fraction as Fr
+    from itertools import combinations
+    nA, nB = g.n(role), g.n(1 - role)
+    U = [[Fr(g.u(role, a, b)) for b in range(nB)] for a in range(nA)]
+    best = max(min(U[a]) for a in range(nA))
+    if nA > cap or nB > cap: return float(best)
+    for k in range(2, min(nA, nB) + 1):
+        for S in combinations(range(nA), k):
+            for T in combinations(range(nB), k):
+                # unknowns x_S (k) and v: sum_a x_a U(a,b) - v = 0 for b in T; sum_a x_a = 1
+                M = [[U[a][b] for a in S] + [Fr(-1), Fr(0)] for b in T] + [[Fr(1)] * k + [Fr(0), Fr(1)]]
+                n = k + 1; ok = True
+                for col in range(n):
+                    piv = next((r for r in range(col, n) if M[r][col] != 0), None)
+                    if piv is None: ok = False; break
+                    M[col], M[piv] = M[piv], M[col]
+                    M[col] = [x / M[col][col] for x in M[col]]
+                    for r in range(n):
+                        if r != col and M[r][col] != 0: M[r] = [x - M[r][col] * y for x, y in zip(M[r], M[col])]
+                if not ok: continue
+                x = [M[i][n] for i in range(k)]; v = M[k][n]
+                if any(xi < 0 for xi in x): continue
+                if all(sum(x[i] * U[S[i]][b] for i in range(k)) >= v for b in range(nB) if b not in T) and v > best: best = v
+    return float(best)
 
 def fair_point(g, npub, disagreement=None):
     """Discretised Nash bargaining solution.  Returns (policy_row, policy_col, (uF_row, uF_col), desc);
-    policies map r_pub -> action.  Mix of two pure outcomes o1 (weight w/npub) and o2."""
+    policies map r_pub -> action.  Mix of two pure outcomes o1 (weight w/npub) and o2.  Disagreement point: the
+    mixed-strategy security levels; if no two-outcome mix on the grid gives both players at least theirs, the pure
+    maxmin values (the pure maxmin pair is always feasible)."""
+    if disagreement is None:
+        try: return fair_point(g, npub, (maxmin_mixed(g, 0), maxmin_mixed(g, 1)))
+        except AssertionError: return fair_point(g, npub, (maxmin_val(g, 0), maxmin_val(g, 1)))
     outs = list(g.U)
-    d = disagreement or (maxmin_val(g, 0), maxmin_val(g, 1))
+    d = disagreement
     best = None
     for o1 in outs:
         for o2 in outs:
@@ -61,7 +98,7 @@ def fair_point(g, npub, disagreement=None):
                 # player the least to gain by deviating (in the Ultimatum normal form this picks the
                 # "accept iff offer >= 5" threshold over "accept everything", which pays the same at the fair point)
                 dev = lambda o: (max(g.U[(i, o[1])][0] for i in range(g.n(0))) + max(g.U[(o[0], j)][1] for j in range(g.n(1))))
-                score = ((u - d[0]) * (v - d[1]), u + v, -abs(2 * w - npub), -(dev(o1) + dev(o2)),
+                score = ((u - d[0]) * (v - d[1]), u + v, o1 == o2, -abs(2 * w - npub), -(dev(o1) + dev(o2)),
                          -outs.index(o1), -outs.index(o2))
                 if best is None or score > best[0]: best = (score, o1, o2, w, (u, v))
     assert best is not None  # the maxmin pair itself is always feasible
@@ -160,8 +197,11 @@ def fair_shapley(g, npub, disagreement=None):
     coordinating on who does what at random).  Exact equal gains on the sum-maximising face are reachable only
     when that face is a segment, so the target is the hull point maximising min(gain_1, gain_2) (the egalitarian
     solution), ties to the larger sum; it is always reachable by mixing.  Same interface as fair_point."""
+    if disagreement is None:
+        try: return fair_shapley(g, npub, (maxmin_mixed(g, 0), maxmin_mixed(g, 1)))
+        except AssertionError: return fair_shapley(g, npub, (maxmin_val(g, 0), maxmin_val(g, 1)))
     outs = list(g.U)
-    d = disagreement or (maxmin_val(g, 0), maxmin_val(g, 1))
+    d = disagreement
     best = None
     for o1 in outs:
         for o2 in outs:
