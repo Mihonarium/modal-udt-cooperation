@@ -4,7 +4,7 @@ checking that the committed opponent gets at most V5's fair payoff for it in exp
 Outputs v5_tables.txt, sweep_v5.txt, v5_results.json.   python3 run_v5.py [n_random_per_size]"""
 import json, sys, time
 from rmodal import *
-from v5 import V5, fair_point, maxmin_val
+from v5 import V5R as V5, fair_point, maxmin_val
 from run import G, rand_game, analysis
 
 NR = int(sys.argv[1]) if len(sys.argv) > 1 else 100

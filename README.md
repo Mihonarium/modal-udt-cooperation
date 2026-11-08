@@ -641,3 +641,41 @@ read as its policy; the "against me" conjunct in tier A now does that job, and w
 random-game result is unchanged (`test_v5.py` ALL OK; `run_v5.py`: 200/200, 0/66, FairBot-F 358/400, PrudentBot-F
 243/400, 1048/1048, 67/67).  Default patience is now 0: V5 is a rock for any commitment checker reasoning in PA+2 or
 stronger, and is read as "not committed" only by checkers weaker than it takes to tell a reciprocator from a pushover.
+
+## Correction and the level-0 rock (2026-11-05)
+
+Mikhail: "we only defect against FairBot if they cooperate with us given our defection; we should never end up in
+D,D where C,C is achievable."  Right about the first half: COMPUTED, the pure Löb-form agent "D iff Box(D -> opp C)"
+against FairBot ends at C,D (0, 5), i.e. the check never fires in the limit (the earlier D,D came from V5's later
+tiers reading FairBot's D as a commitment).  The D comes from FairBot's side: FairBot cooperates iff PA proves we
+cooperate, and with the Löb-form check placed first "we cooperate" includes "PA does not prove D -> C", a
+non-provability that PA cannot establish (not-Box X implies Con).  So FairBot cannot verify us and defects.  On the
+chain the same fact is: a box-only condition is vacuously true at level 0, so the agent defects at level 0, and
+FairBot's Box(we C) is false from level 1 on.  This is why PrudentBot's exploit test is a positive PA+1 conjunct
+inside its cooperation condition rather than a prior check whose non-firing would have to be proved.
+
+The general shape.  A PA-provable commitment is true at every level of the chain, so being a rock a PA-reasoner can
+see means playing the rock's action at level 0, before anything is known about the opponent; being a PA-verifiable
+cooperator means playing fair at level 0.  In one game these conflict; across games they need not, so the choice is
+per game.  Mikhail's point that Chicken differs from the PD is exactly this: in Chicken a Straight rock is answered by
+swerving by everyone who responds to first-order incentives, and a reciprocator whose fallback is Swerve loses
+nothing to it, whereas in the PD a Defect rock gets Defect from every reciprocator.
+
+V5R (`v5.py`): V5 with an unguarded tier A (fires at level 0, a PA-provable rock) in games that pass a gate computed
+from the matrix alone, the same way the fair point is: (i) rock-safe for both seats, meaning the exploit action
+against the opponent's maxmin action (a reciprocator's natural fallback) pays at least the fair payoff; (ii) not
+constant-sum; (iii) copies of the rock agent still reach the fair point in this game (one self-play evaluation of
+the matrix).  COMPUTED: the gate passes Chicken and Chicken-mild, fails the PDs, Stag Hunt, BoS, the coordination
+games and Matching Pennies (looser gates broke copies in BoS, asymmetric, and in Matching Pennies, zero-sum), and
+passes 2 of 200 random games.  In Chicken (paper's matrix) V5R vs: copy (2, 2); FairBot-F and PrudentBot-F (fallback
+Swerve) 5 (V5: 2, 2); "swerve iff PA proves the opponent goes Straight, else Straight" 5 (V5: -10.9); the same in
+PA+1, 5 (V5: -10.9); "swerve iff PA proves it, else Swerve" 5; rock Straight: give in 0.9, (-10.9, -5.5), unchanged;
+rock Swerve 5; stubborn FairBot-F (plays F iff the opponent provably plays F, else Straight): V5R is read as a
+non-cooperator, it goes Straight, V5R gives in 0.9: (-10.9, -5.5) where V5 got (2, 2).  That last opponent is the whole
+cost, and it is a threatener against non-verifiable agents ("be provably fair or I go Straight"), which V5R answers as
+it answers any commitment (the threatener ends below its fair 2).  Over all gated games (4), the commitment sweep
+holds (18/18) and V5R ends below fair against a stubborn reciprocator in 6/18 cells.  Random games: copies at F
+200/200 for both; against FairBot-F/PrudentBot-F in both seats V5R is better in 4 of 800 cells and worse in 0.
+V5R is now the default in `test_v5.py` and `run_v5.py` (the Chicken rows against FB-F/PB-F in `v5_tables.txt` change
+from (2, 2) to (5, -1); everything else is unchanged).  The grounded program does not need the gate: it samples the
+opponent's action against its own source, so it is a rock to anyone who gives in to rocks by construction.

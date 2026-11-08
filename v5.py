@@ -178,3 +178,62 @@ def fair_shapley(g, npub, disagreement=None):
     pc = lambda p: o1[1] if p < w else o2[1]
     desc = f"{o1}" if w == npub else (f"{o2}" if w == 0 else f"{w}/{npub} {o1} + {npub-w}/{npub} {o2}")
     return pr, pc, uv, desc
+
+
+# ---------------------------------------------------------------------------------------------------------------
+# Level-0 rock (V5R).  Being a rock that a PA-reasoner can see means playing the rock's action from the first
+# level of the chain, before anything is known about the opponent (a PA-provable commitment is true at level 0).
+# That is incompatible with being PA-verifiable as a cooperator in the same game, so the choice is made per game,
+# from the matrix alone, and both players compute the same answer (like the fair point):
+#   rock-safe for both seats: the exploit action a against the opponent's maxmin action (a reciprocator's natural
+#       fallback) pays at least the fair payoff, so a reciprocator that sees the rock and falls back costs nothing;
+#   not constant-sum (there is a cooperative surplus to protect);
+#   copies of the rock agent still reach the fair point in this game (checked by evaluating the matrix).
+# In such games tier A is unguarded (fires at level 0); elsewhere V5 is unchanged.  Chicken qualifies; the PD,
+# Stag Hunt, BoS, coordination games and Matching Pennies do not.
+# ---------------------------------------------------------------------------------------------------------------
+def rock_safe(g, role, uv):
+    nA, nB = g.n(role), g.n(1 - role); U = lambda a, b: g.u(role, a, b)
+    mm_opp = max(range(nB), key=lambda y: (min(g.u(1 - role, y, x) for x in range(nA)), -y))
+    best = None
+    for b in range(nB):
+        a = max(range(nA), key=lambda x: (U(x, b), -x))
+        if U(a, b) > uv[role] and (best is None or U(a, b) > best[0]): best = (U(a, b), a, b)
+    return best is not None and U(best[1], mm_opp) >= uv[role]
+
+def constant_sum(g):
+    s = {u[0] + u[1] for u in g.U.values()}; return len(s) == 1
+
+_rock_gate = {}
+def rock_gate(g, rnd, fair=None):
+    key = (g.name, rnd.npub, rnd.k, rnd.m)
+    if key not in _rock_gate:
+        uv = (fair or fair_point)(g, rnd.npub)[2]
+        ok = rock_safe(g, 0, uv) and rock_safe(g, 1, uv) and not constant_sum(g)
+        if ok:
+            from rmodal import RCtx, rplay
+            ctx = RCtx(g, rnd); X = V5R("rock-test", rock="always", fair=fair); Y = V5R("rock-test'", rock="always", fair=fair)
+            px, py, s, ev = rplay(g, X, Y, ctx, N=60)
+            ok = abs(ev[0] - uv[0]) < 1e-9 and abs(ev[1] - uv[1]) < 1e-9
+        _rock_gate[key] = ok
+    return _rock_gate[key]
+
+class V5R(V5):
+    """V5 with a level-0 rock in games where the gate above passes.  rock="auto" | "always" | "never"."""
+    def __init__(self, name="V5R", rock="auto", **kw):
+        super().__init__(name, **kw); self.rock = rock
+    def build(self, g, role, me, opp, ctx):
+        s = V5.build(self, g, role, me, opp, ctx)
+        use = self.rock == "always" or (self.rock == "auto" and rock_gate(g, ctx.rnd, self.fair))
+        if not use: return s
+        rnd = ctx.rnd; nA, nB = g.n(role), g.n(1 - role); U = lambda a, b: g.u(role, a, b)
+        uv = self.fairpoint(g, ctx)[2]; A = []
+        for b in range(nB):
+            a = max(range(nA), key=lambda x: (U(x, b), -x))
+            if U(a, b) > uv[role]:
+                ex = self.const(a)
+                for k in range(1, self.kmax + 1):   # unguarded: Box_{k-1}, true at level 0
+                    A.append((-U(a, b), k, And(Box(ctx.plays((opp[0], ex, 1 - role), lambda p, b=b: b), k - 1),
+                                               Box(ctx.plays(opp, lambda p, b=b: b), k - 1)), a))
+        A.sort(key=lambda t: (t[1], t[0])); s["A"] = A
+        return s
