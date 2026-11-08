@@ -907,3 +907,74 @@ Game-mix dependence: `reasoners.html` (the explorable page) embeds the per-game-
 Hunt, Chicken, mild Chicken, BoS, coordination, Matching Pennies, Asym, random 2x2, random 3x3) and lets the
 weights be set; the fitness matrix is linear in the mix, so every mix is exact.  The 16-agent run before the
 cliques is kept as `tournament_16.*`, `evolve_16.txt`.
+
+## The bounded version, fully: simulation towers; the whole field at every budget (2026-11-08; `bounded7.py`, `test_bounded7.py`, `bounded_tournament.json`, `bounded_tables.txt`)
+
+Mikhail: fully solve the bounded version; tournaments for both bounded and unbounded; all previous agent versions in the field.
+
+**Two bounded formalisms are in this repository now.**  The first is BPC (`bounded.py`): bots carry a prover for a
+small formal system and a budget counts nested necessitations; its bottom proves nothing (FairBot_0 defects) and
+the Löb argument needs one or two necessitations.  It was built for the PD and three bot families, took 2.7
+CPU-hours for 400 runs, and cannot be scaled to this design: a V7 match would need hundreds of box atoms across
+theories 0..6 (the stratified commitment reader alone has 20 policies x 6 strata x 2 public draws), Con axioms
+per theory, and Löb-shaped fixed points over 2^20 joint policies of the randomised keys.  The hybrid `bounded_v5.py`
+(stones by table, the Löb step delegated to BPC FairBot_k vs FairBot_m, tier C skipped against other bots) was
+a stopgap.
+
+The second, `bounded7.py`, runs the WHOLE design as a halting program.  A bounded bot is a spec line (its source,
+e.g. "V7", "V6-norock", "FairBot", "ThreatStone") plus a depth budget D.  Against an opponent's source it builds
+both decision lists from the two specs and the payoff matrix (the same code as the idealised agents) and decides
+every "PA+k proves phi" by simulation: it runs both programs at depths k, ..., D-1, each of which runs both
+programs at the depths below it, and checks phi at every one of those depths.  At depth 0 nothing runs and every
+box counts as true: the trusting base case, which is where the design's vacuous-truth conventions live
+(reciprocate at the bottom; be a rock at the bottom in gated games), and the consistency guards Con_k on the
+commitment reader are exactly where the design refuses to trust the bottom.  Every run halts.
+
+**Theorem (checked).**  The bounded bot with budget D plays the Kripke chain's level D for that pair.
+`test_bounded7.py`: every ordered pair of the 20-agent field, in the PD, Stag Hunt, Chicken, mild Chicken, BoS,
+Matching Pennies and the two random games that broke V7's first version, at every level 0..12 — 41,600
+(pair, level) cells, 0 mismatches between the tower's output and `rmodal`'s trace.  So a bot whose budget is at
+least the pair's stabilisation depth plays the idealised fixed point exactly, one below it plays the transient,
+and the idealised agent is the limit.  A bounded bot simulating an opponent with another budget D' runs the
+opponent's CODE at its own depth minus one, so the match outcome is (level D of X, level D' of Y) of the one chain
+the two codes define; `tournament.py` now reads those off its traces for every budget pair in {0, 1, 2, 3, 4, 6,
+inf} and writes the per-group normalised matrices to `bounded_tournament.json` (the page uses them for any game
+mix at any budget).
+
+**The field (20).**  V7, V7-norock, V6, V6-norock, V5R, V5; the repository's originals ported to the randomised
+evaluator — V4 (tiered checks plus the payoff-derived PA+1 probe), V3-B (cooperative and neutral checks first,
+exploitative last in PA+1), greedy modal UDT; FairBot-F, PrudentBot-F, StubbornFB; BestResponder, Punisher;
+FairStone, ThreatStone, MaxminStone, Mixer; CliqueBot, Cartel.  Each statement "I play a -> payoff >= u" is read
+at every key.  COMPUTED: V4 reproduces its old row (C with FairBot, PrudentBot and itself in the PD, exploits the
+cooperating stone, D with the threat stone; its favourite in BoS; swerves against a provable rock, so V7 takes 5
+off it in Chicken).
+
+COMPUTED, idealised round-robin of 20 (72 games): V7 0.799, V7-norock 0.799, V6 0.795, V6-norock 0.795, V5R 0.792,
+V5 0.791, **V4 0.763, V3B 0.759**, BestResponder 0.757, FairBot 0.755, StubbornFB 0.753, GreedyUDT 0.753,
+PrudentBot 0.745, Cartel 0.739, Punisher 0.734, ThreatStone 0.730, Mixer 0.714, FairStone 0.707, CliqueBot 0.673,
+MaxminStone 0.665.  The version history is monotone: greedy 0.753 -> V3-B 0.759 -> V4 0.763 -> V5 0.791 -> V6 0.795
+-> V7 0.799.  Selection (idealised, all games): V7 and V6 neutral; endpoints from 400 random starts are subsets of
+the six variants (34% {V6-norock, V7-norock}, 33% {V6, V7}); CliqueBot and the Cartel remain ESSs that cannot grow.
+
+COMPUTED, bounded, everyone at the same budget (`bounded_tables.txt`): the winner changes with the budget —
+**depth 0: Punisher (0.771); depth 1: FairBot (0.765); depths 2 and 3: V5 (0.766, 0.780); depth 4: V6 (0.791);
+depth 6: V7-norock (0.796); unbounded: V7 (0.799)**.  V7's rank by budget: 13th, 5th, 10th, 3rd, 3rd, 2nd, 1st;
+its score 0.734, 0.754, 0.755, 0.776, 0.789, 0.796, 0.799.  The dip at depth 2 is the Löb tier's vacuous phase
+(two levels of the exploiting action against every non-reciprocator, stones included): a real cost of that tier
+for bots with budget exactly 2.  A budget of 4 gives V7 99% of its idealised score, 6 gives 99.6%.  Own-policy
+stabilisation depth over all 2,880 matches: stones and cliques 0 (they reason about nothing); FairBot, StubbornFB,
+Punisher 90th percentile 1, max 5; PrudentBot 2 / 5; V3-B 2 / 6; V4 2 / 7; greedy UDT 3 / 7; V5-V7 3 / 9 (4 / 9
+for V7-norock).  Mixed budgets: V7 alone at budget D in an idealised field scores 0.750, 0.759, 0.762, 0.775,
+0.792, 0.798 for D = 0, 1, 2, 3, 4, 6; idealised V7 in a field at budget D: 0.772, 0.782, 0.791, 0.790, 0.793,
+0.798 — the idealised side never loses from the other's shallowness.  Populations at a fixed budget, uniform
+start: **depth 0: the Cartel takes everything** (every reasoner is a trusting pushover at the bottom); depth 1:
+V7 0.51, V6 0.49; depth 2: V6-norock 0.35, V7-norock 0.25, StubbornFB 0.22, FairBot 0.12; depth 3: V5 0.87; depth
+4: V6-norock 0.69, V7-norock 0.31; depth 6: V6-norock 0.72, V5 0.28.  CliqueBot and the Cartel are ESSs at every
+budget.
+
+Why the two bounded formalisms differ at the bottom and agree above it: BPC's bottom is "nothing proved" and the
+Löb-shaped fixed points supply the self-reference that lets the search find cooperation at height 1; the tower's
+bottom is "everything trusted" and self-reference is the simulation itself.  Both are least fixed points of a
+monotone operator above their respective bottoms; GL's chain is the tower's, which is why the tower and the exact
+evaluator coincide level by level.  A proof-search bot whose base theory includes the design's conventions as
+axioms would behave like the tower; whether such a prover can be built compactly for this fragment is open.

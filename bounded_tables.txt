@@ -1,26 +1,36 @@
-Bounded PD tournament (row player's action first; 400 runs, 2464s wall). Budget = necessitation height in BPC.
+Bounded bots (bounded7.py): round-robin score over all 72 games when every agent has the same depth budget.
+Normalised payoff, mean over opponents (self included) and both seats.  inf = the idealised agent.
 
-          FB0   FB1   FB2   FB3   FB4 FBinf   PB0   PB1   PB2   PB3   PB4 PBinf  V4_0  V4_1  V4_2  V4_3  V4_4V4_inf    CB    DB
-FB0        DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    CC    DD
-FB1        DD    CC    CC    CC    CC    CC    DD    DD    DD    DD    DD    DD    CC    DD    DD    DD    DD    DD    CC    DD
-FB2        DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
-FB3        DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
-FB4        DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
-FBinf      DD    CC    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    CC    DD
-PB0        DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DC    DD
-PB1        DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DC    DD
-PB2        DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
-PB3        DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
-PB4        DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
-PBinf      DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
-V4_0       DD    CC    CC    CC    CC    CC    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DC    DD
-V4_1       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DC    DD
-V4_2       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
-V4_3       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
-V4_4       DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
-V4_inf     DD    DD    CC    CC    CC    CC    DD    DD    CC    CC    CC    CC    DD    CC    CC    CC    CC    CC    DC    DD
-CB         CC    CC    CC    CC    CC    CC    CD    CD    CD    CD    CD    CD    CD    CD    CD    CD    CD    CD    CC    CD
-DB         DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DD    DC    DD
+agent                0       1       2       3       4       6     inf
+V7               0.734   0.754   0.755   0.776   0.789   0.796   0.799
+V7-norock        0.739   0.748   0.755   0.775   0.789   0.796   0.799
+V6               0.734   0.753   0.765   0.773   0.791   0.794   0.795
+V6-norock        0.739   0.752   0.764   0.771   0.791   0.794   0.795
+V5R              0.734   0.760   0.765   0.777   0.785   0.790   0.792
+V5               0.739   0.762   0.766   0.780   0.787   0.790   0.791
+FairBot          0.739   0.765   0.763   0.763   0.754   0.755   0.755
+PrudentBot       0.739   0.765   0.758   0.756   0.744   0.745   0.745
+StubbornFB       0.739   0.747   0.756   0.757   0.750   0.753   0.753
+Punisher         0.771   0.730   0.729   0.739   0.734   0.734   0.734
+BestResponder    0.707   0.679   0.766   0.738   0.753   0.758   0.757
+V4               0.727   0.741   0.743   0.761   0.759   0.762   0.763
+V3B              0.734   0.746   0.746   0.758   0.759   0.759   0.759
+GreedyUDT        0.719   0.702   0.719   0.754   0.753   0.753   0.753
+CliqueBot        0.715   0.687   0.679   0.678   0.673   0.673   0.673
+Cartel           0.746   0.730   0.738   0.743   0.738   0.739   0.739
+FairStone        0.739   0.740   0.735   0.727   0.707   0.707   0.707
+ThreatStone      0.737   0.721   0.730   0.734   0.729   0.730   0.730
+MaxminStone      0.707   0.679   0.671   0.670   0.665   0.665   0.665
+Mixer            0.738   0.712   0.714   0.717   0.713   0.714   0.714
 
-soundness audit: 0 false axioms over all 400 match systems
-row bot (other than CB) cooperates while the opponent defects: never
+winner at each budget: 0: Punisher, 1: FairBot, 2: V5, 3: V5, 4: V6, 6: V7-norock, inf: V7
+rank of V7 at each budget: 0: #13, 1: #5, 2: #10, 3: #3, 4: #3, 6: #2, inf: #1
+
+V7 alone at budget D in an idealised field, and idealised V7 in a field at budget D:
+  D=  0: 0.750   0.772
+  D=  1: 0.759   0.782
+  D=  2: 0.762   0.791
+  D=  3: 0.775   0.790
+  D=  4: 0.792   0.793
+  D=  6: 0.798   0.798
+  D=inf: 0.799   0.799
