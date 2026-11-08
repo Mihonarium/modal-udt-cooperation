@@ -610,3 +610,34 @@ the coin with no crash in 200 samples, (2, 2); eps = 0.2 and 0.3 the same.  Defa
 opponent whose own play is a noisy function of one sample of me (swerve iff a single sample of the opponent is
 Straight, else Straight, grounded 5% to Straight) the sampling noise still compounds and both lose about -10; the
 idealised agent handles that opponent exactly.
+
+## Being a rock for rock-givers (2026-11-04, late)
+
+Mikhail: "if we see that an opponent swerves against a Straight rock, it is because they proved the rock goes
+Straight; we can search for a proof that if we go Straight the opponent swerves, and go Straight if we find one; an
+opponent that searches for proofs of the other going Straight and swerves if it finds one is exploitable and will find
+this proof by Löb."  And: "for opponents that give in to rocks, UDT can be effectively a rock."
+
+Right in the standard model: with A = "I go Straight" and B = "they swerve", an agent with A <-> Box(A -> B) against
+one with B <-> Box(A) gets, by Löb, PA |- A -> B, hence A and B, and the Straight is PA-provable.  COMPUTED (`L` in the
+scratch script, = V5 with that check first, unguarded, Box_0): in Chicken it takes 5 from the commitment checker
+reasoning in PA (where V5 gives in and gets -10.9), takes 5 from FairBot-F, meets a copy at the coin, and answers the
+committed non-swerver as V5 does.  The cost is on the chain: Box_0(A -> B) is vacuously true at any level where the
+agent has not yet gone Straight, so the check fires once against EVERYONE at the first or second level, and a
+reciprocator whose condition is Box(opponent plays F), FairBot or PrudentBot, never forgives that: in the PD the
+Löb-form agent gets D,D with FairBot and with PrudentBot (1, 1 instead of 3, 3), exactly greedy modal UDT's failure at
+the top of this README.  Copies forgive each other because V5's reciprocation check is an implication and is vacuous
+at levels where the copy was not playing F.
+
+So the two facts are one fact.  Being a rock in plain PA means playing the rock's action from level 0, at first sight
+against everyone, which is what breaks Löb cooperation with an unforgiving reciprocator in some other game.  PrudentBot
+sits at the same boundary (its defection against CooperateBot is PA+2-provable, Barasz et al.).  The claim holds for
+every rock-giver whose reading theory is at least as strong as the one our commitment is provable in, and V5 is such a
+rock for all of them.  How weak a reader that is depends only on the patience constants: COMPUTED, against "swerve iff
+PA+k proves the opponent goes Straight, else Straight", V5 with patience 3 is a rock for k >= 5, with patience 1 for
+k >= 3, with patience 0 for k >= 2 (PrudentBot's level), and gives in (-10.9 for V5, -5.5 for the checker, below its
+fair 2) for smaller k.  Patience had been introduced to stop a copy's one-level fallback against a constant from being
+read as its policy; the "against me" conjunct in tier A now does that job, and with patience 0 every named-game and
+random-game result is unchanged (`test_v5.py` ALL OK; `run_v5.py`: 200/200, 0/66, FairBot-F 358/400, PrudentBot-F
+243/400, 1048/1048, 67/67).  Default patience is now 0: V5 is a rock for any commitment checker reasoning in PA+2 or
+stronger, and is read as "not committed" only by checkers weaker than it takes to tell a reciprocator from a pushover.

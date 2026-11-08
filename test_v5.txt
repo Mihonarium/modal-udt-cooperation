@@ -6,13 +6,13 @@ PD
   [OK] PD5/3/1/0 V5 vs FB: CC expected CC
               V5 vs PB           row[C:1.00] col[C:1.00]  EV=(3.00,3.00) stab=1
   [OK] PD5/3/1/0 V5 vs PB: CC expected CC
-              V5 vs CB           row[D:1.00] col[C:1.00]  EV=(5.00,0.00) stab=6
+              V5 vs CB           row[D:1.00] col[C:1.00]  EV=(5.00,0.00) stab=3
   [OK] PD5/3/1/0 V5 vs CB: DC expected DC
               V5 vs DB           row[D:1.00] col[D:1.00]  EV=(1.00,1.00) stab=1
   [OK] PD5/3/1/0 V5 vs DB: DD expected DD
               PB vs V5           row[C:1.00] col[C:1.00]  EV=(3.00,3.00) stab=1
   [OK] PD5/3/1/0 PB vs V5 (col seat): CC 
-              CB vs V5           row[C:1.00] col[D:1.00]  EV=(0.00,5.00) stab=6
+              CB vs V5           row[C:1.00] col[D:1.00]  EV=(0.00,5.00) stab=3
   [OK] PD5/3/1/0 CB vs V5 (col seat): CD 
   [OK] PD3/2/1/0 fair point is (C,C) (0, 0)
               V5 vs V5'          row[C:1.00] col[C:1.00]  EV=(2.00,2.00) stab=1
@@ -21,13 +21,13 @@ PD
   [OK] PD3/2/1/0 V5 vs FB: CC expected CC
               V5 vs PB           row[C:1.00] col[C:1.00]  EV=(2.00,2.00) stab=1
   [OK] PD3/2/1/0 V5 vs PB: CC expected CC
-              V5 vs CB           row[D:1.00] col[C:1.00]  EV=(3.00,0.00) stab=6
+              V5 vs CB           row[D:1.00] col[C:1.00]  EV=(3.00,0.00) stab=3
   [OK] PD3/2/1/0 V5 vs CB: DC expected DC
               V5 vs DB           row[D:1.00] col[D:1.00]  EV=(1.00,1.00) stab=1
   [OK] PD3/2/1/0 V5 vs DB: DD expected DD
               PB vs V5           row[C:1.00] col[C:1.00]  EV=(2.00,2.00) stab=1
   [OK] PD3/2/1/0 PB vs V5 (col seat): CC 
-              CB vs V5           row[C:1.00] col[D:1.00]  EV=(0.00,3.00) stab=6
+              CB vs V5           row[C:1.00] col[D:1.00]  EV=(0.00,3.00) stab=3
   [OK] PD3/2/1/0 CB vs V5 (col seat): CD 
   [OK] PD4/3/2/1 fair point is (C,C) (0, 0)
               V5 vs V5'          row[C:1.00] col[C:1.00]  EV=(3.00,3.00) stab=1
@@ -36,13 +36,13 @@ PD
   [OK] PD4/3/2/1 V5 vs FB: CC expected CC
               V5 vs PB           row[C:1.00] col[C:1.00]  EV=(3.00,3.00) stab=1
   [OK] PD4/3/2/1 V5 vs PB: CC expected CC
-              V5 vs CB           row[D:1.00] col[C:1.00]  EV=(4.00,1.00) stab=6
+              V5 vs CB           row[D:1.00] col[C:1.00]  EV=(4.00,1.00) stab=3
   [OK] PD4/3/2/1 V5 vs CB: DC expected DC
               V5 vs DB           row[D:1.00] col[D:1.00]  EV=(2.00,2.00) stab=1
   [OK] PD4/3/2/1 V5 vs DB: DD expected DD
               PB vs V5           row[C:1.00] col[C:1.00]  EV=(3.00,3.00) stab=1
   [OK] PD4/3/2/1 PB vs V5 (col seat): CC 
-              CB vs V5           row[C:1.00] col[D:1.00]  EV=(1.00,4.00) stab=6
+              CB vs V5           row[C:1.00] col[D:1.00]  EV=(1.00,4.00) stab=3
   [OK] PD4/3/2/1 CB vs V5 (col seat): CD 
   [OK] PD3/2/0/-1 fair point is (C,C) (0, 0)
               V5 vs V5'          row[C:1.00] col[C:1.00]  EV=(2.00,2.00) stab=1
@@ -51,41 +51,41 @@ PD
   [OK] PD3/2/0/-1 V5 vs FB: CC expected CC
               V5 vs PB           row[C:1.00] col[C:1.00]  EV=(2.00,2.00) stab=1
   [OK] PD3/2/0/-1 V5 vs PB: CC expected CC
-              V5 vs CB           row[D:1.00] col[C:1.00]  EV=(3.00,-1.00) stab=6
+              V5 vs CB           row[D:1.00] col[C:1.00]  EV=(3.00,-1.00) stab=3
   [OK] PD3/2/0/-1 V5 vs CB: DC expected DC
               V5 vs DB           row[D:1.00] col[D:1.00]  EV=(0.00,0.00) stab=1
   [OK] PD3/2/0/-1 V5 vs DB: DD expected DD
               PB vs V5           row[C:1.00] col[C:1.00]  EV=(2.00,2.00) stab=1
   [OK] PD3/2/0/-1 PB vs V5 (col seat): CC 
-              CB vs V5           row[C:1.00] col[D:1.00]  EV=(-1.00,3.00) stab=6
+              CB vs V5           row[C:1.00] col[D:1.00]  EV=(-1.00,3.00) stab=3
   [OK] PD3/2/0/-1 CB vs V5 (col seat): CD 
 Chicken (paper's matrix)
     fair point: 1/2 (0, 1) + 1/2 (1, 0) (2.0, 2.0)
   [OK] fair payoff is (2,2) from a 50/50 coin over (Sw,DS)/(DS,Sw) 
-              V5 vs V5'          row[Sw:0.50 DS:0.50] col[Sw:0.50 DS:0.50]  EV=(2.00,2.00) stab=5
+              V5 vs V5'          row[Sw:0.50 DS:0.50] col[Sw:0.50 DS:0.50]  EV=(2.00,2.00) stab=2
   [OK] copies: EV (2,2), never crash 
-              V5 vs DontSwerveBot row[Sw:0.95 DS:0.05] col[DS:1.00]  EV=(-5.95,-0.25) stab=5
+              V5 vs DontSwerveBot row[Sw:0.95 DS:0.05] col[DS:1.00]  EV=(-5.95,-0.25) stab=2
   [OK] vs DontSwerveBot: swerve with p just below 102/105 = 0.971 p=0.950
   [OK] vs DontSwerveBot: the threatener gets < 2 (fair) opp EV=-0.25 (would get 5 if we always gave in)
-              V5 vs SwerveBot    row[DS:1.00] col[Sw:1.00]  EV=(5.00,-1.00) stab=5
+              V5 vs SwerveBot    row[DS:1.00] col[Sw:1.00]  EV=(5.00,-1.00) stab=2
   [OK] vs SwerveBot: exploit (always DS, get 5) 
-              V5 vs Mix50        row[Sw:0.95 DS:0.05] col[Sw:0.50 DS:0.50]  EV=(-2.85,-0.15) stab=5
+              V5 vs Mix50        row[Sw:0.95 DS:0.05] col[Sw:0.50 DS:0.50]  EV=(-2.85,-0.15) stab=2
   [OK] vs private 50/50 mix (k=4): mix gets <= 2 opp EV=-0.15; always-swerve would give it 2.5
 Ultimatum (offers 0..10)
   [OK] fair point is the 5/5 split (5, 5)
-              V5 vs V5'          row[o5:1.00] col[t5:1.00]  EV=(5.00,5.00) stab=5
+              V5 vs V5'          row[o5:1.00] col[t5:1.00]  EV=(5.00,5.00) stab=2
   [OK] copies split 5/5 
-          Offer4 vs V5           row[o4:1.00] col[t0:0.79 t5:0.21]  EV=(4.75,3.17) stab=5
+          Offer4 vs V5           row[o4:1.00] col[t0:0.79 t5:0.21]  EV=(4.75,3.17) stab=2
   [OK] stone offering 4: accept with p just below 0.833, offerer gets < 5 p=0.792 offerer EV=4.75 responder EV=3.17
-          Offer1 vs V5           row[o1:1.00] col[t0:0.54 t5:0.46]  EV=(4.88,0.54) stab=5
+          Offer1 vs V5           row[o1:1.00] col[t0:0.54 t5:0.46]  EV=(4.88,0.54) stab=2
   [OK] stone offering 1: accept with p just below 0.556, offerer gets < 5 p=0.542 offerer EV=4.88 responder EV=0.54
-          Offer7 vs V5           row[o7:1.00] col[t0:1.00]  EV=(3.00,7.00) stab=6
+          Offer7 vs V5           row[o7:1.00] col[t0:1.00]  EV=(3.00,7.00) stab=3
   [OK] stone offering 7: accept always 
 Different notions of fairness
-         Offer49 vs V5-wants50   row[o49:1.00] col[t0:0.98 t50:0.02]  EV=(49.98,48.02) stab=5
+         Offer49 vs V5-wants50   row[o49:1.00] col[t0:0.98 t50:0.02]  EV=(49.98,48.02) stab=2
   [OK] responder (fair=50/50) vs committed offer of 49: accepts 98%, offerer gets < 50 accept rate 0.980, EV (49.98, 48.02)
-        V5-fair4 vs V5-fair5     row[o4:1.00] col[t5:1.00]  EV=(0.00,0.00) stab=6
+        V5-fair4 vs V5-fair5     row[o5:1.00] col[t5:1.00]  EV=(5.00,5.00) stab=4
     (no fixed point: offer 4 -> accept 9/12 -> offer 5 -> accept all -> offer 4 ...; the chain freezes at a point of the cycle)
-  [OK] V5(fair=4) offering to V5(fair=5): evaluates (the pair cycles; see README) EV (0.0, 0.0)
-done in 37s
+  [OK] V5(fair=4) offering to V5(fair=5): evaluates (the pair cycles; see README) EV (5.0, 5.0)
+done in 26s
 ALL OK

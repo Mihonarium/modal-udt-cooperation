@@ -72,7 +72,7 @@ def fair_point(g, npub, disagreement=None):
     return pr, pc, uv, desc
 
 class V5(RAgent):
-    def __init__(self, name="V5", tiers=("A", "B", "C"), fair=None, kmax=KMAX, read="threshold", patience=3):
+    def __init__(self, name="V5", tiers=("A", "B", "C"), fair=None, kmax=KMAX, read="threshold", patience=0):
         super().__init__(name); self.tiers, self.fair, self.kmax, self.read = tiers, fair, kmax, read
         self.patience = patience
         self._consts, self._cache, self._fp = {}, {}, {}
