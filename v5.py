@@ -112,7 +112,10 @@ class V5(RAgent):
             if U(a, b) > uF:
                 ex = self.const(a)
                 for k in range(1, self.kmax + 1):
-                    A.append((-U(a, b), k, And(conA[k], Box(ctx.plays((opp[0], ex, 1 - role), lambda p, b=b: b), k)), a))
+                    # exploitable: it plays b against the constant that punishes b AND against me (swerving against a
+                    # stone is not swerving against an agent whose commitment is only provable in a stronger theory)
+                    A.append((-U(a, b), k, And(conA[k], Box(ctx.plays((opp[0], ex, 1 - role), lambda p, b=b: b), k),
+                                               Box(ctx.plays(opp, lambda p, b=b: b), k)), a))
         A.sort(key=lambda t: (t[1], t[0]))   # stratum first (so nothing fires late for a weaker reason), then best payoff
         B = Box(Imp(ctx.plays(me, myF), ctx.plays(opp, opF)))
         C = {}

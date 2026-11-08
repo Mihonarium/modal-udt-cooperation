@@ -558,3 +558,40 @@ than 0.95).  COMPUTED (Monte Carlo over random tapes, eps = 0.05, 580 s):
 - Random 2x2 games: copies within 0.5 of the fair point in 12/12.
 Costs: sampling noise (the 1% crash rate; nothing like it in the exact versions), and time (seconds per decision in
 the Ultimatum).  Not done: a proof-based treatment of foreign provers; the grounded bot trusts execution instead.
+
+## Correction (2026-11-04, evening): the exploit probe, and the "different fair points" result
+
+Mikhail asked two things.  (1) In Chicken, does V5 go Straight against an agent that swerves iff its opponent is
+provably committed to Straight?  (2) Does V5 test the opponent against V5's own code, or only against code that
+behaves like it?
+
+(1) COMPUTED, `SIC(k, default)` = swerve iff PA+k proves the opponent plays Straight at every key against me, else
+`default`.  Before the fix V5 took 5 from SIC with default Swerve at every k and from SIC with default Straight at
+k = 7, but CRASHED (-100, -100) against SIC with default Straight checking in PA+0 or PA+1: V5's own Straight is only
+provable in PA+k (its exploit check is guarded by Con(PA+k+4) so it cannot fire vacuously), so a weak-theory checker
+does not see the commitment and goes Straight, while V5's probe ("it swerves against a constant Straight") had read it
+as a pushover.  Swerving against a stone is not swerving against an agent.  Fix: tier A now requires BOTH
+`Box_k(opponent plays b against Const_a)` AND `Box_k(opponent plays b against me)`.  After the fix: 5 against every SIC
+with default Swerve and against SIC(PA+7, Straight); against SIC(PA+0 or PA+1, Straight) V5 reads it as committed to
+Straight and gives in with p = 0.90 (M = 10), SIC gets -5.5 < 2, no crash.  Side effect, all for the better: in Chicken
+V5 no longer takes advantage of FairBot-F and PrudentBot-F (they swerve against the constant but play F against V5),
+both seats now (2, 2); in the random games FairBot-F reaches F in 358/400 seats (was 327) and PrudentBot-F in 243/400
+(was 219); everything else in `run_v5.py` is unchanged (200/200, 0/66, 1048/1048, 67/67).  The grounded program got the
+same conjunct (its probes come first because they do not recurse; the sample against me confirms).
+
+(2) Yes.  Tier B is `Box(I play F at all my keys -> the opponent plays F at all ITS KEYS AGAINST ME)`: the keys are
+(opponent, me, role, draws), the opponent's play against this agent, never against a proxy.  In the modal setting no
+opponent can distinguish V5 from PrudentBot in the PD, because they play identically against every probe; in the
+grounded program the source string is the identity, and COMPUTED: a program that cooperates with everyone except
+V5G's source (and commitment tables, so the probe says nothing) is defected against (D 0.92, the rest the eps
+grounding); a program that cooperates only with V5G's source gets C,C.
+
+The "two idealised V5s with different fair points settle at 5/5" line in the V5 section above was an ARTEFACT.  The
+pair has no fixed point: offer 4 -> the responder accepts with 9/12 -> offering 5 (5) now beats offering 4 (4.5) ->
+facing mostly 5s the responder's best reply is to accept everything (4.75 > 3.75) -> offering 4 (6) beats 5 again.
+The stratified readings cycle through these and the chain freezes at whichever point the last readable stratum lands
+on (before the fix (o5, t5); after it (o4, t5), i.e. (0, 0); kmax = 8, 12, 16 all freeze at (0, 0) with growing
+stabilisation level).  The right statement is the paper's: with different notions of fairness, one side's response
+to the OTHER'S COMMITMENT is well defined (a stone offering 49 of 100 is accepted 98%), while two reactive readers do
+not converge within one game.  The grounded program's (3.39, 3.01) for that pair is a time average over the same cycle.
+`test_v5.py` now reports that case instead of asserting a settlement.

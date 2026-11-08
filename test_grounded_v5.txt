@@ -12,8 +12,8 @@ PD 5/3/1/0
     row {'D': 0.94, 'C': 0.06}  col {}  EV=(0.00,0.00)  failures 50
   [OK] vs a program that crashes: defect (except the eps grounding) 
 Chicken (paper's matrix)
-    row {'Sw': 0.5, 'DS': 0.5}  col {'DS': 0.51, 'Sw': 0.49}  EV=(0.95,1.01)
-  [OK] copies: coin, with ~1% crashes from sampling noise (ideal 2,2) EV (0.95, 1.01)
+    row {'Sw': 0.375, 'DS': 0.625}  col {'DS': 0.36, 'Sw': 0.64}  EV=(-7.63,-9.22)
+  [FAIL] copies: coin, with ~1% crashes from sampling noise (ideal 2,2) EV (-7.635, -9.225)
     row {'Sw': 0.963, 'DS': 0.037}  col {'DS': 1.0}  EV=(-4.71,1.06)
   [OK] vs never-swerve: swerve where the coin says so, else 0.90; stone < 2 over both draws stone EV 1.06
     row {'DS': 1.0}  col {'Sw': 1.0}  EV=(5.00,-1.00)
@@ -29,5 +29,5 @@ Ultimatum 0..10
   [OK] offerer thinks 4 is fair, responder 5: they settle, both > 3 (bounded_v5 gave 0, 0) EV (3.39, 3.01)
 Random 2x2 games, copies
   [OK] copies within 0.5 of the fair point: 12/12 
-done in 589s
-ALL OK
+done in 738s
+SOME FAILED

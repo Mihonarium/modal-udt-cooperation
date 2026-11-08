@@ -107,11 +107,16 @@ def act(me, opp, r_pub, rng, game):
                     if x != oacts[b]: break
                 return out
             return f
-        e = exploitable({p2: probe(p2) for p2 in range(NPUB)})            # A: probes do not recurse into me
+        sample = [None]
+        def against_me():                                                  # one sample of it against me (recursive)
+            if sample[0] is None: sample[0] = run(opp, me, r_pub, rng, game)
+            return sample[0]
+        # A: exploitable only if it plays b against the punisher AND against me (swerving against a stone is not
+        # swerving against an agent); the probes come first because they do not recurse
+        e = exploitable({p2: (lambda bb, a, p2=p2: probe(p2)(bb, a) + [against_me()] if all(x == oacts[bb] for x in probe(p2)(bb, a)) else [None]) for p2 in range(NPUB)})
         if e is not None: return e
-        sample = run(opp, me, r_pub, rng, game)                           # B/C: one sample of it against me
-        if sample not in oacts: return acts[mm]
-        b = oacts.index(sample)
+        if against_me() not in oacts: return acts[mm]
+        b = oacts.index(against_me())
         return respond({p2: [1.0 if x == b else 0.0 for x in range(nB)] for p2 in range(NPUB)})
     except Exception:
         return acts[mm]                                                   # D: cannot run the opponent
@@ -141,11 +146,11 @@ def timed_run(src, opp, r_pub, rng, game, fuel, seconds):
     except Exception: return None
     finally: signal.setitimer(signal.ITIMER_REAL, 0)
 
-def play_once(game, X, Y, r_pub, seed, fuel=2000, seconds=2.0):
+def play_once(game, X, Y, r_pub, seed, fuel=20000, seconds=2.0):
     rx, ry = random.Random(seed * 2 + 1), random.Random(seed * 2 + 2)
     return timed_run(X, Y, r_pub, rx, game, fuel, seconds), timed_run(Y, X, r_pub, ry, game, fuel, seconds)
 
-def match(game, X, Y, npub=1, n=400, seed0=0, fuel=2000, seconds=2.0):
+def match(game, X, Y, npub=1, n=400, seed0=0, fuel=20000, seconds=2.0):
     """Monte Carlo over tapes: returns (row action freqs, col action freqs, expected payoffs, failures)."""
     fx, fy = {}, {}; tot = [0.0, 0.0]; cnt = 0; fail = 0
     for i in range(n):

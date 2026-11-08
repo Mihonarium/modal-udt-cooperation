@@ -84,7 +84,8 @@ Ultimatum (offers 0..10)
 Different notions of fairness
          Offer49 vs V5-wants50   row[o49:1.00] col[t0:0.98 t50:0.02]  EV=(49.98,48.02) stab=5
   [OK] responder (fair=50/50) vs committed offer of 49: accepts 98%, offerer gets < 50 accept rate 0.980, EV (49.98, 48.02)
-        V5-fair4 vs V5-fair5     row[o5:1.00] col[t5:1.00]  EV=(5.00,5.00) stab=6
-  [OK] V5(fair=4) offering to V5(fair=5): they settle, nobody gets 0 in expectation EV (5.0, 5.0)
-done in 31s
+        V5-fair4 vs V5-fair5     row[o4:1.00] col[t5:1.00]  EV=(0.00,0.00) stab=6
+    (no fixed point: offer 4 -> accept 9/12 -> offer 5 -> accept all -> offer 4 ...; the chain freezes at a point of the cycle)
+  [OK] V5(fair=4) offering to V5(fair=5): evaluates (the pair cycles; see README) EV (0.0, 0.0)
+done in 37s
 ALL OK

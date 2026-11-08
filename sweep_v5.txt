@@ -2,7 +2,7 @@ random games: 200
 copies reach exactly the fair point: 200 / 200
 copies' expected payoff is Pareto-undominated by every pure outcome: 200 / 200
 copies miss an outcome best for both players: 0 / 66 games that have one
-V5 reaches the fair point with FairBot-F (both seats): 327 / 400; with PrudentBot-F: 219 / 400
+V5 reaches the fair point with FairBot-F (both seats): 358 / 400; with PrudentBot-F: 243 / 400
 cells where V5 is below its own maxmin (tier C giving in, by design): 98 / 3000
 
 threatener sweep over all games (named + random), every pure commitment of the opponent in both seats: 1048 commitments
