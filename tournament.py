@@ -9,6 +9,7 @@ from itertools import product
 from rmodal import *
 from v5 import V5, V5R, fair_point, maxmin_val
 from v6 import V6
+from v7 import V7
 from run import G, rand_game
 
 NR = int(sys.argv[1]) if len(sys.argv) > 1 else 20
@@ -51,6 +52,18 @@ class Mixer(RAgent):
     def program(self, g, role, me, opp, r, ctx):
         pr, pc, uv, _ = fair_point(g, ctx.rnd.npub)
         return [], threat_act(g, role) if r[2] < 9 else (pr, pc)[role](r[0])
+
+class Clique(RAgent):
+    """Exact-copy checker: plays its part of the fair point iff the opponent is an exact copy (same class and the
+    same fallback), otherwise `other(g, role)`.  The modal analogue of comparing source code: no proof search at all.
+    other = mm_act gives CliqueBot (fair with its own kind, maxmin with everyone else); other = threat_act gives the
+    cartel (fair with its own kind, the threat action against everyone else)."""
+    def __init__(self, other, name): super().__init__(name); self.other = other
+    def program(self, g, role, me, opp, r, ctx):
+        o = opp[0]
+        if type(o) is Clique and o.other is self.other:
+            pr, pc, uv, _ = fair_point(g, ctx.rnd.npub); return [], (pr, pc)[role](r[0])
+        return [], self.other(g, role)
 
 class FB(RAgent):
     """FairBot aimed at the fair point; fallback given by `fb(g, role)`."""
@@ -115,6 +128,8 @@ class GreedyUDT(RAgent):
         return self._c[(me, opp)], mm_act(g, role)
 
 AGENTS = {
+    "V7": lambda n="V7": V7(n),
+    "V7-norock": lambda n="V7-norock": V7(n, rock="never"),
     "V6": lambda n="V6": V6(n),
     "V6-norock": lambda n="V6-norock": V6(n, rock="never"),
     "V5R": lambda n="V5R": V5R(n),
@@ -125,6 +140,8 @@ AGENTS = {
     "Punisher": lambda n="Punisher": Punisher(n),
     "BestResponder": lambda n="BestResponder": BestResponder(n),
     "GreedyUDT": lambda n="GreedyUDT": GreedyUDT(n),
+    "CliqueBot": lambda n="CliqueBot": Clique(mm_act, n),
+    "Cartel": lambda n="Cartel": Clique(threat_act, n),
     "FairStone": lambda n="FairStone": FairStone(n),
     "ThreatStone": lambda n="ThreatStone": Stone(threat_act, n),
     "MaxminStone": lambda n="MaxminStone": Stone(mm_act, n),

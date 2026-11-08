@@ -857,3 +857,53 @@ the non-rock opponent's PA-level reciprocation is already poisoned by our level-
 neutral drift in Chicken is harmless (it is exploited in every game with a pushover action) and structural;
 (iv) different notions of fairness still cycle; (v) private mixes finer than k are still unread; (vi) a bounded V6
 (theory 2 in the bounded calculus) is still not built.
+
+## V7: a Löb tier after reciprocation; exact-copy cliques; the probe at PA+3 (2026-11-08; `v7.py`, `tournament.py`)
+
+Mikhail: can we think of even better agents, and agents that check for exact copies?
+
+**V7** (`v7.py`, now the default) = V6 plus one tier between reciprocation and the commitment reader: for the most
+profitable exploitable pair (a, b), Box_2(I play a at every key -> the opponent plays b at every key) -> a.  This is
+the "search for a proof that if I go Straight they swerve" from the start of this work, which placed BEFORE
+reciprocation makes the agent unverifiable to a PA reasoner (README, V6 section); placed AFTER it, it never touches
+anyone the agent reciprocates with, and catches readers that give in to provable commitments at PA+1 behind a
+consistency guard (the best-responder, this agent's own C tier): the tier passes vacuously at levels 1-2, such a
+reader sees "a at every key" at level 1 and answers b from level 2, and PA+2 then proves the implication.  Read in
+PA+2 because a guarded reader cannot answer before level 2; not higher, because every extra stratum is a level of
+vacuous a-play against everyone.  COMPUTED: identical to V6 in every named-game cell except Battle of the Sexes
+against the best-responder, 0.70 -> 2.00; the gain in random games is against the best-responder (+16.1 over 14
+cells) and greedy UDT (+10.0 over 5).
+
+Two things it broke, both fixed.  (i) The vacuous phase is visible to anyone probing in PA+2 how we play against
+a constant: in r3-1016 and r2-1025 the Löb action is also the action that gives in to one of the opponent's
+threats, V6's PA+2 probe read V7's level-2 play against that constant as a pushover and refused it, and V7 copies
+lost the fair point (4.6 instead of 7.5).  The probe in `v6.py` (shared by V6 and V7) now reads in PA+3.  (ii) The
+same phase is visible to PA+1 probes (V5's tier A, PrudentBot's), which cannot be moved: V7 lost 14 points to
+V5/V5R and 4.2 to PrudentBot over 7 and 5 cells.  So the tier is gated by the matrix: it is absent in games where
+its action a is my best response to some opponent commitment that would pay the opponent more than fair (there it
+reads as giving in).  Present in the PD, Chicken and Battle of the Sexes.  After the gate: `test_v5.py` ALL OK; V7
+differs from V6 only in cells against the best-responder and greedy UDT (all gains) and two V7/V7-norock cells.
+
+**Cliques** (`tournament.py`): CliqueBot plays its part of the fair point iff the opponent is an exact copy (same
+class, same fallback — the modal analogue of comparing source), else maxmin; the Cartel is the same with the threat
+action against non-copies.  No proof search at all.
+
+COMPUTED, round-robin of 18 (72 games, both seats): V7 0.795 (named 0.705, random 0.813), V7-norock 0.795, V6 0.793,
+V6-norock 0.792, V5R 0.788, V5 0.788, BestResponder 0.754, FairBot 0.754, GreedyUDT 0.752, StubbornFB 0.749,
+PrudentBot 0.744, Punisher 0.735, Cartel 0.734, ThreatStone 0.724, Mixer 0.711, FairStone 0.708, CliqueBot 0.672,
+MaxminStone 0.664.  Selection (`evolve.py`, all games): V7 and V6 are neutral with each other (the Löb tier never
+fires between them), so V7 is no longer a strict ESS — V6 ties with it; mean final share over 400 random starts
+V7 0.32, V7-norock 0.29, V6-norock 0.21, V6 0.15; the rock/no-rock tipping point is now exactly 50%.  The cliques:
+**CliqueBot and the Cartel are both evolutionarily stable** (nothing scores more against a population of them than
+they score against themselves, since everyone else gets maxmin or the threat response) and have the lowest scores
+in the field — they cannot grow from rare.  Alone against V7 the Cartel wins iff it starts above 48.3% (V7 gives
+in 9 times in 10 to its threat, leaving it at -5.5 in Chicken, but V7 pays -10.9); CliqueBot needs 68.7%.  From
+30% of an otherwise uniform population the Cartel dies out; from 50% it takes everything.  **With no variant of
+this agent in the field, the Cartel takes the whole population from the uniform start**: FairBot and PrudentBot
+fall back to their safe action against it and are exploited, the stubborn reciprocator crashes into it.  The
+threat rule is what stops it.
+
+Game-mix dependence: `reasoners.html` (the explorable page) embeds the per-game-group fitness matrices (PD, Stag
+Hunt, Chicken, mild Chicken, BoS, coordination, Matching Pennies, Asym, random 2x2, random 3x3) and lets the
+weights be set; the fitness matrix is linear in the mix, so every mix is exact.  The 16-agent run before the
+cliques is kept as `tournament_16.*`, `evolve_16.txt`.

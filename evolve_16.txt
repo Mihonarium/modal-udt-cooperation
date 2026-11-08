@@ -1,0 +1,255 @@
+=== all games (72 games) ===
+round-robin score (mean over opponents incl. self): V6 0.80, V6-norock 0.80, V5R 0.79, V5 0.79, V7 0.79, V7-norock 0.79, FairBot 0.76, StubbornFB 0.76, BestResponder 0.75, GreedyUDT 0.75, PrudentBot 0.75, Punisher 0.73, ThreatStone 0.73, Mixer 0.72, FairStone 0.72, MaxminStone 0.67
+replicator from the uniform start (3000 generations): V6 0.92, V6-norock 0.06, V5 0.02
+endpoints from 400 random initial compositions (types with share >= 1%):
+   38.8%  {V6}
+   23.2%  {V5, V6-norock}
+   13.2%  {V5, V6, V6-norock}
+    8.2%  {V5, V5R, V6, V6-norock}
+    5.2%  {V6, V6-norock}
+    4.2%  {V6-norock}
+    2.5%  {V5, V6}
+    1.8%  {V5, V5R, V6}
+mean final share across random starts: V6 0.55, V6-norock 0.32, V5 0.12, V5R 0.01
+Wright-Fisher N=200, mutation 0.5%, long-run average composition: V6 0.46, V5 0.23, V6-norock 0.17, V5R 0.06
+invasion analysis (resident -> strict invaders | neutral mutants | ESS?):
+  V7             self 0.782  invaded by: V6, V6-norock, V5R, V5  | neutral: -  | not ESS
+  V7-norock      self 0.782  invaded by: V6, V6-norock, V5R, V5, StubbornFB  | neutral: -  | not ESS
+  V6             self 0.815  invaded by: -  | neutral: -  | ESS
+  V6-norock      self 0.815  invaded by: -  | neutral: V5  | not ESS
+  V5R            self 0.815  invaded by: V6, V6-norock, V5  | neutral: -  | not ESS
+  V5             self 0.815  invaded by: V6  | neutral: V6-norock  | not ESS
+  FairBot        self 0.815  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5  | neutral: StubbornFB, FairStone  | not ESS
+  PrudentBot     self 0.802  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot  | neutral: -  | not ESS
+  StubbornFB     self 0.815  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5  | neutral: FairBot, FairStone  | not ESS
+  Punisher       self 0.632  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, BestResponder, GreedyUDT, FairStone, ThreatStone, MaxminStone, Mixer  | neutral: -  | not ESS
+  BestResponder  self 0.726  invaded by: V7, V7-norock, StubbornFB, Punisher, GreedyUDT, ThreatStone, Mixer  | neutral: -  | not ESS
+  GreedyUDT      self 0.739  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, StubbornFB, BestResponder, ThreatStone  | neutral: -  | not ESS
+  FairStone      self 0.815  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, PrudentBot, Punisher, BestResponder, GreedyUDT  | neutral: FairBot, StubbornFB  | not ESS
+  ThreatStone    self 0.639  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, GreedyUDT, FairStone, Mixer  | neutral: -  | not ESS
+  MaxminStone    self 0.662  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, GreedyUDT, ThreatStone, Mixer  | neutral: -  | not ESS
+  Mixer          self 0.657  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, GreedyUDT, FairStone  | neutral: -  | not ESS
+
+=== named games (12 games) ===
+round-robin score (mean over opponents incl. self): V7 0.72, V7-norock 0.71, V6 0.71, V5R 0.71, V6-norock 0.71, V5 0.70, StubbornFB 0.65, FairBot 0.64, PrudentBot 0.63, GreedyUDT 0.61, BestResponder 0.61, Punisher 0.57, ThreatStone 0.57, Mixer 0.54, MaxminStone 0.54, FairStone 0.54
+replicator from the uniform start (2309 generations): V7-norock 0.42, V6-norock 0.35, V5 0.23
+endpoints from 400 random initial compositions (types with share >= 1%):
+   40.8%  {V5, V6-norock, V7-norock}
+   33.0%  {V6, V7}
+   10.0%  {V7}
+    7.8%  {V6-norock, V7-norock}
+    3.2%  {V5, V7-norock}
+    2.5%  {V5, V6-norock}
+    1.2%  {V7-norock}
+    1.2%  {V6}
+mean final share across random starts: V7 0.32, V7-norock 0.28, V6-norock 0.20, V6 0.12, V5 0.08
+Wright-Fisher N=200, mutation 0.5%, long-run average composition: V7-norock 0.61, V7 0.13, V6-norock 0.10, V5 0.08, V5R 0.03, V6 0.02
+invasion analysis (resident -> strict invaders | neutral mutants | ESS?):
+  V7             self 0.742  invaded by: -  | neutral: V6  | not ESS
+  V7-norock      self 0.742  invaded by: -  | neutral: V6-norock, V5  | not ESS
+  V6             self 0.742  invaded by: -  | neutral: V7  | not ESS
+  V6-norock      self 0.742  invaded by: -  | neutral: V7-norock, V5  | not ESS
+  V5R            self 0.742  invaded by: V7, V7-norock, V6, V6-norock, V5  | neutral: -  | not ESS
+  V5             self 0.742  invaded by: V7, V6  | neutral: V7-norock, V6-norock  | not ESS
+  FairBot        self 0.742  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5  | neutral: StubbornFB, FairStone  | not ESS
+  PrudentBot     self 0.740  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, StubbornFB  | neutral: -  | not ESS
+  StubbornFB     self 0.742  invaded by: V7-norock, V6-norock, V5  | neutral: FairBot, FairStone  | not ESS
+  Punisher       self 0.414  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, BestResponder, GreedyUDT, ThreatStone, MaxminStone  | neutral: -  | not ESS
+  BestResponder  self 0.597  invaded by: V7, V7-norock, V6, V5R, StubbornFB, Punisher, ThreatStone, Mixer  | neutral: -  | not ESS
+  GreedyUDT      self 0.724  invaded by: -  | neutral: -  | ESS
+  FairStone      self 0.742  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, PrudentBot, Punisher, BestResponder, GreedyUDT, ThreatStone, MaxminStone, Mixer  | neutral: FairBot, StubbornFB  | not ESS
+  ThreatStone    self 0.414  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, GreedyUDT, FairStone, MaxminStone, Mixer  | neutral: -  | not ESS
+  MaxminStone    self 0.597  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, Punisher, BestResponder, GreedyUDT  | neutral: PrudentBot  | not ESS
+  Mixer          self 0.452  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, GreedyUDT, FairStone, MaxminStone  | neutral: -  | not ESS
+
+=== random games (60 games) ===
+round-robin score (mean over opponents incl. self): V6 0.82, V6-norock 0.82, V5R 0.81, V5 0.81, V7 0.81, V7-norock 0.81, BestResponder 0.78, FairBot 0.78, StubbornFB 0.78, GreedyUDT 0.78, PrudentBot 0.77, Punisher 0.77, ThreatStone 0.77, Mixer 0.75, FairStone 0.75, MaxminStone 0.69
+replicator from the uniform start (894 generations): V6 0.26, V6-norock 0.26, V5R 0.24, V5 0.24
+endpoints from 400 random initial compositions (types with share >= 1%):
+   60.5%  {V5, V5R, V6, V6-norock}
+    8.8%  {V5, V6, V6-norock}
+    8.5%  {V5R, V6, V6-norock}
+    8.5%  {V5, V5R, V6-norock}
+    7.5%  {V5, V5R, V6}
+    1.8%  {V5, V6-norock}
+    1.2%  {V6, V6-norock}
+    1.0%  {V5R, V6-norock}
+mean final share across random starts: V5R 0.25, V6 0.25, V6-norock 0.25, V5 0.24
+Wright-Fisher N=200, mutation 0.5%, long-run average composition: V5 0.34, V6 0.33, V5R 0.13, V6-norock 0.13
+invasion analysis (resident -> strict invaders | neutral mutants | ESS?):
+  V7             self 0.790  invaded by: V6, V6-norock, V5R, V5, StubbornFB  | neutral: V7-norock  | not ESS
+  V7-norock      self 0.790  invaded by: V6, V6-norock, V5R, V5, StubbornFB  | neutral: V7  | not ESS
+  V6             self 0.829  invaded by: -  | neutral: V6-norock, V5R, V5  | not ESS
+  V6-norock      self 0.829  invaded by: -  | neutral: V6, V5R, V5  | not ESS
+  V5R            self 0.829  invaded by: -  | neutral: V6, V6-norock, V5  | not ESS
+  V5             self 0.829  invaded by: -  | neutral: V6, V6-norock, V5R  | not ESS
+  FairBot        self 0.829  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, PrudentBot  | neutral: StubbornFB, FairStone  | not ESS
+  PrudentBot     self 0.814  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5  | neutral: -  | not ESS
+  StubbornFB     self 0.829  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5  | neutral: FairBot, FairStone  | not ESS
+  Punisher       self 0.676  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, BestResponder, GreedyUDT, FairStone, ThreatStone, MaxminStone, Mixer  | neutral: -  | not ESS
+  BestResponder  self 0.752  invaded by: V7, V7-norock, StubbornFB, Punisher, GreedyUDT, ThreatStone, Mixer  | neutral: -  | not ESS
+  GreedyUDT      self 0.741  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, ThreatStone, Mixer  | neutral: -  | not ESS
+  FairStone      self 0.829  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, PrudentBot, Punisher, BestResponder, GreedyUDT  | neutral: FairBot, StubbornFB  | not ESS
+  ThreatStone    self 0.684  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, GreedyUDT, FairStone, Mixer  | neutral: -  | not ESS
+  MaxminStone    self 0.675  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, GreedyUDT, ThreatStone, Mixer  | neutral: -  | not ESS
+  Mixer          self 0.698  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, GreedyUDT, FairStone  | neutral: -  | not ESS
+
+=== PD5/3/1/0 (1 games) ===
+round-robin score (mean over opponents incl. self): V7 0.48, V7-norock 0.48, V6 0.48, V6-norock 0.48, V5R 0.48, V5 0.48, PrudentBot 0.48, FairBot 0.45, StubbornFB 0.45, GreedyUDT 0.28, Punisher 0.26, BestResponder 0.26, ThreatStone 0.26, MaxminStone 0.26, Mixer 0.23, FairStone 0.12
+replicator from the uniform start (25 generations): V7 0.11, V7-norock 0.11, V6 0.11, V6-norock 0.11, V5R 0.11, V5 0.11, PrudentBot 0.11, FairBot 0.10, StubbornFB 0.10
+endpoints from 400 random initial compositions (types with share >= 1%):
+   10.2%  {FairBot, PrudentBot, StubbornFB, V5, V5R, V6, V6-norock, V7, V7-norock}
+    5.0%  {PrudentBot, StubbornFB, V5, V5R, V6, V6-norock, V7, V7-norock}
+    4.2%  {FairBot, PrudentBot, V5, V5R, V6, V6-norock, V7, V7-norock}
+    4.0%  {FairBot, PrudentBot, StubbornFB, V5, V5R, V6, V6-norock, V7}
+    3.2%  {FairBot, PrudentBot, StubbornFB, V5, V5R, V6-norock, V7, V7-norock}
+    2.2%  {FairBot, PrudentBot, StubbornFB, V5, V5R, V6, V7, V7-norock}
+    2.2%  {FairBot, PrudentBot, StubbornFB, V5, V5R, V6, V6-norock, V7-norock}
+    2.2%  {FairBot, StubbornFB, V5, V6, V6-norock, V7, V7-norock}
+mean final share across random starts: V7 0.12, PrudentBot 0.11, V5R 0.11, V7-norock 0.11, V6-norock 0.11, V5 0.11, V6 0.11, FairBot 0.10, StubbornFB 0.10, GreedyUDT 0.01
+Wright-Fisher N=200, mutation 0.5%, long-run average composition: V6 0.20, StubbornFB 0.15, V6-norock 0.13, V7-norock 0.13, PrudentBot 0.12, V7 0.09, FairBot 0.09, V5 0.04, V5R 0.04
+invasion analysis (resident -> strict invaders | neutral mutants | ESS?):
+  V7             self 0.600  invaded by: -  | neutral: V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB  | not ESS
+  V7-norock      self 0.600  invaded by: -  | neutral: V7, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB  | not ESS
+  V6             self 0.600  invaded by: -  | neutral: V7, V7-norock, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB  | not ESS
+  V6-norock      self 0.600  invaded by: -  | neutral: V7, V7-norock, V6, V5R, V5, FairBot, PrudentBot, StubbornFB  | not ESS
+  V5R            self 0.600  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5, FairBot, PrudentBot, StubbornFB  | not ESS
+  V5             self 0.600  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, FairBot, PrudentBot, StubbornFB  | not ESS
+  FairBot        self 0.600  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, PrudentBot, StubbornFB, FairStone  | not ESS
+  PrudentBot     self 0.600  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, StubbornFB  | not ESS
+  StubbornFB     self 0.600  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, FairStone  | not ESS
+  Punisher       self 0.200  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, BestResponder, GreedyUDT, ThreatStone, MaxminStone  | not ESS
+  BestResponder  self 0.200  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, GreedyUDT, ThreatStone, MaxminStone  | not ESS
+  GreedyUDT      self 0.600  invaded by: -  | neutral: -  | ESS
+  FairStone      self 0.600  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, PrudentBot, Punisher, BestResponder, GreedyUDT, ThreatStone, MaxminStone, Mixer  | neutral: FairBot, StubbornFB  | not ESS
+  ThreatStone    self 0.200  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, GreedyUDT, MaxminStone  | not ESS
+  MaxminStone    self 0.200  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, GreedyUDT, ThreatStone  | not ESS
+  Mixer          self 0.258  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, GreedyUDT, ThreatStone, MaxminStone  | neutral: -  | not ESS
+
+=== Chicken (1 games) ===
+round-robin score (mean over opponents incl. self): V6 0.96, V7 0.96, BestResponder 0.96, GreedyUDT 0.96, V6-norock 0.96, V7-norock 0.95, V5 0.95, V5R 0.95, FairBot 0.95, PrudentBot 0.95, MaxminStone 0.94, FairStone 0.88, StubbornFB 0.78, Punisher 0.75, ThreatStone 0.75, Mixer 0.70
+replicator from the uniform start (3000 generations): FairStone 0.95, V6 0.03, V7 0.02
+endpoints from 400 random initial compositions (types with share >= 1%):
+   32.0%  {FairStone, V6, V7}
+   14.8%  {FairStone, V5, V6-norock, V7-norock}
+   12.0%  {FairStone, StubbornFB, V5, V6-norock, V7-norock}
+    8.8%  {V6, V7}
+    4.5%  {V5, V6-norock, V7-norock}
+    4.0%  {FairStone, V7}
+    4.0%  {FairStone, V6-norock, V7-norock}
+    4.0%  {StubbornFB, V5, V6-norock, V7-norock}
+mean final share across random starts: V7 0.22, V6 0.19, V6-norock 0.17, V7-norock 0.16, FairStone 0.15, V5 0.07, StubbornFB 0.03
+Wright-Fisher N=200, mutation 0.5%, long-run average composition: V7-norock 0.36, V6-norock 0.10, V7 0.10, V5 0.10, FairStone 0.10, V6 0.09, StubbornFB 0.06, V5R 0.03
+invasion analysis (resident -> strict invaders | neutral mutants | ESS?):
+  V7             self 0.971  invaded by: -  | neutral: V6, FairStone  | not ESS
+  V7-norock      self 0.971  invaded by: -  | neutral: V6-norock, V5, StubbornFB, FairStone  | not ESS
+  V6             self 0.971  invaded by: -  | neutral: V7, FairStone  | not ESS
+  V6-norock      self 0.971  invaded by: -  | neutral: V7-norock, V5, StubbornFB, FairStone  | not ESS
+  V5R            self 0.971  invaded by: V7, V7-norock, V6, V6-norock, V5  | neutral: FairStone  | not ESS
+  V5             self 0.971  invaded by: V7, V6  | neutral: V7-norock, V6-norock, FairBot, StubbornFB, FairStone  | not ESS
+  FairBot        self 0.971  invaded by: V7, V7-norock, V6, V6-norock, V5R, Punisher, BestResponder, ThreatStone, Mixer  | neutral: V5, StubbornFB, FairStone  | not ESS
+  PrudentBot     self 0.952  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, StubbornFB, Punisher, BestResponder, FairStone, ThreatStone, Mixer  | neutral: FairBot, GreedyUDT, MaxminStone  | not ESS
+  StubbornFB     self 0.971  invaded by: -  | neutral: V7-norock, V6-norock, V5, FairBot, PrudentBot, FairStone  | not ESS
+  Punisher       self 0.000  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, BestResponder, GreedyUDT, FairStone, ThreatStone, MaxminStone, Mixer  | neutral: StubbornFB  | not ESS
+  BestResponder  self 0.952  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, StubbornFB, Punisher, GreedyUDT, FairStone, ThreatStone, Mixer  | neutral: -  | not ESS
+  GreedyUDT      self 0.952  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, StubbornFB, FairStone, ThreatStone, Mixer  | neutral: FairBot, PrudentBot  | not ESS
+  FairStone      self 0.971  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, BestResponder  | not ESS
+  ThreatStone    self 0.000  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, Punisher, BestResponder, GreedyUDT, FairStone, MaxminStone, Mixer  | neutral: StubbornFB  | not ESS
+  MaxminStone    self 0.952  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, StubbornFB, Punisher, BestResponder, GreedyUDT, FairStone, ThreatStone, Mixer  | neutral: FairBot, PrudentBot  | not ESS
+  Mixer          self 0.097  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, BestResponder, GreedyUDT, FairStone, MaxminStone  | neutral: -  | not ESS
+
+=== Chicken-mild (1 games) ===
+round-robin score (mean over opponents incl. self): V7 0.75, V7-norock 0.72, V6 0.72, V5R 0.72, ThreatStone 0.71, V6-norock 0.68, V5 0.67, StubbornFB 0.64, Mixer 0.64, GreedyUDT 0.57, BestResponder 0.55, Punisher 0.53, FairBot 0.41, PrudentBot 0.41, FairStone 0.41, MaxminStone 0.41
+replicator from the uniform start (112 generations): V7-norock 0.38, V6-norock 0.25, StubbornFB 0.19, V5 0.18
+endpoints from 400 random initial compositions (types with share >= 1%):
+   38.8%  {StubbornFB, V5, V6-norock, V7-norock}
+   21.0%  {V6, V7}
+    8.8%  {StubbornFB, V6-norock, V7-norock}
+    7.5%  {V5, V6-norock, V7-norock}
+    6.0%  {StubbornFB, V5, V7-norock}
+    5.2%  {V7}
+    4.2%  {StubbornFB, V5, V6-norock}
+    2.8%  {V6-norock, V7-norock}
+mean final share across random starts: V7-norock 0.28, StubbornFB 0.19, V7 0.18, V6-norock 0.16, V6 0.10, V5 0.09
+Wright-Fisher N=200, mutation 0.5%, long-run average composition: V7-norock 0.47, StubbornFB 0.20, V6-norock 0.13, V7 0.09, V5 0.08
+invasion analysis (resident -> strict invaders | neutral mutants | ESS?):
+  V7             self 0.750  invaded by: -  | neutral: V6  | not ESS
+  V7-norock      self 0.750  invaded by: -  | neutral: V6-norock, V5, StubbornFB  | not ESS
+  V6             self 0.750  invaded by: -  | neutral: V7  | not ESS
+  V6-norock      self 0.750  invaded by: -  | neutral: V7-norock, V5, StubbornFB  | not ESS
+  V5R            self 0.750  invaded by: V7, V7-norock, V6, V6-norock  | neutral: V5  | not ESS
+  V5             self 0.750  invaded by: V7, V6  | neutral: V7-norock, V6-norock, V5R, StubbornFB  | not ESS
+  FairBot        self 0.750  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, Punisher, BestResponder, GreedyUDT, ThreatStone, Mixer  | neutral: PrudentBot, StubbornFB, FairStone, MaxminStone  | not ESS
+  PrudentBot     self 0.750  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, Punisher, BestResponder, GreedyUDT, ThreatStone, Mixer  | neutral: FairBot, StubbornFB, FairStone, MaxminStone  | not ESS
+  StubbornFB     self 0.750  invaded by: -  | neutral: V7-norock, V6-norock, V5, FairBot, PrudentBot, FairStone, MaxminStone  | not ESS
+  Punisher       self 0.000  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, BestResponder, GreedyUDT, FairStone, ThreatStone, MaxminStone, Mixer  | neutral: StubbornFB  | not ESS
+  BestResponder  self 0.750  invaded by: V7, V7-norock, V6, V5R, StubbornFB, Punisher, GreedyUDT, ThreatStone, Mixer  | neutral: -  | not ESS
+  GreedyUDT      self 0.750  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, StubbornFB, ThreatStone, Mixer  | neutral: -  | not ESS
+  FairStone      self 0.750  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, Punisher, BestResponder, GreedyUDT, ThreatStone, Mixer  | neutral: FairBot, PrudentBot, StubbornFB, MaxminStone  | not ESS
+  ThreatStone    self 0.000  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, Punisher, BestResponder, GreedyUDT, FairStone, MaxminStone, Mixer  | neutral: StubbornFB  | not ESS
+  MaxminStone    self 0.750  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, Punisher, BestResponder, GreedyUDT, ThreatStone, Mixer  | neutral: FairBot, PrudentBot, StubbornFB, FairStone  | not ESS
+  Mixer          self 0.120  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, BestResponder, GreedyUDT, FairStone, MaxminStone  | neutral: -  | not ESS
+
+=== BoS (1 games) ===
+round-robin score (mean over opponents incl. self): V7 0.72, V7-norock 0.72, V6 0.66, V6-norock 0.66, V5R 0.65, V5 0.65, PrudentBot 0.63, StubbornFB 0.63, FairBot 0.62, BestResponder 0.61, FairStone 0.61, GreedyUDT 0.61, ThreatStone 0.58, MaxminStone 0.58, Punisher 0.52, Mixer 0.49
+replicator from the uniform start (192 generations): V7 0.24, V7-norock 0.24, V6 0.12, V6-norock 0.12, StubbornFB 0.08, V5R 0.08, V5 0.08, FairStone 0.06
+endpoints from 400 random initial compositions (types with share >= 1%):
+   11.5%  {FairStone, StubbornFB, V5, V5R, V6, V6-norock, V7, V7-norock}
+    5.5%  {FairStone, V5, V5R, V6, V6-norock, V7, V7-norock}
+    4.5%  {FairStone, StubbornFB, V5R, V6, V6-norock, V7, V7-norock}
+    4.0%  {FairStone, StubbornFB, V5, V5R, V6, V7, V7-norock}
+    4.0%  {FairStone, StubbornFB, V5, V6, V6-norock, V7, V7-norock}
+    3.8%  {FairStone, StubbornFB, V5, V5R, V6-norock, V7, V7-norock}
+    3.0%  {StubbornFB, V5, V5R, V6, V6-norock, V7, V7-norock}
+    2.8%  {V5, V5R, V6, V6-norock, V7, V7-norock}
+mean final share across random starts: V7 0.23, V7-norock 0.22, V6-norock 0.12, V6 0.11, StubbornFB 0.09, V5R 0.08, V5 0.07, FairStone 0.07
+Wright-Fisher N=200, mutation 0.5%, long-run average composition: V7-norock 0.38, V5 0.12, V7 0.12, FairStone 0.10, V6-norock 0.09, V6 0.07, StubbornFB 0.06, V5R 0.04
+invasion analysis (resident -> strict invaders | neutral mutants | ESS?):
+  V7             self 0.750  invaded by: -  | neutral: V7-norock, V6, V6-norock, V5R, V5, StubbornFB, FairStone  | not ESS
+  V7-norock      self 0.750  invaded by: -  | neutral: V7, V6, V6-norock, V5R, V5, StubbornFB, FairStone  | not ESS
+  V6             self 0.750  invaded by: -  | neutral: V7, V7-norock, V6-norock, V5R, V5, StubbornFB, FairStone  | not ESS
+  V6-norock      self 0.750  invaded by: -  | neutral: V7, V7-norock, V6, V5R, V5, StubbornFB, FairStone  | not ESS
+  V5R            self 0.750  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5, FairBot, StubbornFB, FairStone  | not ESS
+  V5             self 0.750  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, FairBot, StubbornFB, FairStone  | not ESS
+  FairBot        self 0.750  invaded by: V7, V7-norock, V6, V6-norock, PrudentBot  | neutral: V5R, V5, StubbornFB, BestResponder, GreedyUDT, FairStone, MaxminStone  | not ESS
+  PrudentBot     self 0.750  invaded by: V7, V7-norock, V6, V6-norock  | neutral: StubbornFB, BestResponder, GreedyUDT, FairStone, MaxminStone  | not ESS
+  StubbornFB     self 0.750  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, FairStone  | not ESS
+  Punisher       self 0.000  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, BestResponder, GreedyUDT, FairStone, ThreatStone, MaxminStone, Mixer  | neutral: StubbornFB  | not ESS
+  BestResponder  self 0.750  invaded by: V7, V7-norock, StubbornFB, ThreatStone, Mixer  | neutral: FairBot, PrudentBot, Punisher, GreedyUDT, FairStone, MaxminStone  | not ESS
+  GreedyUDT      self 0.750  invaded by: V7, V7-norock, StubbornFB, ThreatStone  | neutral: FairBot, PrudentBot, BestResponder, MaxminStone  | not ESS
+  FairStone      self 0.750  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, BestResponder  | not ESS
+  ThreatStone    self 0.000  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, Punisher, BestResponder, GreedyUDT, FairStone, MaxminStone, Mixer  | neutral: StubbornFB  | not ESS
+  MaxminStone    self 0.750  invaded by: -  | neutral: FairBot, PrudentBot, Punisher, BestResponder, GreedyUDT  | not ESS
+  Mixer          self 0.075  invaded by: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, BestResponder, GreedyUDT, FairStone, MaxminStone  | neutral: -  | not ESS
+
+=== StagHunt (1 games) ===
+round-robin score (mean over opponents incl. self): V7 0.97, V7-norock 0.97, V6 0.97, V6-norock 0.97, V5R 0.97, V5 0.97, FairBot 0.97, PrudentBot 0.97, GreedyUDT 0.97, StubbornFB 0.94, Punisher 0.94, FairStone 0.94, ThreatStone 0.94, Mixer 0.94, BestResponder 0.83, MaxminStone 0.75
+replicator from the uniform start (129 generations): V7 0.07, V7-norock 0.07, V6 0.07, V6-norock 0.07, V5R 0.07, V5 0.07, FairBot 0.07, PrudentBot 0.07, GreedyUDT 0.07, StubbornFB 0.07, Punisher 0.07, FairStone 0.07, ThreatStone 0.07, Mixer 0.07
+endpoints from 400 random initial compositions (types with share >= 1%):
+    1.0%  {FairBot, FairStone, GreedyUDT, Mixer, PrudentBot, Punisher, ThreatStone, V5, V5R, V6, V6-norock, V7, V7-norock}
+    1.0%  {FairBot, FairStone, GreedyUDT, Mixer, PrudentBot, StubbornFB, ThreatStone, V5, V5R, V6, V6-norock, V7, V7-norock}
+    0.8%  {FairStone, GreedyUDT, Mixer, PrudentBot, Punisher, StubbornFB, ThreatStone, V5, V5R, V6, V6-norock, V7, V7-norock}
+    0.8%  {FairBot, FairStone, Mixer, PrudentBot, Punisher, StubbornFB, ThreatStone, V5, V5R, V6, V6-norock}
+    0.8%  {FairBot, FairStone, GreedyUDT, PrudentBot, Punisher, StubbornFB, ThreatStone, V5, V5R, V6, V6-norock, V7, V7-norock}
+    0.5%  {FairBot, FairStone, GreedyUDT, Mixer, PrudentBot, Punisher, StubbornFB, ThreatStone, V5, V5R, V6, V6-norock, V7}
+    0.5%  {FairBot, FairStone, GreedyUDT, Mixer, PrudentBot, StubbornFB, ThreatStone, V5, V5R, V6-norock, V7, V7-norock}
+    0.5%  {FairBot, FairStone, Mixer, PrudentBot, Punisher, ThreatStone, V5, V5R, V6, V6-norock, V7}
+mean final share across random starts: V7 0.08, PrudentBot 0.08, V7-norock 0.08, V5R 0.07, FairBot 0.07, V6-norock 0.07, V6 0.07, V5 0.07, Mixer 0.07, GreedyUDT 0.07, FairStone 0.07, StubbornFB 0.06, Punisher 0.06, ThreatStone 0.06
+Wright-Fisher N=200, mutation 0.5%, long-run average composition: V5 0.15, ThreatStone 0.13, V5R 0.10, V7-norock 0.10, PrudentBot 0.07, V6-norock 0.07, Mixer 0.06, Punisher 0.06, V7 0.05, StubbornFB 0.05, V6 0.05, GreedyUDT 0.04, FairBot 0.04, FairStone 0.03
+invasion analysis (resident -> strict invaders | neutral mutants | ESS?):
+  V7             self 1.000  invaded by: -  | neutral: V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, GreedyUDT, FairStone, ThreatStone, Mixer  | not ESS
+  V7-norock      self 1.000  invaded by: -  | neutral: V7, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, GreedyUDT, FairStone, ThreatStone, Mixer  | not ESS
+  V6             self 1.000  invaded by: -  | neutral: V7, V7-norock, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, GreedyUDT, FairStone, ThreatStone, Mixer  | not ESS
+  V6-norock      self 1.000  invaded by: -  | neutral: V7, V7-norock, V6, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, GreedyUDT, FairStone, ThreatStone, Mixer  | not ESS
+  V5R            self 1.000  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5, FairBot, PrudentBot, StubbornFB, Punisher, GreedyUDT, FairStone, ThreatStone, Mixer  | not ESS
+  V5             self 1.000  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, FairBot, PrudentBot, StubbornFB, Punisher, GreedyUDT, FairStone, ThreatStone, Mixer  | not ESS
+  FairBot        self 1.000  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, PrudentBot, StubbornFB, Punisher, GreedyUDT, FairStone, ThreatStone, Mixer  | not ESS
+  PrudentBot     self 1.000  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, StubbornFB, Punisher, GreedyUDT, FairStone, ThreatStone, Mixer  | not ESS
+  StubbornFB     self 1.000  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, Punisher, BestResponder, GreedyUDT, FairStone, ThreatStone, Mixer  | not ESS
+  Punisher       self 1.000  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, BestResponder, GreedyUDT, FairStone, ThreatStone, Mixer  | not ESS
+  BestResponder  self 0.750  invaded by: StubbornFB, Punisher, FairStone, ThreatStone, Mixer  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, GreedyUDT, MaxminStone  | not ESS
+  GreedyUDT      self 1.000  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, FairStone, ThreatStone, Mixer  | not ESS
+  FairStone      self 1.000  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, GreedyUDT, ThreatStone, Mixer  | not ESS
+  ThreatStone    self 1.000  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, GreedyUDT, FairStone, Mixer  | not ESS
+  MaxminStone    self 0.750  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, BestResponder, GreedyUDT  | not ESS
+  Mixer          self 1.000  invaded by: -  | neutral: V7, V7-norock, V6, V6-norock, V5R, V5, FairBot, PrudentBot, StubbornFB, Punisher, BestResponder, GreedyUDT, FairStone, ThreatStone  | not ESS

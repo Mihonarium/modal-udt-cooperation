@@ -3,7 +3,7 @@
   B'  reciprocate (PrudentBot-shaped, one positive condition):
         Box_0( I play F at all my keys -> the opponent plays F at all its keys )
         and, for every opponent action b that a best response a would exploit for more than u_F,
-        Box_2( the opponent does NOT play b at every key against Const_a )          -> play F(r_pub)
+        Box_3( the opponent does NOT play b at every key against Const_a )          -> play F(r_pub)
       The second conjunct is PrudentBot's "defects against DefectBot": a reciprocator that would give in to a rock is
       not cooperated with; it then falls back, and tier C answers the fallback.  It is a positive provability
       claim, so an opponent reasoning in PA can verify that we cooperate (no "my exploit search fails" to prove).
@@ -163,9 +163,11 @@ class V6(RAgent):
         for b in range(nB):
             a = max(range(nA), key=lambda x: (U(x, b), -x))
             if U(a, b) > uF:
-                # read in PA+2: at level 1 an opponent facing the rock has not yet read it (its own commitment tier is
-                # consistency-guarded and first fires at level 2) and plays its default, which can coincide with b
-                probes.append(Box(Not(ctx.plays((opp[0], self.const(a), 1 - role), lambda p, b=b: b)), 2))
+                # read in PA+3: at level 1 an opponent facing the rock has not yet read it (its own commitment tier is
+                # consistency-guarded and first fires at level 2) and plays its default, which can coincide with b;
+                # and V7's Löb tier plays its exploiting action at levels 1-2 against any non-reciprocator, the
+                # constants included, which in some games is the very action the probe calls giving in
+                probes.append(Box(Not(ctx.plays((opp[0], self.const(a), 1 - role), lambda p, b=b: b)), 3))
         B = And(Box(Imp(ctx.plays(me, myF), ctx.plays(opp, opF))), *probes)
         # rock
         R = []
