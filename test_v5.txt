@@ -62,14 +62,14 @@ PD
 Chicken (paper's matrix)
     fair point: 1/2 (0, 1) + 1/2 (1, 0) (2.0, 2.0)
   [OK] fair payoff is (2,2) from a 50/50 coin over (Sw,DS)/(DS,Sw) 
-              V6 vs V5'          row[Sw:0.50 DS:0.50] col[Sw:0.50 DS:0.50]  EV=(2.00,2.00) stab=1
+              V6 vs V5'          row[Sw:0.50 DS:0.50] col[Sw:0.50 DS:0.50]  EV=(2.00,2.00) stab=2
   [OK] copies: EV (2,2), never crash 
-              V6 vs DontSwerveBot row[Sw:0.95 DS:0.05] col[DS:1.00]  EV=(-5.95,-0.25) stab=1
+              V6 vs DontSwerveBot row[Sw:0.95 DS:0.05] col[DS:1.00]  EV=(-5.95,-0.25) stab=2
   [OK] vs DontSwerveBot: swerve with p just below 102/105 = 0.971 p=0.950
   [OK] vs DontSwerveBot: the threatener gets < 2 (fair) opp EV=-0.25 (would get 5 if we always gave in)
-              V6 vs SwerveBot    row[DS:1.00] col[Sw:1.00]  EV=(5.00,-1.00) stab=2
+              V6 vs SwerveBot    row[DS:1.00] col[Sw:1.00]  EV=(5.00,-1.00) stab=0
   [OK] vs SwerveBot: exploit (always DS, get 5) 
-              V6 vs Mix50        row[Sw:0.95 DS:0.05] col[Sw:0.50 DS:0.50]  EV=(-2.85,-0.15) stab=1
+              V6 vs Mix50        row[Sw:0.95 DS:0.05] col[Sw:0.50 DS:0.50]  EV=(-2.85,-0.15) stab=2
   [OK] vs private 50/50 mix (k=4): mix gets <= 2 opp EV=-0.15; always-swerve would give it 2.5
 Ultimatum (offers 0..10)
   [OK] fair point is the 5/5 split (5, 5)
@@ -87,5 +87,5 @@ Different notions of fairness
         V5-fair4 vs V5-fair5     row[o5:1.00] col[t5:1.00]  EV=(5.00,5.00) stab=4
     (no fixed point: offer 4 -> accept 9/12 -> offer 5 -> accept all -> offer 4 ...; the chain freezes at a point of the cycle)
   [OK] V5(fair=4) offering to V5(fair=5): evaluates (the pair cycles; see README) EV (5.0, 5.0)
-done in 23s
+done in 19s
 ALL OK

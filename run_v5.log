@@ -136,4 +136,4 @@ threatener sweep over all games (named + random), every pure commitment of the o
   V5's expected payoff below its maxmin against a non-threat commitment: 0
 unreadable private mixers (1/2 and 9/10 on each action, both seats, all games): 2096; mixer's expected payoff <= its fair payoff: 2094 / 2096
 
-237s
+212s

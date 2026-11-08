@@ -718,3 +718,21 @@ mixers (1/2 and 9/10 on each action, both seats, every game, 2096 cases): the mi
 fair payoff in 2094/2096 (V5's maxmin default let a 50/50 Chicken mixer collect 2.5 > 2; V6 gives it -2.8).  The two
 exceptions are mixes that beat D's single-commitment response by 0.2 and 0.05; a fully mix-proof default would be a
 small LP over my actions and is not built.
+
+### V6 with the level-0 rock in Chicken (2026-11-07) — default
+
+Mikhail: against "Swerve iff PA proves my opponent goes Straight at every key against me; otherwise Straight" we
+should go Straight.  A PA-provable Straight is true at level 0 of the chain, where nothing is known about anyone, so
+it has to be the FIRST condition of the decision list, passing vacuously there; the Löb-form check does exactly
+that ("if provably my Straight makes them swerve, go Straight"), and the only reason not to have it everywhere is
+the PD, where the same level-0 seed is a Defect that FairBot never forgives.  So V6 now carries it first in games
+that pass the rock gate and nowhere else:  Box_0(opponent plays b at every key against Const_a) and
+Box_0(opponent plays b at every key against me) -> a, for the most profitable exploitable (a, b).  COMPUTED (Chicken,
+paper's matrix): the PA-level non-rock punisher now swerves, (5, -1), was (-10.9, -5.5); everything else in the
+Chicken table is as before, except the PA-level reciprocator whose fallback is Straight, which reads the rock as a
+non-cooperator and goes Straight: V6 answers it as a commitment, (-10.9, -5.5), was (2, 2).  Those two opponents are
+mirror images ("be provably a rock or I crash" / "be provably fair or I crash", both reading in PA) and one level-0
+action can serve only one of them; Mikhail chose the rock.  The rock is a convention: a rock copy against a non-rock
+copy gets (-0.4, -0.1) in Chicken.  Full sweep unchanged: `test_v5.py` ALL OK; copies at F 200/200, miss a both-best
+outcome 0/66, FairBot-F at F 340/400 and above F elsewhere, commitments 1048/1048 (threats 67/67), unreadable mixers
+2094/2096.

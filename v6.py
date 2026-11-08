@@ -15,17 +15,24 @@
       b* = D and the answer is D; in Chicken b* = Straight and the answer is Swerve 0.9 / Straight 0.1, so an
       unreadable non-swerver ends below its fair payoff; in the Ultimatum, as responder, the threat-resistant
       acceptance rule.)
-  No level-0 rock.  The agent is verifiable to every PA-reasoner; it takes the rock payoff from every reciprocator
-  that gives in to rocks (B' refuses them, C answers their fallback) and from every rock-giver reading in PA+2 or
-  stronger; a PA-level reader that punishes non-rocks is answered as a commitment.  V5R is the variant with the
-  level-0 rock (wins that case, loses the PA-level reciprocator that punishes non-cooperators).
+  Rock (first in the list, in games that pass the gate; absent elsewhere):
+        Box_0( the opponent plays b at every key against Const_a ) and Box_0( the opponent plays b at every key against me )
+                                                                                     -> play a
+      for the exploitable (a, b) with the largest payoff.  Unguarded, so it passes vacuously at level 0: the agent
+      opens with a and is a PA-provable rock.  Against "swerve iff PA proves the opponent goes Straight, else
+      Straight" Löb closes the loop and it swerves.  The gate (matrix-only, both players compute it): rock-safe for
+      both seats (a against the opponent's maxmin action pays at least fair, so a reciprocator that sees the rock and
+      falls back costs nothing), not constant-sum, and copies of the rock agent still reach the fair point in this
+      game.  Chicken passes; the PD, Stag Hunt, BoS, coordination games and Matching Pennies do not.  The cost is a
+      PA-level reciprocator whose fallback is the threat action: it reads the rock as a non-cooperator and the agent
+      gives in to its fallback.
 """
 from rmodal import *
 from v5 import fair_point, maxmin_val, KMAX
 
 class V6(RAgent):
-    def __init__(self, name="V6", fair=None, kmax=KMAX, read="threshold"):
-        super().__init__(name); self.fair, self.kmax, self.read = fair, kmax, read
+    def __init__(self, name="V6", fair=None, kmax=KMAX, read="threshold", rock="auto"):
+        super().__init__(name); self.fair, self.kmax, self.read, self.rock = fair, kmax, read, rock
         self._consts, self._cache, self._fp = {}, {}, {}
     def const(self, a):
         if a not in self._consts: self._consts[a] = RConst(a, f"{self.name}-Rock{a}")
@@ -40,6 +47,19 @@ class V6(RAgent):
                 forms += [(x, y, j) for x in range(nB) for y in range(nB) if x != y for j in range(1, rnd.m)]
             return [lambda c, f, x=x, y=y, j=j: x if f < j else y for x, y, j in forms]
         return [lambda c, f, s=s: s[c] for s in product(range(nB), repeat=rnd.k)]
+    _gate = {}
+    def gate(self, g, rnd):
+        from v5 import rock_safe, constant_sum
+        key = (g.name, rnd.npub, rnd.k, rnd.m, self.fair)
+        if key not in V6._gate:
+            uv = (self.fair or fair_point)(g, rnd.npub)[2]
+            ok = rock_safe(g, 0, uv) and rock_safe(g, 1, uv) and not constant_sum(g)
+            if ok:
+                ctx = RCtx(g, rnd); X = V6("rock-test", fair=self.fair, rock="always"); Y = V6("rock-test'", fair=self.fair, rock="always")
+                px, py, st, ev = rplay(g, X, Y, ctx, N=60)
+                ok = abs(ev[0] - uv[0]) < 1e-9 and abs(ev[1] - uv[1]) < 1e-9
+            V6._gate[key] = ok
+        return V6._gate[key]
     def respond(self, g, role, q, myF_p, rnd):
         """C's rule against a distribution q over opponent actions: (a_star, a_ref, give-in count out of M)."""
         nA, nB = g.n(role), g.n(1 - role)
@@ -66,6 +86,17 @@ class V6(RAgent):
                 # consistency-guarded and first fires at level 2) and plays its default, which can coincide with b
                 probes.append(Box(Not(ctx.plays((opp[0], self.const(a), 1 - role), lambda p, b=b: b)), 2))
         B = And(Box(Imp(ctx.plays(me, myF), ctx.plays(opp, opF))), *probes)
+        # rock
+        R = []
+        if self.rock == "always" or (self.rock == "auto" and self.gate(g, rnd)):
+            best = None
+            for b in range(nB):
+                a = max(range(nA), key=lambda x: (U(x, b), -x))
+                if U(a, b) > uF and (best is None or U(a, b) > best[0]): best = (U(a, b), a, b)
+            if best:
+                _, a, b = best
+                R.append((And(Box(ctx.plays((opp[0], self.const(a), 1 - role), lambda p, b=b: b), 0),
+                              Box(ctx.plays(opp, lambda p, b=b: b), 0)), a))
         # C
         con = {k: Not(Box(Bot(), k)) for k in range(1, self.kmax + 1)}
         C = {}
@@ -83,11 +114,11 @@ class V6(RAgent):
         for p in range(rnd.npub):
             bstar = max(range(nB), key=lambda b: (V(max(range(nA), key=lambda x: (U(x, b), -x)), b), -b))
             D[p] = self.respond(g, role, [1.0 if x == bstar else 0.0 for x in range(nB)], myF(p), rnd)
-        return dict(B=B, C=C, D=D, myF=myF)
+        return dict(B=B, C=C, D=D, R=R, myF=myF)
     def program(self, g, role, me, opp, r, ctx):
         if (me, opp) not in self._cache: self._cache[(me, opp)] = self.build(g, role, me, opp, ctx)
         s = self._cache[(me, opp)]; p, c, f = r
-        dl = [(s["B"], s["myF"](p))]
+        dl = list(s["R"]) + [(s["B"], s["myF"](p))]
         dl += [(cond, a_star if f < pm else a_ref) for _, cond, a_star, a_ref, pm in s["C"][p]]
         a_star, a_ref, pm = s["D"][p]
         return dl, (a_star if f < pm else a_ref)
