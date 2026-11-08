@@ -595,3 +595,18 @@ stabilisation level).  The right statement is the paper's: with different notion
 to the OTHER'S COMMITMENT is well defined (a stone offering 49 of 100 is accepted 98%), while two reactive readers do
 not converge within one game.  The grounded program's (3.39, 3.01) for that pair is a time average over the same cycle.
 `test_v5.py` now reports that case instead of asserting a settlement.
+
+### Grounded V5, revised numbers (after the exploit-check fix)
+
+Two things changed.  (a) Monte Carlo with a -100 outcome is noisy (the committed non-swerver's measured payoff moved
+from 1.06 to 2.38 between 200 and 400 samples); against commitment tables the bot draws at most once and never
+grounds, so `exact_vs_table` now enumerates that draw and gives exact figures: non-swerver -0.25 (swerve 0.95
+overall: 1.0 where the coin already says so, 0.90 elsewhere), always-swerver -1 (taken for 5), private 50/50 mixer
+-0.15, Ultimatum stone offering 4 accepted 19/24 and getting 4.75, offering 1 accepted 13/24 and getting 4.875:
+identical to the idealised agent.  (b) With eps = 0.05 the sampled reading "opponent committed to Swerve ->
+Straight" amplifies through the opponent's 0.9 give-in into a 10%-plus crash rate between copies (an earlier
+low-crash run was a lucky draw; the fuel limit had been acting as a grounding to maxmin).  With eps = 0.1 copies play
+the coin with no crash in 200 samples, (2, 2); eps = 0.2 and 0.3 the same.  Default is now eps = 0.1.  Against an
+opponent whose own play is a noisy function of one sample of me (swerve iff a single sample of the opponent is
+Straight, else Straight, grounded 5% to Straight) the sampling noise still compounds and both lose about -10; the
+idealised agent handles that opponent exactly.

@@ -9,25 +9,23 @@ PD 5/3/1/0
   [OK] vs a FairBot written in different code (eps-grounded, copies my action): cooperate 
     row {'D': 0.95, 'C': 0.05}  col {}  EV=(0.00,0.00)  failures 20
   [OK] vs a program that never halts: time limit, defect (except the eps grounding) (failures = the loop's own runs: 20)
-    row {'D': 0.94, 'C': 0.06}  col {}  EV=(0.00,0.00)  failures 50
+    row {'D': 0.84, 'C': 0.16}  col {}  EV=(0.00,0.00)  failures 50
   [OK] vs a program that crashes: defect (except the eps grounding) 
 Chicken (paper's matrix)
-    row {'Sw': 0.375, 'DS': 0.625}  col {'DS': 0.36, 'Sw': 0.64}  EV=(-7.63,-9.22)
-  [FAIL] copies: coin, with ~1% crashes from sampling noise (ideal 2,2) EV (-7.635, -9.225)
-    row {'Sw': 0.963, 'DS': 0.037}  col {'DS': 1.0}  EV=(-4.71,1.06)
-  [OK] vs never-swerve: swerve where the coin says so, else 0.90; stone < 2 over both draws stone EV 1.06
-    row {'DS': 1.0}  col {'Sw': 1.0}  EV=(5.00,-1.00)
-  [OK] vs always-swerve: exploit 
-    row {'Sw': 0.935, 'DS': 0.065}  col {'DS': 0.522, 'Sw': 0.477}  EV=(-3.58,-0.83)
-  [OK] vs private 50/50 mix: read from its table, mix <= 2 mix EV -0.83
+    row {'Sw': 0.5, 'DS': 0.5}  col {'DS': 0.5, 'Sw': 0.5}  EV=(2.00,2.00)
+  [OK] copies: the coin, (2,2) (eps = 0.1 damps the noise amplification seen at 0.05) EV (2.0, 2.0)
+    exact: {'Sw': 0.95, 'DS': 0.05} (-5.95, -0.25)
+  [OK] vs never-swerve (exact): swerve 0.95 overall, 0.90 where the coin does not already say so; stone -0.25 < 2 stone EV -0.25
+  [OK] vs always-swerve (exact): exploit, 5 
+  [OK] vs private 50/50 mix (exact): read from its table, mix gets -0.15 mix EV -0.15
 Ultimatum 0..10
     row {'o5': 1.0}  col {'t5': 1.0}  EV=(5.00,5.00)
   [OK] copies: 5/5 
-    row {'o4': 1.0}  col {'t0': 0.815, 't5': 0.185}  EV=(4.89,3.26)
-  [OK] stone offering 4: offerer < 5 offerer EV 4.89
-    row {'o5': 0.57, 'o0': 0.16, 'o4': 0.27}  col {'t5': 0.85, 't0': 0.15}  EV=(3.39,3.01)
-  [OK] offerer thinks 4 is fair, responder 5: they settle, both > 3 (bounded_v5 gave 0, 0) EV (3.39, 3.01)
+    exact: {'t0': 0.7916666666666666, 't5': 0.20833333333333334} (4.75, 3.1666666666666665)
+  [OK] stone offering 4 (exact): accepted 19/24, offerer 4.75 < 5 offerer EV 4.75
+    row {'o5': 0.48, 'o0': 0.18, 'o4': 0.34}  col {'t5': 0.84, 't0': 0.16}  EV=(3.16,2.64)
+  [OK] offerer thinks 4 is fair, responder 5: a time average over the cycle (see README) EV (3.16, 2.64)
 Random 2x2 games, copies
   [OK] copies within 0.5 of the fair point: 12/12 
-done in 738s
-SOME FAILED
+done in 506s
+ALL OK

@@ -121,7 +121,7 @@ def act(me, opp, r_pub, rng, game):
     except Exception:
         return acts[mm]                                                   # D: cannot run the opponent
 '''
-def v5g(role, npub=1, fair="nbs", eps=0.05, m=20, ka=60):
+def v5g(role, npub=1, fair="nbs", eps=0.1, m=20, ka=60):
     return (V5G_TEMPLATE % dict(fair=fair, eps=eps, m=m, ka=ka)).replace("ROLE", str(role)).replace("NPUB", str(npub))
 
 # a reciprocator written in different code: Oesterheld's epsilon-grounded FairBot aimed at a target action
@@ -162,3 +162,26 @@ def match(game, X, Y, npub=1, n=400, seed0=0, fuel=20000, seconds=2.0):
         u = game.U[(game.acts[0].index(ax), game.acts[1].index(ay))]; tot[0] += u[0]; tot[1] += u[1]; cnt += 1
     k = max(cnt, 1); nx, ny = max(sum(fx.values()), 1), max(sum(fy.values()), 1)
     return ({a: round(v / nx, 3) for a, v in fx.items()}, {a: round(v / ny, 3) for a, v in fy.items()}, (tot[0] / k, tot[1] / k), fail)
+
+class _Enum:
+    """A 'random source' that returns a fixed value: enumerating it gives exact expectations against tables,
+    where the bot draws at most once (its give-in dial) and never grounds."""
+    def __init__(self, f, m): self.f, self.m = f, m
+    def randrange(self, m): assert m == self.m; return self.f
+    def random(self): raise RuntimeError("grounding is not used against a table")
+
+def exact_vs_table(game, X, table_src, npub, m, role=0):
+    """Exact action distribution and expected payoffs of bot X (in `role`) against a commitment table."""
+    tab = json.loads(table_src.splitlines()[0][8:])
+    tot = [0.0, 0.0]; cnt = 0; freq = {}
+    for p in range(npub):
+        row = tab[p % len(tab)]
+        for f in range(m):
+            FUEL[0] = 10 ** 6
+            a = run(X, table_src, p, _Enum(f, m), game)
+            freq[a] = freq.get(a, 0) + 1
+            for b in row:
+                i, j = (game.acts[0].index(a), game.acts[1].index(b)) if role == 0 else (game.acts[0].index(b), game.acts[1].index(a))
+                u = game.U[(i, j)]; tot[0] += u[0]; tot[1] += u[1]; cnt += 1
+    k = sum(freq.values())
+    return {a: v / k for a, v in freq.items()}, (tot[0] / cnt, tot[1] / cnt)
