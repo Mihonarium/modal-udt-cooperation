@@ -4,7 +4,8 @@ checking that the committed opponent gets at most V5's fair payoff for it in exp
 Outputs v5_tables.txt, sweep_v5.txt, v5_results.json.   python3 run_v5.py [n_random_per_size]"""
 import json, sys, time
 from rmodal import *
-from v5 import V5R as V5, fair_point, maxmin_val
+from v6 import V6 as V5
+from v5 import fair_point, maxmin_val
 from run import G, rand_game, analysis
 
 NR = int(sys.argv[1]) if len(sys.argv) > 1 else 100
@@ -26,7 +27,7 @@ def run_game(g, rnd, sweep_rows, verbose):
     ctx = RCtx(g, rnd)
     pr, pc, uv, desc = fair_point(g, rnd.npub)
     an = analysis(g)
-    X = V5(); Xc = V5("V5'")
+    X = V5(); Xc = V5("V6'")
     FB = RFairBot((pr, pc), an["maxmin_act"], "FB-F"); PB = RPrudentBot((pr, pc), an["maxmin_act"], "PB-F")
     rec = dict(game=g.name, fair=desc, fair_payoff=uv, maxmin=an["maxmin_val"], rows=[])
     def cell(A, B, seat):
@@ -44,6 +45,16 @@ def run_game(g, rnd, sweep_rows, verbose):
             r = cell(X, B, seat)
             if verbose:
                 print(f"  {g.name:14s} V5 in seat {seat} vs {name:14s} row[{r['row']}] col[{r['col']}] EV=({r['ev'][0]:.2f},{r['ev'][1]:.2f}){' BELOW-MAXMIN' if r['below'] else ''}")
+    # unreadable opponents: private mixes at 1/2 and 9/10 on each action (not readable at K = 1); payoff must stay <= fair
+    for seat in (0, 1):
+        for a in range(g.n(1 - seat)):
+            for rho in (0.5, 0.9):
+                j = round(rho * rnd.m); nO = g.n(1 - seat)
+                Y = RPolicy(lambda p, c, f, a=a, j=j, nO=nO: a if f < j else (a + 1) % nO, f"Mix{a}@{rho}")
+                X_, Y_ = (X, Y) if seat == 0 else (Y, X)
+                px, py, s, ev = rplay(g, X_, Y_, ctx, N=60)
+                sweep_rows.append(dict(game=g.name, seat=seat, commit=f"mix {g.acts[1 - seat][a]}@{rho}", opp_ev=ev[1 - seat], fair=uv[1 - seat],
+                                       v_if_give=None, my_ev=ev[seat], my_fair=uv[seat], my_maxmin=an["maxmin_val"][seat], threat=None, ok=ev[1 - seat] <= uv[1 - seat] + 1e-9, mixer=True))
     # threatener sweep: the opponent commits to each pure action; its payoff must stay <= its fair payoff.
     # (A commitment that is a function of the public draw is handled per r_pub by the same checks, so pure
     # commitments cover public mixes; private mixes are read only at the coarse resolution k, see v5.py.)
@@ -86,7 +97,7 @@ for n in (2, 3):
         stats["n"] += 1
         for r in rec["rows"]:
             stats["cells"] += 1; stats["below"] += r["below"]
-            if r["opp"] == "V5'":
+            if r["opp"] in ("V5'", "V6'"):
                 ev = tuple(r["ev"]); stats["copy_at_fair"] += (abs(ev[0] - uv[0]) < 1e-9 and abs(ev[1] - uv[1]) < 1e-9)
                 # Pareto: expected payoff not strictly dominated by any pure outcome
                 stats["copy_pareto"] += not any(g.U[p][0] >= ev[0] + 1e-9 and g.U[p][1] >= ev[1] + 1e-9 for p in outs)
@@ -94,6 +105,8 @@ for n in (2, 3):
                     stats["copy_top_games"] += 1; stats["copy_top_miss"] += tuple(r["ev"]) != tuple(map(float, g.U[top[0]]))
             if r["opp"] == "FB-F": stats["fb_coop"] += abs(r["ev"][0] - uv[0]) < 1e-9 and abs(r["ev"][1] - uv[1]) < 1e-9
             if r["opp"] == "PB-F": stats["pb_coop"] += abs(r["ev"][0] - uv[0]) < 1e-9 and abs(r["ev"][1] - uv[1]) < 1e-9
+mixers = [s for s in sweep if s.get("mixer")]
+sweep = [s for s in sweep if not s.get("mixer")]
 threats = [s for s in sweep if s["threat"]]
 out = [f"random games: {stats['n']}",
        f"copies reach exactly the fair point: {stats['copy_at_fair']} / {stats['n']}",
@@ -106,7 +119,8 @@ out = [f"random games: {stats['n']}",
        f"  commitments that are threats (committer would get more than its fair payoff if V5 gave in): {len(threats)}",
        f"  committer's expected payoff <= its fair payoff: {sum(s['ok'] for s in sweep)} / {len(sweep)}   (threats only: {sum(s['ok'] for s in threats)} / {len(threats)})",
        f"  V5's expected payoff below its maxmin against a threat: {sum(s['my_ev'] < s['my_maxmin'] - 1e-9 for s in threats)} / {len(threats)}",
-       f"  V5's expected payoff below its maxmin against a non-threat commitment: {sum(s['my_ev'] < s['my_maxmin'] - 1e-9 for s in sweep if not s['threat'])}"]
+       f"  V5's expected payoff below its maxmin against a non-threat commitment: {sum(s['my_ev'] < s['my_maxmin'] - 1e-9 for s in sweep if not s['threat'])}",
+       f"unreadable private mixers (1/2 and 9/10 on each action, both seats, all games): {len(mixers)}; mixer's expected payoff <= its fair payoff: {sum(s['ok'] for s in mixers)} / {len(mixers)}"]
 bad = [s for s in sweep if not s["ok"]]
 if bad: out += ["  FAILURES:"] + [f"    {s}" for s in bad[:20]]
 print("\n" + "\n".join(out))

@@ -2,11 +2,12 @@ random games: 200
 copies reach exactly the fair point: 200 / 200
 copies' expected payoff is Pareto-undominated by every pure outcome: 200 / 200
 copies miss an outcome best for both players: 0 / 66 games that have one
-V5 reaches the fair point with FairBot-F (both seats): 356 / 400; with PrudentBot-F: 241 / 400
-cells where V5 is below its own maxmin (tier C giving in, by design): 98 / 3000
+V5 reaches the fair point with FairBot-F (both seats): 340 / 400; with PrudentBot-F: 225 / 400
+cells where V5 is below its own maxmin (tier C giving in, by design): 82 / 3000
 
 threatener sweep over all games (named + random), every pure commitment of the opponent in both seats: 1048 commitments
   commitments that are threats (committer would get more than its fair payoff if V5 gave in): 67
   committer's expected payoff <= its fair payoff: 1048 / 1048   (threats only: 67 / 67)
   V5's expected payoff below its maxmin against a threat: 45 / 67
   V5's expected payoff below its maxmin against a non-threat commitment: 0
+unreadable private mixers (1/2 and 9/10 on each action, both seats, all games): 2096; mixer's expected payoff <= its fair payoff: 2094 / 2096

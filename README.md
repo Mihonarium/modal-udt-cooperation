@@ -679,3 +679,42 @@ holds (18/18) and V5R ends below fair against a stubborn reciprocator in 6/18 ce
 V5R is now the default in `test_v5.py` and `run_v5.py` (the Chicken rows against FB-F/PB-F in `v5_tables.txt` change
 from (2, 2) to (5, -1); everything else is unchanged).  The grounded program does not need the gate: it samples the
 opponent's action against its own source, so it is a rock to anyone who gives in to rocks by construction.
+
+## V6: no exploit tier (2026-11-05, evening) — now the default
+
+Mikhail: can we boundedly look for proofs of D -> C, fail, then cooperate, with FairBot knowing we will fail?  And:
+"we cannot galaxy-brain ourselves into trying to exploit other agents in complicated ways."
+
+COMPUTED in the bounded calculus (`bounded.py`, BPC): a bot that first searches (theory 0 or 1, budget 1 or 2) for
+"if I defect the opponent cooperates" and otherwise plays FairBot_2 gets D,D with FairBot at budgets 1, 3 and inf,
+with a FairBot reasoning in theory 1, with PrudentBot_2, and with a copy of itself; only CooperateBot is exploited.
+The V5-shaped guarded form (exploit iff theory 1 is consistent about the match and PA proves the opponent cooperates
+with DefectBot and with me) does no better: D,D with all of them.  The calculus has no rule turning "no derivation
+found at height n" into a derivable negated box, and establishing non-firing of a guarded check needs reasoning about
+nested boxes it does not have.  So in a weak bounded prover ANY exploit check placed before the cooperation condition
+makes the bot unverifiable, whatever its guard.  (The exact bounded V5 escaped this only by replacing proof search
+with execution.)  PrudentBot's shape is verifiable there because it has no prior exploit tier: "defects against
+DefectBot" is a positive PA+1 conjunct of the cooperation condition.  The answer to the question is therefore: a
+bounded FairBot knows we will fail only when our cooperation is a positive provability claim, never when it rests on
+our own search having failed.
+
+V6 (`v6.py`) takes the shape: B' = Box_0(I play F -> opponent plays F) and, for each opponent action b exploitable
+for more than u_F, Box_2(the opponent does not play b at every key against Const_{best response to b}) -> play F;
+C = V5's commitment tier (consistency-guarded, stratified); D' = against an unreadable opponent, the threat-resistant
+response (treat it as committed to the action it would profit most from committing to against a best-responder, and
+answer with C's rule) rather than maxmin.  No tier A: a pushover is a committed opponent and C best-responds to it.
+The probe reads in PA+2 rather than PA+1: at level 1 an opponent facing the rock has not yet read it (its own C tier
+first fires at level 2) and plays its default, which in 23 of 200 random games coincided with b and broke copies.
+
+COMPUTED (`test_v5.py` ALL OK; `run_v5.py`): PD row as PrudentBot (D against CooperateBot through C); Chicken copies at
+the coin; FairBot-F and PrudentBot-F taken for 5 in Chicken (they give in to the Straight rock, so B' refuses them
+and C answers their Swerve fallback), which is "a rock for those who give in to rocks" without any rock tier; the
+stubborn reciprocator (fair iff provably fair, else Straight) now gets (2, 2) because V6 is verifiable to it (V5R:
+-10.9); "swerve iff PA proves Straight, else Straight" is still given in to (-10.9; V5R wins that one at the cost of
+the stubborn reciprocator; it is kept as the alternative); Ultimatum 5/5, 19/24, 13/24 as before.  Random games:
+copies at F 200/200, miss a both-best outcome 0/66, commitments 1048/1048 (threats 67/67), FairBot-F at F in 340/400
+seats and ABOVE F (exploited through its fallback) in the rest where V5 was at F.  New sweep: unreadable private
+mixers (1/2 and 9/10 on each action, both seats, every game, 2096 cases): the mixer's expected payoff is at most its
+fair payoff in 2094/2096 (V5's maxmin default let a 50/50 Chicken mixer collect 2.5 > 2; V6 gives it -2.8).  The two
+exceptions are mixes that beat D's single-commitment response by 0.2 and 0.05; a fully mix-proof default would be a
+small LP over my actions and is not built.

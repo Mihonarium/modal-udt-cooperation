@@ -1,7 +1,8 @@
 """Scenario checks for V5 (see v5.py).  Python 3, no dependencies."""
 import time
 from rmodal import *
-from v5 import V5R as V5, fair_point
+from v6 import V6 as V5
+from v5 import fair_point
 from run import G
 
 def PD(T=5, R=3, P=1, S=0): return G(f"PD{T}/{R}/{P}/{S}", (["C", "D"],) * 2, [[(R, R), (S, T)], [(T, S), (P, P)]])

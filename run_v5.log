@@ -53,8 +53,8 @@ StagHunt: fair point (0, 0) -> payoffs (4.0, 4.0)
   StagHunt       V5 in seat 0 vs copy           row[S:1.00] col[S:1.00] EV=(4.00,4.00)
   StagHunt       V5 in seat 0 vs FB-F           row[S:1.00] col[S:1.00] EV=(4.00,4.00)
   StagHunt       V5 in seat 1 vs FB-F           row[S:1.00] col[S:1.00] EV=(4.00,4.00)
-  StagHunt       V5 in seat 0 vs PB-F           row[S:1.00] col[S:1.00] EV=(4.00,4.00)
-  StagHunt       V5 in seat 1 vs PB-F           row[S:1.00] col[S:1.00] EV=(4.00,4.00)
+  StagHunt       V5 in seat 0 vs PB-F           row[H:1.00] col[H:1.00] EV=(3.00,3.00)
+  StagHunt       V5 in seat 1 vs PB-F           row[H:1.00] col[H:1.00] EV=(3.00,3.00)
   StagHunt       V5 in seat 0 vs col-const S    row[S:1.00] col[S:1.00] EV=(4.00,4.00)
   StagHunt       V5 in seat 0 vs col-const H    row[H:1.00] col[H:1.00] EV=(3.00,3.00)
   StagHunt       V5 in seat 1 vs row-const S    row[S:1.00] col[S:1.00] EV=(4.00,4.00)
@@ -81,9 +81,9 @@ Chicken-mild: fair point (0, 0) -> payoffs (3.0, 3.0)
   Chicken-mild   V5 in seat 1 vs row-const St   row[St:1.00] col[Sw:0.70 St:0.30] EV=(2.80,0.70) BELOW-MAXMIN
 BoS: fair point 2/4 (0, 0) + 2/4 (1, 1) -> payoffs (1.5, 1.5)
   BoS            V5 in seat 0 vs copy           row[A:0.50 B:0.50] col[A:0.50 B:0.50] EV=(1.50,1.50)
-  BoS            V5 in seat 0 vs FB-F           row[A:0.50 B:0.50] col[A:0.50 B:0.50] EV=(1.50,1.50)
+  BoS            V5 in seat 0 vs FB-F           row[A:1.00] col[A:1.00] EV=(2.00,1.00)
   BoS            V5 in seat 1 vs FB-F           row[A:0.50 B:0.50] col[A:0.50 B:0.50] EV=(1.50,1.50)
-  BoS            V5 in seat 0 vs PB-F           row[A:0.50 B:0.50] col[A:0.50 B:0.50] EV=(1.50,1.50)
+  BoS            V5 in seat 0 vs PB-F           row[A:1.00] col[A:1.00] EV=(2.00,1.00)
   BoS            V5 in seat 1 vs PB-F           row[A:0.50 B:0.50] col[A:0.50 B:0.50] EV=(1.50,1.50)
   BoS            V5 in seat 0 vs col-const A    row[A:1.00] col[A:1.00] EV=(2.00,1.00)
   BoS            V5 in seat 0 vs col-const B    row[A:0.30 B:0.70] col[B:1.00] EV=(0.70,1.40)
@@ -126,13 +126,14 @@ random games: 200
 copies reach exactly the fair point: 200 / 200
 copies' expected payoff is Pareto-undominated by every pure outcome: 200 / 200
 copies miss an outcome best for both players: 0 / 66 games that have one
-V5 reaches the fair point with FairBot-F (both seats): 356 / 400; with PrudentBot-F: 241 / 400
-cells where V5 is below its own maxmin (tier C giving in, by design): 98 / 3000
+V5 reaches the fair point with FairBot-F (both seats): 340 / 400; with PrudentBot-F: 225 / 400
+cells where V5 is below its own maxmin (tier C giving in, by design): 82 / 3000
 
 threatener sweep over all games (named + random), every pure commitment of the opponent in both seats: 1048 commitments
   commitments that are threats (committer would get more than its fair payoff if V5 gave in): 67
   committer's expected payoff <= its fair payoff: 1048 / 1048   (threats only: 67 / 67)
   V5's expected payoff below its maxmin against a threat: 45 / 67
   V5's expected payoff below its maxmin against a non-threat commitment: 0
+unreadable private mixers (1/2 and 9/10 on each action, both seats, all games): 2096; mixer's expected payoff <= its fair payoff: 2094 / 2096
 
-144s
+237s
